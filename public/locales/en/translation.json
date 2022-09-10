@@ -1,0 +1,14 @@
+{
+  "login": "Login",
+  "register": "Register",
+  "download": "Download",
+  "global_select":"global select",
+  "global":"Global",
+  "growing":"Growing",
+  "selection":"Selection",
+  "coin":"Coin",
+  "price":"Price",
+  "change":"Change",
+  "order_book":"Order Book",
+  "decimal":"Decimal"
+}

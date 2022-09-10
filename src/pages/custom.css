@@ -1,0 +1,272 @@
+body {
+	overflow-x: hidden !important;
+}
+#blog .testimonial-row h4 {
+	margin-top: 15px;
+	font-weight: 500
+}
+#blog .testimonial-icon {
+	margin-top: 0px
+}
+#blog .testimonial-footer-img {
+	text-align: left !important;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.blog-link {
+	background: #022b36;
+	font-size: 24px;
+	border-radius: 50%;
+	color: #00cc99;
+	display: block;
+	text-align: center;
+	width: 35px;
+	height: 35px;
+	margin-right: 15px;
+	line-height: 35px;
+	margin-top: 10px;
+}
+.blog-link:hover {
+	background: #f9a601;
+	color: #fff;
+}
+#start_trading_warp {
+	text-align: center;
+}
+#start_trading_warp h2 {
+	font-weight: 500;
+	font-size: 30px;
+	margin: 0px auto;
+	line-height: 40px;
+	max-width: 350px;
+	text-align: center
+}
+#start_trading_warp p {
+	text-align: center
+}
+#start_trading_warp {
+	background: url(img/start_trading_banner.jpg) no-repeat 100%;
+	background-size: cover;
+}
+#start_trading_warp .morebtn {
+	background: #00cc99;
+}
+#footer_bar {
+	background: url(img/footer_bg.jpg) no-repeat 100%;
+	clear: both;
+	display: block;
+	min-height: 442px;
+	background-size: cover
+}
+.footer_profile {
+	border-right: 2px solid #2e4b57;
+	padding-top: 80px;
+	padding-bottom: 0px;
+}
+#footer_bar a {
+	color: #fff;
+}
+#footer_bar hr {
+	margin-top: 0;
+	margin-bottom: 2.5rem;
+	border: 0;
+	border-top: 2px solid rgb(46 75 87);
+	margin-right: -15px;
+}
+.newsletter_warp {
+	padding-bottom: 70px;
+}
+.newsletter_warp hr {
+	margin-left: -15px;
+}
+.newsletter {
+	margin-top: 80px
+}
+.newsletter .form-group {
+	position: relative;
+}
+#newsletter_email {
+	background: #022b36;
+	border-radius: 25px;
+	color: #2e4b57;
+	border: 2px solid #2e4b57;
+}
+#newsletter_subimt {
+	position: absolute;
+	background: #f9a601;
+	border-radius: 50%;
+	display: block;
+	text-align: center;
+	width: 55px;
+	height: 55px;
+	border: 0px;
+	top: 0px;
+	right: 0px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+}
+.social-media li a {
+	background: #022b36;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	display: block;
+	line-height: 45px;
+	text-align: center;
+}
+.social-media li a:hover {
+	background: #00cc99;
+}
+#home .btn.btn-primary.animated.fadeInLeft {
+	background: #f9a601;
+	color: #fff;
+	font-size: 12px;
+	padding: 8px 15px;
+	display: inline-block;
+	border: 0px solid #000;
+	font-weight: normal
+}
+#home .btn.btn-default.animated.fadeInLeft {
+	background: transparent;
+	color: #fff;
+	font-size: 12px;
+	padding: 8px 15px;
+	display: inline-block;
+	border: 0px solid #000;
+	font-weight: normal
+}
+#home .btn.btn-default.animated.fadeInLeft i {
+	border: 1px solid #02dfbf;
+	color: #02dfbf;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+
+/* CSS Responsive*/
+@media only screen and (max-width: 600px) {
+.navbar-toggler {
+	margin-top: -20px;
+	margin-right: 10px;
+}
+.navbar-toggler-icon, .navbar-toggler-icon:before, .navbar-toggler-icon:after {
+	background: #f6a602;
+}
+#home {
+	background: transparent;
+}
+#about-us {
+	padding-top: 55px;
+	padding-bottom: 0px;
+}
+#about-us .features-item {
+	text-align: center;
+	margin: 0 0 15px;
+}
+#about-us .col-sm-6.col-md-6.col-lg-6.mt-15 {
+	margin-top: 0px;
+}
+#about-us .section-title {
+	margin-top: 40px;
+}
+#features {
+	padding: 28px 0 0px 0;
+}
+#features .features-item {
+	margin: 0 0 15px;
+	padding: 15px;
+}
+#features .features-item h3.four {
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+#features .col-sm-6.col-md-6.col-lg-4.mt-15 {
+	 
+	margin-top: 0px;
+}
+.mini-section-row {
+    margin: 20px 0px;
+    text-align: center;
+}
+#about-us h6 {
+    margin-top: 10px;
+}
+.built_platform p{
+	line-height:1.4
+	}
+.built_platform .mini-section-row .col-md-8.col-xs-8{
+	max-width:70%}
+	.built_platform .mini-section-row .col-md-4.col-xs-4{
+	max-width:30%}
+.built_platform .mini-section-row .miniwrap .col-md-3{
+	max-width:30%}
+.built_platform .mini-section-row .miniwrap .col-md-9{
+	max-width:70%}
+.built_platform .mini-section-row .miniwrap input {
+    padding-right: 15px;
+	padding-left: 15px; 
+	width:100%;
+}
+#countdown-warp {
+    background: url(img/section-6.jpg) no-repeat 52% 0%;
+    background-size: cover;
+}
+.roadmap-outer .roadmap-content {
+    width: 100%;}
+	#roadmap .roadmap .rmyear {
+    position: relative;
+    right: inherit;
+    top: inherit;}
+	#roadmap .rm-step2 .rmyear, #roadmap .rm-step4 .rmyear {
+    position: relative;
+    left: inherit;
+    top: inherit;
+    right: inherit;
+}
+#roadmap .rm-step5 {
+    margin-bottom: 0px;
+}
+#testimonial .section-spacing {
+    padding: 0px 0 30px 0px;
+}
+#testimonial h2 { 
+    margin: 0px 0 20px 20px;
+    max-width: 100%;
+}
+.testimonial-footer-img {
+    max-width: 20%;
+}
+.testimonial-footer-text {
+    max-width: 65%;
+}
+.testimonial-row .col-md-4{
+	margin-bottom:15px;}
+	#team .team-member {
+    padding: 20px 20px 10px;
+    margin-bottom: 15px;
+}
+.testimonial-footer .col-md-2{max-width: 15%;}
+#start_trading_warp {
+    background: url(img/start_trading_banner.jpg) no-repeat 82%;
+    background-size: cover;
+}
+.newsletter {
+    margin-top: 0px;
+}
+.newsletter_warp {
+    padding: 15px;
+    margin: 15px;
+}
+.footer_profile {
+    padding: 15px;
+    margin: 15px;
+}
+.footer_profile  h3{
+	margin-top:25px;}
+/*End CSS REsponsive*/
+}
