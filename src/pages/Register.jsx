@@ -2,10 +2,13 @@ import { t } from "i18next";
 // import { useTranslation } from "react-i18next";
 // import { Link } from "react-router-dom";
 import EmailRegistration from "./auth/EmailRegistration";
+import MyNavbar from '../components/MyNavbar';
 // import MobileRegistration from "./auth/MobileRegistration";
 
 export default function Register(props) {
   return (
+    <>
+     <MyNavbar /> 
     <div className="container">
       {/* {showSuccess && (
         <div class="row justify-content-center">
@@ -89,5 +92,6 @@ export default function Register(props) {
         </div>
       }
     </div>
+    </>
   );
 }

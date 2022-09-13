@@ -167,21 +167,6 @@ export default function MyNavbar(props) {
               </>
             ) : (
               <>
-              <li class="nav-item">
-                  <a class="nav-link" href="#home">Home+</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about-us">Feature+</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#features">Account+</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#roadmap">Pages+</a>
-                </li>				
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
                 <li className="nav-item btn-login">
                   <NavLink to="/register" className="nav-link">
                     <i className="fa fa-user-plus" aria-hidden="true"></i>{" "}
