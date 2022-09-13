@@ -20,7 +20,7 @@ import {
 } from "./features/Exchange";
 import Account from "./pages/Account_section/Account";
 import ReferalBonus from "./pages/Account_section/ReferalBonus";
-import Home from "./pages/Home";
+import HomePage from "./pages/HomePage";
 import { N_getWebsiteData } from "./utils/api_functions";
 import { GET_WEBSITE_DATA } from "./features/WebData";
 const Router = ({ props }) => {
@@ -68,7 +68,7 @@ const Router = ({ props }) => {
         />
         <Route exact path="/Security_Settings" element={<Account/>}/>
      <Route exact path="/Referral_Bonus" element={<ReferalBonus/>}/>
-     <Route exact path="/" element={<Home/>}/>
+     <Route exact path="/" element={<HomePage/>}/>
       </Routes>
       {/* <Footer /> */}
       <div>

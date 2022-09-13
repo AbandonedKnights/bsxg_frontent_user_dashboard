@@ -4,7 +4,7 @@ import './mainpage/css/responsive-1.css'
 import './mainpage/css/color-two.css'
 import { Link } from 'react-router-dom'
 
-const Home = () => {
+const HomePage = () => {
   return (
    <>
    <div class="main-page-wrapper">
@@ -307,4 +307,4 @@ const Home = () => {
 	)
 }
 
-export default Home
+export default HomePage
