@@ -84,7 +84,7 @@ const Router = ({ props }) => {
      <Route exact path="/Referral_Bonus" element={<ReferalBonus/>}/>
      <Route exact path="/Security_Settings" element={<Account/>}/>
      <Route exact path="/Kyc" element={<Kyform/>}/>
-     <Route exact path="/" element={<Home/>}/>
+     <Route exact path="/dashboard" element={<Home/>}/>
       </Routes>
       <Footer />
       <div>
