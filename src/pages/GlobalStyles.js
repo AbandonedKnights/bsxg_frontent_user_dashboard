@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
 .app-bg-dark{
-    background-color:${({ theme }) => theme.appbgdark}!important;
+    background-color:${({ theme }) => theme.appbgdark};
 }
 .navbar-dark .navbar-nav .nav-link {
     color: ${({theme})=>theme.navcolor} !important;

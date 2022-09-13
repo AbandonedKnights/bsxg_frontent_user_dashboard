@@ -81,10 +81,10 @@ h6 {
 	font-size: 12px;
 }
 p {
-	font-size: 12px;
+	font-size: 18px;
 	line-height: 28px;
 	color: #a1a3a7;
-	margin: 0 0 25px;
+	margin: 0 15 25px !important;
 }
 /*================================ Pre Loader ====================================*/
 .preloader {
@@ -208,7 +208,7 @@ section {
 	height: auto;
 }
 .section-spacing {
-	padding: 80px 0;
+	padding: 30px 0;
 }
 .no-spacing {
 	padding: 0;
@@ -286,7 +286,7 @@ section {
 	border-radius: 4px;
 	transition: all 0.35s ease-out;
 	-webkit-transition: all 0.35s ease-out;
-	backface-visibility: hidden;
+	/* backface-visibility: hidden; */
 }
 .navbar-toggler-icon:after {
 	content: '';
@@ -299,7 +299,7 @@ section {
 	border-radius: 4px;
 	transition: all 0.35s ease-out;
 	-webkit-transition: all 0.35s ease-out;
-	backface-visibility: hidden;
+	/* backface-visibility: hidden; */
 }
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
 	background: rgba(0, 0, 0, 0);
@@ -699,7 +699,7 @@ a + a {
 /*======================================== FAQs =============================*/
 .card {
 	border: none;
-	background: #fff;
+	background: none !important;
 	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.1);
 	-ms-box-shadow: 0 0 15px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.1);
@@ -752,7 +752,7 @@ a + a {
 	transform: translateY(-50%);
 }
 .card-body {
-	padding: 0 25px 25px;
+	padding: 15 15px 15px;
 }
 .card-body p:last-child {
 	margin: 0;
@@ -1024,9 +1024,7 @@ body {
 a + a {
 	margin-left: 15px;
 }
-.section-spacing {
-	padding: 60px 0;
-}
+
 .hero-text {
 	padding: 0px;
 }
@@ -1159,9 +1157,7 @@ h2 {
 a + a {
 	margin-left: 15px;
 }
-.section-spacing {
-	padding: 80px 0;
-}
+
 .roadmap-outer .roadmap {
 	margin-top: -135px;
 }
@@ -1242,7 +1238,7 @@ h1 {
 	padding: 5px 15px;
 	border-radius: 25px;
 	border-style: groove;
-	border: 1px solid #02dfbf;
+	border: 1px solid #f59a09;
 	margin-top: 9px;
 	font-size: 12px;
 }
@@ -1257,7 +1253,7 @@ h1 {
 	right: 0px;
 }
 #about-us {
-	padding-top: 153px;
+	/* padding-top: 153px; */
 }
 #about-us .section-title h5 {
 	color: #02dfbf;
@@ -1332,15 +1328,15 @@ h1 {
 	width: 30px;
 }
 #features {
-	padding: 28px 0 80px 0;
+	padding: 28px 0 0px 0;
 }
 #features .section-title h5 {
-	color: #02dfbf;
+	color: white;
 	display: inline-block;
 }
 #features .section-title h5:before {
 	content: "";
-	border-bottom: 2px solid #02dfbf;
+	/* border-bottom: 2px solid #02dfbf; */
 	width: 35px;
 	height: 12px;
 	display: block;
@@ -1349,12 +1345,12 @@ h1 {
 }
 #features .section-title h5:after {
 	content: "";
-	border-bottom: 2px solid #02dfbf;
+	/* border-bottom: 2px solid #02dfbf; */
 	width: 35px;
 	height: 12px;
 	display: block;
 	float: right;
-	margin-left: 15px;
+	/* margin-left: 15px; */
 }
 #features .features-item h3 {
 	font-size: 18px;

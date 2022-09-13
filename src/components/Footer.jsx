@@ -3,7 +3,7 @@
 export default function Footer (props) {
   return (
     <div className="footer_area footer mt-auto py-3">
-      <div className="container">
+      {/* <div className="container">
         <footer>
           <div className="row">
             <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6">
@@ -92,9 +92,9 @@ export default function Footer (props) {
             </div>
           </div>
         </footer>
-      </div>
+      </div> */}
       <footer className="text-center text-muted">
-        &copy; {new Date().getFullYear()} All Rights Reserved. {/* inrx.exchange */} 
+        &copy; {new Date().getFullYear()} SBGGLOBAL. All rights reserved. {/* inrx.exchange */} 
       </footer>
     </div>
   );

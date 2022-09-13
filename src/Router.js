@@ -86,7 +86,7 @@ const Router = ({ props }) => {
      <Route exact path="/Kyc" element={<Kyform/>}/>
      <Route exact path="/" element={<Home/>}/>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
       <div>
         <Toaster />
       </div>

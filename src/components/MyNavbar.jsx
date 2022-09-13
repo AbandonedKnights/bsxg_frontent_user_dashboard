@@ -56,7 +56,7 @@ export default function MyNavbar(props) {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 m-auto">
             {isLoggedIn ? (
               <>
                {/* <li className="">
@@ -168,19 +168,19 @@ export default function MyNavbar(props) {
             ) : (
               <>
               <li class="nav-item">
-                  <a class="nav-link" href="#home">Home+</a>
+                  <a class="nav-link " href="#home"><i className="fa fa-home" aria-hidden="true" style={{color:"#f59a09"}} > </i>   Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about-us">Feature+</a>
+                  <a class="nav-link" href="#about-us"><i className="fa fa-area-chart"aria-hidden="true" style={{color:"#f59a09"}}> </i> Market</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#features">Account+</a>
+                  <a class="nav-link" href="#features"><i className="fa fa-graduation-cap"aria-hidden="true" style={{color:"#f59a09"}}> </i> Academy</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#roadmap">Pages+</a>
+                  <a class="nav-link" href="#roadmap"><i className="fa fa-th-list"aria-hidden="true" style={{color:"#f59a09"}}> </i>  Assets</a>
                 </li>				
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
+                  <a class="nav-link" href="#contact"><i className="fa fa-user"aria-hidden="true" style={{color:"#f59a09"}}> </i> Account</a>
                 </li>
                 <li className="nav-item btn-login">
                   <NavLink to="/register" className="nav-link">
@@ -193,6 +193,29 @@ export default function MyNavbar(props) {
                     <i className="fa fa-user" aria-hidden="true"></i>login
                   </NavLink>
                 </li>
+                {/* <div class="header__menu-wrapper d-flex align-items-center">
+                           <div class="main-menu">
+                              <nav id="mobile-menu"> */}
+                                 {/* <ul>
+                                    <li>
+                                       <a href="https://sbgglobal.io/user/dashboard" style="color: white;"><i class="fa fa-home" aria-hidden="true" style="color:#f59a09;padding-right: 0.5rem;font-size: 20px;"></i> Home</a>
+                                    </li>
+                                    <li>
+                                       <a href="https://sbgglobal.io/user/market/total" style="color: white;"><i class="fa fa-area-chart" aria-hidden="true" style="color:#f59a09;padding-right: 0.5rem;font-size: 20px;"></i> Market</a>
+                                    </li>
+                                    <li>
+                                       <a href="https://sbgglobal.io/user/academy" style="color: white;"><i class="fa fa-graduation-cap" style="color:#f59a09;padding-right: 0.5rem;font-size: 20px;"></i> Academy</a>
+                                    </li>
+                                    <li>
+                                       <a href="https://sbgglobal.io/user/assets/all" style="color: white;"><i class="fa fa-th-list" style="color:#f59a09;padding-right: 0.5rem;font-size: 20px;"></i> Assets</a>
+                                    </li>
+                                    <li>
+                                       <a href="https://sbgglobal.io/user/account/index" style="color: white;"><i class="fa fa-user" style="color:#f59a09;padding-right: 0.5rem;font-size: 20px;"></i> Account</a>
+                                    </li>
+                                 </ul> */}
+                              {/* </nav>
+                           </div>
+                        </div> */}
               </>
             )}
 
