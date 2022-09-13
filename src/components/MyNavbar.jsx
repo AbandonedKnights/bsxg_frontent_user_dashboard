@@ -40,7 +40,7 @@ export default function MyNavbar(props) {
         <Link className="navbar-brand" to="/">
           <img
             src="/images/logo.png"
-            style={{ height: "30px" }}
+            style={{ height: "55px", width:"140px" }}
             alt=" img not found"
           />
         </Link>
