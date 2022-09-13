@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import { Link, NavLink } from "react-router-dom";
 import { logout } from "../features/User";
 import {WEB_THEME} from "../features/Exchange"
-export default function MyNavbar(props) {
+export default function HomeNavbar(props) {
   const { isLoggedIn } = useSelector((state) => state?.user?.value);
   const { switch_theme } = useSelector((state) => state?.exchange?.value);
   const dispatch = useDispatch();

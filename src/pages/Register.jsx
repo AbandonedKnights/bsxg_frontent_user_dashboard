@@ -1,5 +1,6 @@
 import { t } from "i18next";
 import { Link } from "react-router-dom";
+import Navbar from "../components/HomeNavbar";
 // import { useTranslation } from "react-i18next";
 // import { Link } from "react-router-dom";
 import EmailRegistration from "./auth/EmailRegistration";
