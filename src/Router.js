@@ -45,11 +45,10 @@ const Router = ({ props }) => {
       dispatch(sell_Order({ sellOrder: res }));
     });
     N_getWebsiteData().then((res)=>{
-      if (res.status === 200) {
-       dispatch(GET_WEBSITE_DATA({webdata: res.data.params.website}));
-       return res.data.params.website;
-     }
-       
+        if (res.status === 200) {
+        dispatch(GET_WEBSITE_DATA({webdata: res.data.params.website}));
+        return res.data.params.website;
+      }
       })
   }, []);
   return (
@@ -57,6 +56,7 @@ const Router = ({ props }) => {
       <Routes>
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/register" element={<Register />} />
+        {/* <Route exact path="/dashboard" element={<Dashboard />} /> */}
         <Route exact path="/forgot_password" element={<ForgotPassword />} />
         <Route exact path="/withdraw" element={<Withdraw />} />
         <Route exact path="/deposit" element={<Deposit />} />

@@ -280,9 +280,6 @@ const Home = () => {
 									<div class="col-lg-3 col-sm-6 footer-list">
 										<h4 class="title">About Us</h4>
 										<ul>
-											<li><a href="#">About Singleton</a></li>
-											<li><a href="#">Jobs</a></li>
-											<li><a href="#">Team</a></li>
 											<li><a href="#">Testimonials</a></li>
 											<li><a href="#">Blog</a></li>
 										</ul>
