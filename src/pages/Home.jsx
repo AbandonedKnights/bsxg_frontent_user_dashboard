@@ -267,37 +267,26 @@ const Home = () => {
 										<a href="#" class="email">crytoco@company.com</a>
 										<a href="#" class="mobile">648-xxx-xxxx</a>
 									</div>
-									<div class="col-lg-2 col-sm-6 footer-list">
+									<div class="col-lg-4 col-sm-6 footer-list">
 										<h4 class="title">Quick Links</h4>
 										<ul>
 											<li><a href="#">How it Works</a></li>
 											<li><a href="#">Guarantee</a></li>
 											<li><a href="#">Security</a></li>
-											<li><a href="#">Report Bug</a></li>
-											<li><a href="#">Pricing</a></li>
 										</ul>
 									</div>
-									<div class="col-lg-3 col-sm-6 footer-list">
+									<div class="col-lg-4 col-sm-6 footer-list">
 										<h4 class="title">About Us</h4>
 										<ul>
 											<li><a href="#">Testimonials</a></li>
 											<li><a href="#">Blog</a></li>
 										</ul>
 									</div>
-									<div class="col-lg-3 col-sm-6 footer-list">
-										<h4 class="title">Become A Member</h4>
-										<ul>
-											<li><a href="#">Contributor</a></li>
-											<li><a href="#">Union Member</a></li>
-											<li><a href="#">Processing</a></li>
-											<li><a href="#">Legal Action</a></li>
-										</ul>
-									</div>
 								</div>
 							</div>
 
 							<div class="bottom-footer clearfix">
-								<p class="copyright">&copy; 2018 <a href="#">cryto</a> All Right Reserved</p>
+								<p class="copyright">&copy; 2022 <Link to="/">BSXG</Link> All Right Reserved</p>
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
