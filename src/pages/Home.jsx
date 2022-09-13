@@ -1,859 +1,324 @@
 import React from 'react'
-import './styles.css'
+import './mainpage/css/style-1.css'
+import './mainpage/css/responsive-1.css'
+import './mainpage/css/color-two.css'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div>
-		{/* <div class="preloader">
-		<div class="preloader_image">
-			<div class="sk-double-bounce">
-				<div class="sk-child sk-double-bounce1"></div>
-				<div class="sk-child sk-double-bounce2"></div>
-			</div>
-		</div>
-	</div> */}
-	{/* <nav class="navbar navbar-expand-lg fixed-top bg-dark">
-		<div class="container">
-			<a class="navbar-brand" href="index-2.html">
-				<img src="img/logo.png" alt="Logo" />
-			</a>
-			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="main-nav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#home">Home+</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about-us">Feature+</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#features">Account+</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#roadmap">Pages+</a>
-					</li>				
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact</a>
-					</li>
-					<li class="nav-item btn-login">
-						<a class="nav-link" href="#">Get Started</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav> */}
-<section id="home" class="no-spacing grad">
-<div class="banner-caption">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-md-6">
-				<div class="hero-text">
-					<h1 class="animated fadeInLeft">Trusted & Secure Trading Crypto Wallet</h1>
-					<p class="animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tortor arcu. Vestibulum ac ex lacinia. Nulla molestie nunc varius.</p>
-					<a href="#" class="btn btn-primary animated fadeInLeft">Explore More</a>
-					<a href="#" class="btn btn-default animated fadeInLeft"><i class="fa fa-play"></i> Watch Video</a>
-				</div>
-			</div>
+   <>
+   <div class="main-page-wrapper">
+   		<div class="html-top-content">
+		   <div class="theme-top-section">
+					<img src="./images/home/bg5.png" alt="" class="blue-shape" />
+					<header class="theme-main-menu color-white">
+						<div class="container">
+							<div class="menu-wrapper clearfix">
+								<div class="logo"><Link to="/"><img src="./images/logo.png" alt="Logo" style={{height:'70px', width:'180px'}}/></Link></div>
+								
+								<ul class="right-widget celarfix">
+									<li class="login-button"><Link to="/login">Login <i class="flaticon-right-thin"></i></Link></li>
+								</ul>
 
-		</div>
-	</div>
-</div>
-<div class="home-coins"><img src="img/home-curency.png" class="img-responsive" /></div>
-</section>
-        <section class="section-spacing" id="about-us">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-6">
-					<div class="row">
-				<div class="col-sm-6 col-md-6 col-lg-6">
-					<div class="features-item wow fadeInUp" data-wow-delay="0.2s">
-						<img src="img/icon1.png" />
-						<h3>Easy To Transfer</h3>
-						<p>Keeps people from focusing on want the people reviewing it to get example, look for typos.</p>
-					</div>
-				</div>
-				
-				<div class="col-sm-6 col-md-6 col-lg-6">
-					<div class="features-item wow fadeInUp" data-wow-delay="0.2s">
-						<img src="img/icon2.png" />
-						<h3>Save Transaction</h3>
-						<p>Keeps people from focusing on want the people reviewing it to get example, look for typos. </p>
-					</div>
-				</div>
-				
-				<div class="col-sm-6 col-md-6 col-lg-6 mt-15">
-					<div class="features-item wow fadeInUp" data-wow-delay="0.2s">
-						<img src="img/icon3.png" />
-						<h3>Trusted & Security</h3>
-						<p>Keeps people from focusing on want the people reviewing it to get example, look for typos.</p>
-					</div>
-				</div>
-				
-				<div class="col-sm-6 col-md-6 col-lg-6 mt-15">
-					<div class="features-item wow fadeInUp" data-wow-delay="0.2s">
-						<img src="img/icon4.png" />
-						<h3>Trading Plateform</h3>
-						<p>Keeps people from focusing on want the people reviewing it to get example, look for typos.</p>
-					</div>
-				</div>		
-				
-			</div>
-				</div>
-				<div class="col-md-6">
-					<div  class="section-title text-block wow fadeIn" data-wow-delay="0.2s">
-						<h5>Glow Feature</h5>
-						<h2>The Most trusted and secure Cryptocurrency platform.</h2>
-						<p>While existing solutions offer to solve just one problem at a time, our team is up to build a secure, useful, & easy-to-use product based on private blockchain. </p>
-						<p>While existing solutions offer to solve just one problem at a time, our team is up to build a secure, useful, & easy-to-use product based on private blockchain. While existing solutions offer to solve just one problem at a time, our team is up to build a secure, useful, & easy-to-use product based on private blockchain. </p>
-						<a href="#" class="morebtn">Explore more</a>
-					</div>
-				</div>
-			</div>
-			
-		
-		</div>
-	</section>
-
-	<section class="section-spacing inverse-bg" id="features">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title text-center">
-						<h5> Live  Price</h5>
-						<h2>Crypto Live Market Price</h2>
-						<p>The ICO crypto team combines a passion for esports, industry experise & proven record in finance, development, marketing.</p>
-					</div>
-				</div>
-			</div>
-			
-			{/* <div class="row">
-				<div class="col-sm-6 col-md-6 col-lg-4">
-					<div class="features-item wow fadeInUp" data-wow-delay="0.2s">
-						<img src="img/etherum.png" alt="" style="height: 45px;" />
-						<h3 class="four">Ethereum</h3>
-						<table cellpadding="5" cellspacing="0" width="100%" border="0">
-							<tr>
-								<td class="bb br"><select>
-									<option>USD</option>
-									<option>EURO</option>
-									<option>POUND</option>
-								</select></td>
-								<td class="bb br">Change 1h</td>
-								<td class="bb br">Change 24h</td>
-								<td class="bb">Last 7d</td>
-
-							</tr>
-							<tr>
-								<td class="br">3,074.0</td>
-								<td class="br">0.56</td>
-								<td class="br">4.59</td>
-								<td>6.59</td>
-
-							</tr>
-						</table>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-6 col-lg-4">
-					<div class="features-item wow fadeInUp" data-wow-delay="0.2s">
-						<img src="img/bitcoin.png" alt="" style="height: 45px;" />
-						<h3 class="four">Bitcoin</h3>
-						<table cellpadding="5" cellspacing="0" width="100%" border="0">
-							<tr>
-								<td class="bb br"><select>
-									<option>USD</option>
-									<option>EURO</option>
-									<option>POUND</option>
-								</select></td>
-								<td class="bb br">Change 1h</td>
-								<td class="bb br">Change 24h</td>
-								<td class="bb">Last 7d</td>
-
-							</tr>
-							<tr>
-								<td class="br">3,074.0</td>
-								<td class="br">0.56</td>
-								<td class="br">4.59</td>
-								<td>6.59</td>
-
-							</tr>
-						</table>
-					</div>
-				</div>
-				
-				<div class="col-sm-6 col-md-6 col-lg-4 ">
-					<div class="features-item wow fadeInUp" data-wow-delay="0.2s">
-						<img src="img/binance.png" alt="" style="height: 45px;" />
-						<h3 class="four">Binance Coin</h3>
-						<table cellpadding="5" cellspacing="0" width="100%" border="0">
-							<tr>
-								<td class="bb br"><select>
-									<option>USD</option>
-									<option>EURO</option>
-									<option>POUND</option>
-								</select></td>
-								<td class="bb br">Change 1h</td>
-								<td class="bb br">Change 24h</td>
-								<td class="bb">Last 7d</td>
-
-							</tr>
-							<tr>
-								<td class="br">3,074.0</td>
-								<td class="br">0.56</td>
-								<td class="br">4.59</td>
-								<td>6.59</td>
-
-							</tr>
-						</table>
-					</div>
-				</div>
-				
-				<div class="col-sm-6 col-md-6 col-lg-4 mt-15">
-					<div class="features-item wow fadeInUp" data-wow-delay="0.2s">
-						<img src="img/dollar.png" alt="" style="height: 45px;" />
-						<h3 class="four">USD Coin</h3>
-						<table cellpadding="5" cellspacing="0" width="100%" border="0">
-							<tr>
-								<td class="bb br"><select>
-									<option>USD</option>
-									<option>EURO</option>
-									<option>POUND</option>
-								</select></td>
-								<td class="bb br">Change 1h</td>
-								<td class="bb br">Change 24h</td>
-								<td class="bb">Last 7d</td>
-
-							</tr>
-							<tr>
-								<td class="br">3,074.0</td>
-								<td class="br">0.56</td>
-								<td class="br">4.59</td>
-								<td>6.59</td>
-
-							</tr>
-						</table>
-					</div>
-				</div>
-				
-				<div class="col-sm-6 col-md-6 col-lg-4 mt-15">
-					<div class="features-item wow fadeInUp" data-wow-delay="0.2s">
-						<img src="img/cardano.png" alt="" style="height: 45px;" />
-						<h3 class="four">Cardano</h3>
-						<table cellpadding="5" cellspacing="0" width="100%" border="0">
-							<tr>
-								<td class="bb br"><select>
-									<option>USD</option>
-									<option>EURO</option>
-									<option>POUND</option>
-								</select></td>
-								<td class="bb br">Change 1h</td>
-								<td class="bb br">Change 24h</td>
-								<td class="bb">Last 7d</td>
-
-							</tr>
-							<tr>
-								<td class="br">3,074.0</td>
-								<td class="br">0.56</td>
-								<td class="br">4.59</td>
-								<td>6.59</td>
-
-							</tr>
-						</table>
-					</div>
-				</div>
-				
-				<div class="col-sm-6 col-md-6 col-lg-4 mt-15">
-					<div class="features-item wow fadeInUp" data-wow-delay="0.2s">
-						<img src="img/tether.png" alt="" style="height: 45px;" />
-						<h3 class="four">Tether</h3>
-						<table cellpadding="5" cellspacing="0" width="100%" border="0">
-							<tr>
-								<td class="bb br"><select>
-									<option>USD</option>
-									<option>EURO</option>
-									<option>POUND</option>
-								</select></td>
-								<td class="bb br">Change 1h</td>
-								<td class="bb br">Change 24h</td>
-								<td class="bb">Last 7d</td>
-
-							</tr>
-							<tr>
-								<td class="br">3,074.0</td>
-								<td class="br">0.56</td>
-								<td class="br">4.59</td>
-								<td>6.59</td>
-
-							</tr>
-						</table>
-					</div>
-				</div>
-				<div class="morecurrency-btn"><a href="#" >More Currency</a></div>
-			</div> */}
-		</div>
-	</section>
-	<section class="section-spacing built_platform" id="about-us">
-		<div class="container">
-			<div class="row mb-120 align-items-center">
-				<div class="col-md-6">
-					<div  class="section-title text-block wow fadeIn" data-wow-delay="0.2s">
-						<h5>Why Choose Us</h5>
+							    <nav class="navbar navbar-expand-lg dark-bg" id="mega-menu-holder">
+							    	<div class="container">
+							    		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+							    		  <i class="fa fa-bars" aria-hidden="true"></i>
+							    		</button>
+							    		<div class="collapse navbar-collapse" id="navbarResponsive">
+							    		  <ul class="navbar-nav">
+							    		  	<li class="nav-item">
+							    		  	  <a class="nav-link js-scroll-trigger" href="#about">About</a>
+							    		  	</li>
+							    		  	<li class="nav-item">
+							    		  	  <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+							    		  	</li>
+							    		  	<li class="nav-item">
+							    		  	  <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+							    		  	</li>
+							    		  	<li class="nav-item">
+							    		  	  <a class="nav-link js-scroll-trigger" href="#token">Token</a>
+							    		  	</li>
+							    		  	<li class="nav-item">
+							    		  	  <a class="nav-link js-scroll-trigger" href="#roadmap">Roadmap</a>
+							    		  	</li>
+							    		  	<li class="nav-item">
+							    		  	  <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+							    		  	</li>
+							    		  </ul>
+							    		</div>
+							    	</div>
+							    </nav>
+							</div>
+						</div>
+					</header>
 					
-						<h2>We've Built A Platform To Buy And Sell Shares.</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tortor arcu. Vestibulum ac ex lacinia.</p>
-
-						<div class="row mini-section-row">
-				<div class="col-md-3">
-					<img src="img/icon5.png" class="img-responsive"/>
-				</div>
-				<div class="col-md-9">
-					<h6>Secure user Data</h6>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tortor arcu. Vestibulum ac ex lacinia.</p>
-
-				</div>
-			</div>
-					<div class="row mini-section-row">
-				<div class="col-md-3">
-					<img src="img/icon6.png" class="img-responsive" />
-				</div>
-				<div class="col-md-9">
-					<h6>Big data Insights</h6>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tortor arcu. Vestibulum ac ex lacinia.</p>
-
-				</div>
-			</div>
-					</div>
-				</div>
-				
-				<div class="col-md-6">
-					<div class="img-block wow fadeIn moveDown tilt-img text-center" data-wow-delay="0.2s">
-						<img src="img/plateform.jpg" alt="" />
-					</div>
-				</div>
-				
-			</div>
-			
-			<div class="row align-items-center">
-				<div class="col-md-6 d-block d-md-none d-lg-none">
-					<div class="img-block wow fadeIn moveDown3 tilt-img text-center" data-wow-delay="0.2s">
-						<img src="img/about-us/2.png" alt="" />
-					</div>
-				</div>
-				
-				
-				<div class="col-md-6 d-none d-md-block d-lg-block">
-					<div class="img-block wow fadeIn moveDown3 tilt-img text-center" data-wow-delay="0.2s">
-						<img src="img/exchange.jpg" alt="" />
-					</div>
-				</div>
-				
-				<div class="col-md-6">
-					<div  class="section-title text-block wow fadeIn" data-wow-delay="0.2s">
-						<h5>Crypto Exchange</h5>
-						
-						<h2>Buy & Trade On The Original Crypto Exchange </h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tortor arcu. Vestibulum ac ex lacinia.</p>
-						 			<div class="row mini-section-row">
-				
-				<div class="col-md-8 col-xs-8">
-						<div class="row miniwrap">
-				<div class="col-md-3">
-					 Amount
-				</div>
-				<div class="col-md-9">
-					<input type="text" value="5000" />
-				</div>
-			</div>
-
-				</div>
-
-				<div class="col-md-4 col-xs-4">
-					  <div class="currency-icon"><img src="img/usd.png" /> <span>USD</span> </div>
-				</div>
-			</div>
-				 			<div class="row mini-section-row">
-				
-				<div class="col-md-8 col-xs-8">
-						<div class="row miniwrap">
-				<div class="col-md-3">
-					 Get
-				</div>
-				<div class="col-md-9">
-					<input type="text" value="5000" />
-				</div>
-			</div>
-
-				</div>
-
-				<div class="col-md-4 col-xs-4">
-					  <div class="currency-icon"><img src="img/btc.png" /> <span>BTC</span> </div>
-				</div>
-			</div>
-			<a href="#" class="morebtn">Purchase Now</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<section class="section-spacing inverse-bg" id="countdown-warp">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-6">
-					<div class="text-block wow fadeIn" data-wow-delay="0.2s">
-						<h2>Special Offer-<span>30%</span> off For This Month</h2>
-						<p>While existing solutions offer to solve just one problem at a time.</p>
-						 <div id="countdown"></div>
-						<a href="#" class="morebtn">Join & Buy Token Now</a>
-					</div>
-				</div>
-				
-				<div class="col-md-6">
-					 
-				</div>
-				
-			</div>			
-		</div>		
-	</section>
-
-	<section class="section-spacing" id="roadmap">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title text-center">
-						<h5>Roadmap</h5>
-						<h2>The Timeline of Our Business</h2>
-					</div>
-				</div>
-			</div>
-			
-			<div class="row roadmap-img">
-				<div class="col-md-12">
-					<div class="roadmap-outer">
-						<div class="roadmap"></div>
-						<div class="roadmap rm-step1">							
-							<div class="roadmap-content wow fadeInLeft" data-wow-delay="0.2s">
-								<h3>Blockchain</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.</p>
-								<span class="rmyear"> 2007</span>
+					<div id="theme-banner" class="theme-banner-two">
+						<img src="./images/shape/3.png" alt="" class="cube-shape" />
+						<img src="./images/shape/4.png" alt="" class="illustration" />
+						<div class="container">
+							<div class="main-text-wrapper">
+								<h1>Your best crypto <br />Startup agency for <br />Business.</h1>
+								<p>Now it’s much easy to connect faster then ever!</p>
+								<ul class="button-group clearfix">
+									<li><Link to="/register">Sign Up</Link></li>
+								</ul>
 							</div>
 						</div>
-			 
-						
-						<div class="roadmap rm-step2">
-							
-							<div class="roadmap-content wow fadeInRight" data-wow-delay="0.2s">
-								<h3>Token Bridge</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.</p>
-								<span class="rmyear"> 2010</span>
+					</div>
+
+
+					<div class="about-cryto" id="about">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 order-lg-last">
+									<div class="theme-title">
+										<div class="upper-heading">What is crypto?</div>
+										<h2>Let us introduce about the Crypto currency</h2>
+									</div>
+									<p class="sub-text">cryto came into being clear vision to become a global leader in the world of crypto currency market.</p>
+									<p class="text">Lorem ipsum dolor sit amet, has at lorem utinam mucius, per at elitr dicam malorum. Fugit convenire ei eam, adhuc putant eam et. Verear petentium vel an, nullam viderer eam an. Illud liber ad sed. Ea eos scripta iudicabit, dicit persius ponderum id nec.</p>
+									<p class="know-more">Want to learn more about us? <a href="#">Clieck here</a></p>
+								</div>
+								<div class="col-lg-6 order-lg-first">
+									<img src="images/shape/5.png" alt="" data-aos="zoom-out" />
+								</div>
 							</div>
-						</div>
-						<div class="roadmap rm-step3">
-							
-							<div class="roadmap-content wow fadeInRight" data-wow-delay="0.2s">
-								<h3>Times</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.</p>
-								<span class="rmyear"> 2015</span>
-							</div>
-						</div>
-						<div class="roadmap rm-step4">
-							
-							<div class="roadmap-content wow fadeInLeft" data-wow-delay="0.2s">
-								<h3>Token</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.</p>
-								<span class="rmyear"> 2018</span>
-							</div>
-						</div>
-						<div class="roadmap rm-step5">
-							
-							<div class="roadmap-content wow fadeInRight" data-wow-delay="0.2s">
-								<h3>Circle</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.</p>
-								<span class="rmyear"> 2020</span>
-							</div>
-						</div>
-						
+						</div> 
 					</div>
-				</div>
 			</div>
-		</div>
-	</section>
+			<div class="our-features-three" id="features">
+					<img src="./images/home/bg6.png" alt="" class="main-bg-shape" />
+					<img src="./images/shape/6.png" alt="" class="cube-shape" data-aos="fade-left" data-aos-duration="1500" />
+					<div class="line-shape-one shape"></div>
+					<div class="line-shape-two shape"></div>
+					<div class="line-shape-three shape"></div>
+					<div class="line-shape-four shape"></div>
+					<div class="line-shape-five shape"></div>
+					<div class="line-shape-six shape"></div>
+					<div class="container">
+						<div class="theme-title text-center">
+							<h2>We’re Nearly Ready <br />to launch</h2>
+						</div>
+						
 
-	<section id="testimonial" class="section-spacing inverse-bg">
-		<div class="container">
-				 <div class="text-block wow fadeIn" data-wow-delay="0.2s">
-						<h2>See Whats Our Clients Say's About Us</h2>
-					</div>
-			<div class="row align-items-center testimonial-row">
-	
-				<div class="col-md-4">
-					<div class="download-text wow fadeIn">
-						<img src="img/testimonial-icon.png" class="testimonial-icon" />						
-						<p>"The use of crypto-currencies has become more widespread, and they are now increasingly accepted as a legitimate currency for transactions.The use of crypto-currencies has become more widespread, and they are now increasingly accepted as a legitimate currency for transactions."</p>
-						<div class="row testimonial-footer">
-							<div class="col-md-4 testimonial-footer-img" ><img src="img/team/1.jpg" /></div>
-							<div class="col-md-8 testimonial-footer-text"><b>Marielle Wigington</b><br />Los Angeles. CA</div>
-						</div>
-						
-					 
-						
-					</div>
-				</div>
-					<div class="col-md-4">
-					<div class="download-text wow fadeIn">
-						<img src="img/testimonial-icon.png" class="testimonial-icon" />						
-						<p>"The use of crypto-currencies has become more widespread, and they are now increasingly accepted as a legitimate currency for transactions.The use of crypto-currencies has become more widespread, and they are now increasingly accepted as a legitimate currency for transactions."</p>
-						<div class="row testimonial-footer">
-							<div class="col-md-4 testimonial-footer-img" ><img src="img/team/1.jpg" /></div>
-							<div class="col-md-8 testimonial-footer-text"><b>Marielle Wigington</b><br />Los Angeles. CA</div>
-						</div>
-						
-					 
-						
-					</div>
-				</div>
-						<div class="col-md-4">
-					<div class="download-text wow fadeIn">
-						<img src="img/testimonial-icon.png" class="testimonial-icon" />						
-						<p>"The use of crypto-currencies has become more widespread, and they are now increasingly accepted as a legitimate currency for transactions.The use of crypto-currencies has become more widespread, and they are now increasingly accepted as a legitimate currency for transactions."</p>
-						<div class="row testimonial-footer">
-							<div class="col-md-4 testimonial-footer-img" ><img src="img/team/1.jpg" /></div>
-							<div class="col-md-8 testimonial-footer-text"><b>Marielle Wigington</b><br />Los Angeles. CA</div>
-						</div>
-						
-					 
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="team" class="section-spacing">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title text-center">
-						<h2>Our Motivated Team</h2>
-						<p>The ICO crypto team combines a passion for esports, industry experise &amp; proven record in finance.</p>
-					</div>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-4">
-					<div class="team-member text-center">
-						<div class="thumb">
-							<img src="img/team/1.jpg" alt="" />
-						</div>
-						<h4>Micheal Jhon</h4>
-						<h5>CEO & Frounder</h5>
-						<ul class="social-media">							 
-							<li>Twitter</li>
-							<li>Dribbble</li>
-							<li>Behance</li>
-						</ul>
-					</div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="team-member text-center">
-						<div class="thumb">
-							<img src="img/team/2.jpg" alt="" />
-						</div>
-						<h4>Jhon Abraham</h4>
-						<h5>Head Investor</h5>
-						<ul class="social-media">							 
-							<li>Twitter</li>
-							<li>Dribbble</li>
-							<li>Behance</li>
-						</ul>
-					</div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="team-member text-center">
-						<div class="thumb">
-							<img src="img/team/3.jpg" alt="" />
-						</div>
-						<h4>Robert Thomson</h4>
-						<h5>UI Designer</h5>
-						<ul class="social-media">							 
-							<li>Twitter</li>
-							<li>Dribbble</li>
-							<li>Behance</li>
-						</ul>
-					</div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="team-member text-center">
-						<div class="thumb">
-							<img src="img/team/4.jpg" alt="" />
-						</div>
-						<h4>Selina Gomej</h4>
-						<h5>Senior Developer</h5>
-						<ul class="social-media">							 
-							<li>Twitter</li>
-							<li>Dribbble</li>
-							<li>Behance</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="team-member text-center">
-						<div class="thumb">
-							<img src="img/team/1.jpg" alt="" />
-						</div>
-						<h4>Micheal Jhon</h4>
-						<h5>CEO & Frounder</h5>
-						<ul class="social-media">							 
-							<li>Twitter</li>
-							<li>Dribbble</li>
-							<li>Behance</li>
-						</ul>
-					</div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="team-member text-center">
-						<div class="thumb">
-							<img src="img/team/2.jpg" alt="" />
-						</div>
-						<h4>Jhon Abraham</h4>
-						<h5>Head Investor</h5>
-						<ul class="social-media">							 
-							<li>Twitter</li>
-							<li>Dribbble</li>
-							<li>Behance</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="moreteam-btn"><a href="#" >More Team</a></div>
-	</section>
-
-	<section class="section-spacing inverse-bg" id="trademobile">
-		<div class="container">
-			<div class="row align-items-center">
-			 
-				<div class="col-md-8">
-					<div class="text-block wow fadeIn" data-wow-delay="0.2s">
-						<h2>Trade on The mobile App</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tortor arcu. Vestibulum ac ex lacinia.
-
-</p>
-						  
-					</div>
-				</div>
-				
-				
-				
-			</div>			
-		</div>		
-	</section>
-
-	<section class="section-spacing" id="blog">
-		<div class="container">
-				<div class="row">
-				<div class="col-md-12">
-					<div class="section-title text-center">
-						<h2> Recent Cryptocurrency Blog </h2>
-						<p>The ICO crypto team combines a passion for esports, industry experise &amp; proven record in finance.The ICO crypto team combines a.</p>
-					</div>
-				</div>
-			</div>
-			
-	<div class="row align-items-center testimonial-row">
-	
-				<div class="col-md-4">
-					<div class="download-text wow fadeIn">
-						<img src="img/blog1.jpg" class="testimonial-icon" />						
-						<h4>The use of crypto-currencies has become</h4>						
-						<p>The use of crypto-currencies has become more widespread, and they are now increasingly.</p>
-						<div class="row testimonial-footer">
-							<div class="col-md-2 testimonial-footer-img" ><img src="img/team/1.jpg" /></div>
-							<div class="col-md-8 testimonial-footer-text"><b>Marielle Wigington</b><br />February 19, 2022</div>
-							<div class="col-md-2" ><a href="#" class="blog-link"> + </a></div>
-						</div>
-						
-					 
-						
-					</div>
-				</div>
-					<div class="col-md-4">
-					<div class="download-text wow fadeIn">
-						<img src="img/blog2.jpg" class="testimonial-icon" />						
-						<h4>The use of crypto-currencies has become</h4>						
-							<p>The use of crypto-currencies has become more widespread, and they are now increasingly.</p>
-						<div class="row testimonial-footer">
-							<div class="col-md-2 testimonial-footer-img" ><img src="img/team/1.jpg" /></div>
-							<div class="col-md-8 testimonial-footer-text"><b>Marielle Wigington</b><br />February 19, 2022</div>
-							<div class="col-md-2" ><a href="#" class="blog-link"> + </a></div>
-						</div>
-						
-					 
-						
-					</div>
-				</div>
-						<div class="col-md-4">
-					<div class="download-text wow fadeIn">
-						<img src="img/blog3.jpg" class="testimonial-icon" />
-						<h4>The use of crypto-currencies has become</h4>						
-							<p>The use of crypto-currencies has become more widespread, and they are now increasingly.</p>
-						<div class="row testimonial-footer">
-							<div class="col-md-2 testimonial-footer-img" ><img src="img/team/1.jpg" /></div>
-							<div class="col-md-8 testimonial-footer-text"><b>Marielle Wigington</b><br />February 19, 2022</div>
-							<div class="col-md-2" ><a href="#" class="blog-link"> + </a></div>
-						</div>
-						
-					 
-						
-					</div>
-				</div>
-			</div>
- 
- 
-			
-		</div>
-	</section>
-
-	<section class="section-spacing inverse-bg" id="start_trading_warp">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-12">
-					<div class="text-block wow fadeIn" data-wow-delay="0.2s">
-						<h2>Start Trading Glow</h2>
-						<p>While existing solutions offer to solve just one problem at a time.</p>
-						 
-						<a href="#" class="morebtn">Ragister Now</a>
-					</div>
-				</div>
-				
-				 
-				
-			</div>			
-		</div>		
-	</section>
-
-
-<div class="clearfix"></div>
-<footer id="footer_bar">
-<div class="row">
-				<div class="col-md-7 footer_profile">
-<div class="row">
-				<div class="col-md-2">
-				</div>
-					<div class="col-md-10">
 						<div class="row">
-				<div class="col-md-4">
-					<a class="navbar-brand" href="index-2.html">
-				<img src="img/logo.png" alt="Logo" />
-			</a>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="single-feature">
+									<div class="icon-box">
+										<img src="./images/icon/8.png" alt="" class="primary-icon" />
+									</div>
+									<h3>cryto is untraceable</h3>
+									<p>Sending and receiving addresses as well as transacted amounts.</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="single-feature">
+									<div class="icon-box">
+										<img src="./images/icon/9.png" alt="" class="primary-icon" />
+									</div>
+									<h3>Autonomy self-rule.</h3>
+									<p>cryto has striven to solve blockchain governance. </p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="single-feature">
+									<div class="icon-box">
+										<img src="./images/icon/10.png" alt="" class="primary-icon" />
+									</div>
+									<h3>Transparency & Stability</h3>
+									<p>In crypto, transparency brings trust & old strong transparency</p>
+								</div>
+							</div>
+						</div> 
+					</div> 
 				</div>
-					<div class="col-md-8">
-						<p>The ICO crypto team combines a passion for esports, industry experise & proven record in finance.The ICO crypto team combines a passion for esports, industry experise.</p>
-				</div>
-			</div>
-				</div>
-			</div>
+				<div class="our-feature-two dark-bg" id="services">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="text">
+									<div class="number">01</div>
+									<h2 class="title"><span>Decentralized</span> Minning Our core focus.</h2>
+									<p>Mining should be fair & easy! We do not allow ASICs on our network. The development team is wholy commited to with keeping it that way.</p>
+									<a href="#" class="learn-more">Learn More <i class="flaticon-right-thin"></i></a>
+								</div>
+							</div>
+							<div class="col-lg-6 img-box"><div><img src="images/shape/7.png" alt="" /></div></div>
+						</div> 
 
-<hr />
-<div class="row">
-	<div class="col-md-2">
-				</div>
-				{/* <div class="col-md-3">
-					<h3>Useful links</h3>
-					<ul>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Trems of Services</a></li>
-						<li><a href="#">Disclamier</a></li>
-						<li><a href="#">Credits</a></li>
-						<li><a href="#">Faq</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3">
-					<h3>Quick links</h3>
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Market</a></li>
-						<li><a href="#">Trading</a></li>
-						<li><a href="#">Team</a></li>
-					</ul>
-				</div> */}
-				{/* <div class="col-md-4">
-					<h3>Office Address</h3>
-					<p><i class="fa fa-address-card"></i> Usa. xyz ICO crypto team combines a passion for esports<br /><i class="fa fa-envelope"></i> abc@xyz.com<br /><i class="fa fa-phone"></i> +1634-234-2345</p>
-				</div> */}
-		 
-			</div>
+						<div class="row">
+							<div class="col-lg-6 order-lg-last">
+								<div class="text">
+									<div class="number">02</div>
+									<h2 class="title"><span>Populer</span> Money and Smart wallet.</h2>
+									<p>Mining should be fair & easy! We do not allow ASICs on our network. The development team is wholy commited to with keeping it that way.</p>
+									<a href="#" class="learn-more">Learn More <i class="flaticon-right-thin"></i></a>
+								</div>
+							</div>
+							<div class="col-lg-6 order-lg-first img-box"><div><img src="images/shape/8.png" alt="" /></div></div>
+						</div>
 
-
-				</div>
-					<div class="col-md-5 newsletter_warp">
-						{/* <div class="row">
-								<div class="col-md-9">
-<div class="newsletter">
-	<h3>Newsletter</h3>
-	<p>The ICO crypto team combines a passion for esports, industry experise & proven record in finance.</p>
-<div class="form-group has-error">
-		<input placeholder="Email here" class="form-control" name="email" type="email" required id="newsletter_email" data-error="Email here" />
-		<button type="subimt" id="newsletter_subimt"><i class="fa fa-plus"></i></button>
-</div>
-</div>
-	</div>
-	<div class="col-md-3">
-
-	</div>
-</div>
-
-
-<hr /> */}
-
-<h3>Join the conversation</h3>
-	<ul class="social-media">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-					</ul>
-				</div>
-			</div>
-
-
-
-<hr />
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7">
-				<p>&copy; copyright 2022 | All right reserved.</p>
-				</div>
-				<div class="col-md-5">
-					<div class="copyright text-center">
-						<a href="#">Suppor</a> | <a href="#">Privacy Policy</a>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="text">
+									<div class="number">03</div>
+									<h2 class="title"><span>Upholding</span> Confidentialit & Strong Security.</h2>
+									<p>Mining should be fair & easy! We do not allow ASICs on our network. The development team is wholy commited to with keeping it that way.</p>
+									<a href="#" class="learn-more">Learn More <i class="flaticon-right-thin"></i></a>
+								</div>
+							</div> 
+							<div class="col-lg-6 img-box"><div><img src="./images/shape/9.png" alt="" /></div></div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</footer>
-	
-	
-	<div class="back-top">
-		<a href="#">
-			<span class="icon-bg"></span>
-			<span class="back-to-top-text">Top</span>
-			<i class="fa fa-angle-up"></i>
-		</a>
-	</div>
-	
 
-    </div>
-  )
+				<div class="our-road-map" id="roadmap">
+					<div class="container">
+						<div class="theme-title text-center">
+							<h2>Road Map</h2>
+							<p>A centralized, distributed Blockchain system providing businesses and developers with a low cost Merchants, users, friends perform</p>
+						</div>
+					</div>
+					<div class="time-line-wrapper">
+						<div id="timeline-frame"></div>	
+					</div>
+				</div>
+				<div class="apps-overview color-two">
+					<div class="overlay-bg" style={{backgroundImage:'url(images/home/bg2.png)'}}>
+						<img src="images/shape/13.png" alt="" class="cube-shape-one" data-aos="fade-right" data-aos-duration="1500" />
+						<div class="container">
+							<div class="inner-wrapper">
+								<img src="images/home/s8-1.png" alt="" class="s8-mockup" data-aos="fade-down" data-aos-duration="2500" />
+								<img src="images/home/x-1.png" alt="" class="x-mockup" data-aos="fade-up" data-aos-duration="2500" />
+								<div class="row">
+									<div class="col-lg-5 offset-lg-7">
+										<div class="text">
+											<h3>don’t miss our apps</h3>
+											<h2>Mobile Application for Faster Access.</h2>
+											<h6>Now you can control dashboard from the mobile!</h6>
+											<p>Mining should be fair & easy! We dose not allow ASIC on our network. The development team is who commited to with keeping it that way.</p>
+											<ul class="button-group">
+												<li><a href="#"><i class="flaticon-apple"></i> Apple Store</a></li>
+												<li><a href="#"><img src="images/icon/playstore-1.png" alt="" /> Google Play</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="contact-section-dark" id="contact">
+					<img src="./images/shape/14.png" alt="" class="cube-shape-one" data-aos="fade-left" data-aos-duration="1500" />
+					<div class="container">
+						<div class="theme-title text-center">
+							<h2>Get In Touch</h2>
+							<p>vel modus honestatis ad, vim an vidit aliquam instructior. Alii efficiendi <br /> intellegebat nec ea, mea elitr interesset ea</p>
+						</div>
+
+						<form action="#" class="form-validation" autocomplete="off">
+							<div class="row">
+								<div class="col-lg-6">
+									<input type="text" placeholder="First Name" name="firstName" />
+								</div>
+								<div class="col-lg-6">
+									<input type="text" placeholder="Last Name" name="lastName" />
+								</div>
+								<div class="col-lg-6">
+									<input type="email" placeholder="Email Address" name="email" />
+								</div>
+								<div class="col-lg-6">
+									<input type="text" placeholder="Phone Number" name="phone" />
+								</div>
+								<div class="col-12">
+									<textarea placeholder="Your Message" name="message"></textarea>
+								</div>
+							</div>
+							<button>Send Message</button>
+						</form>
+							<div class="alert-wrapper" id="alert-success">
+								<div id="success">
+									<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+									<div class="wrapper">
+						               	<p>Your message was sent successfully.</p>
+						             </div>
+						        </div>
+						    </div>
+						    <div class="alert-wrapper" id="alert-error">
+						        <div id="error">
+						           	<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+						           	<div class="wrapper">
+						               	<p>Sorry!Something Went Wrong.</p>
+						            </div>
+						        </div>
+						    </div> 
+					</div>
+				</div>
+
+				<footer class="theme-footer dark-style">
+					<div class="container">
+						<div class="inner-wrapper">
+							<div class="top-footer-data-wrapper">
+								<div class="row">
+									<div class="col-lg-4 col-sm-6 footer-logo">
+										<div class="logo"><Link to="/"><img src="./images/logo.png" alt="Logo" /></Link></div>
+										<a href="#" class="email">crytoco@company.com</a>
+										<a href="#" class="mobile">648-xxx-xxxx</a>
+									</div>
+									<div class="col-lg-2 col-sm-6 footer-list">
+										<h4 class="title">Quick Links</h4>
+										<ul>
+											<li><a href="#">How it Works</a></li>
+											<li><a href="#">Guarantee</a></li>
+											<li><a href="#">Security</a></li>
+											<li><a href="#">Report Bug</a></li>
+											<li><a href="#">Pricing</a></li>
+										</ul>
+									</div>
+									<div class="col-lg-3 col-sm-6 footer-list">
+										<h4 class="title">About Us</h4>
+										<ul>
+											<li><a href="#">About Singleton</a></li>
+											<li><a href="#">Jobs</a></li>
+											<li><a href="#">Team</a></li>
+											<li><a href="#">Testimonials</a></li>
+											<li><a href="#">Blog</a></li>
+										</ul>
+									</div>
+									<div class="col-lg-3 col-sm-6 footer-list">
+										<h4 class="title">Become A Member</h4>
+										<ul>
+											<li><a href="#">Contributor</a></li>
+											<li><a href="#">Union Member</a></li>
+											<li><a href="#">Processing</a></li>
+											<li><a href="#">Legal Action</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="bottom-footer clearfix">
+								<p class="copyright">&copy; 2018 <a href="#">cryto</a> All Right Reserved</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								</ul>
+							</div> 
+						</div>
+					</div>
+				</footer>
+			<button class="scroll-top tran3s color-one-bg">
+				<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+			</button>
+				
+		</div>
+   </div>
+
+   </>
+	)
 }
 
 export default Home

@@ -1,14 +1,13 @@
 import { t } from "i18next";
+import { Link } from "react-router-dom";
 // import { useTranslation } from "react-i18next";
 // import { Link } from "react-router-dom";
 import EmailRegistration from "./auth/EmailRegistration";
-import MyNavbar from '../components/MyNavbar';
 // import MobileRegistration from "./auth/MobileRegistration";
 
 export default function Register(props) {
   return (
     <>
-     <MyNavbar /> 
     <div className="container">
       {/* {showSuccess && (
         <div class="row justify-content-center">
@@ -85,6 +84,13 @@ export default function Register(props) {
                   >
                     <MobileRegistration />
                   </div> */}
+                  <label for="exampleCheck1" classNameName="mt-2">
+                    <span className="register-txt">
+                      Do you have an account{" "}
+                      <Link to="/login">Login?</Link>
+                    </span>
+                    <br />
+                  </label>
                 </div>
               </div>
             </div>
