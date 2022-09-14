@@ -163,7 +163,7 @@ const Home = () => {
 			<section>
 				<div class="position-relative marquee-container d-none d-sm-block">
 					<div class="marquee marquee2 d-flex justify-content-around">
-						<span>Users will get only 90SBG in a plan package of 50SBG and users got 150SBG extra funds of Old Pakages maybe the fund has been deducted.</span>
+						<span>Users will get only 90BSXG in a plan package of 50BSXG and users got 150BSXG extra funds of Old Pakages maybe the fund has been deducted.</span>
 
 					</div>
 				</div>
@@ -173,6 +173,7 @@ const Home = () => {
 					<div class=" menu-center">
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-1 col-sm-6 icon-alignment">
 							<button class="show-modal btn-toggle-modal"
+								type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
 								style={{ margin: "0px !important", background: "none" }} id="invite_modal">
 								<div class="process__item mb-10">
 									<div class="process__icon mb-2">
@@ -185,7 +186,7 @@ const Home = () => {
 							</button>
 						</div>
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
-							<a href="https://sbgglobal.io/user/activation-panel">
+							<a href="/activation">
 								<div class="process__item mb-10">
 									<div class="process__icon mb-2 item_text">
 										<img src="https://sbgglobal.io/sbg-assets-dashboard/img/dash-icons/activation-new.png" alt="" class="icon-size" />
@@ -197,7 +198,7 @@ const Home = () => {
 							</a>
 						</div>
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
-							<a href="https://sbgglobal.io/user/topup-panel">
+							<a href="/restake">
 								<div class="process__item mb-10">
 									<div class="process__icon mb-2 item_text">
 										<img src="https://sbgglobal.io/sbg-assets-dashboard/img/dash-icons/restake-new.png" alt="" class="icon-size" />
@@ -209,7 +210,7 @@ const Home = () => {
 							</a>
 						</div>
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
-							<a href="https://sbgglobal.io/user/add-money-wallet">
+							<a href="/diposit_panel">
 								<div class="process__item mb-10 item_text">
 									<div class="process__icon mb-2">
 										<img src="https://sbgglobal.io/sbg-assets-dashboard/img/dash-icons/deposit-new.png" alt="" class="icon-size" />
@@ -221,7 +222,7 @@ const Home = () => {
 							</a>
 						</div>
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
-							<a href="https://sbgglobal.io/user/crypto-transfer">
+							<a href="/withdrawal_panel">
 								<div class="process__item mb-10 item_text">
 									<div class="process__icon mb-2">
 										<img src="https://sbgglobal.io/sbg-assets-dashboard/img/dash-icons/withdrawal-new.png" alt="" class="icon-size" />
@@ -666,95 +667,314 @@ const Home = () => {
 			</section>
 			<section style={{
 				justifyContent: "center",
-				display: "flex"
+				display: "flex",
+				margin: "30px 0px",
 			}}>
-				{/* <div class="col-sm-4 m-auto">
-					<div class="card" >
-						<div class="card-body"style={{background:"#103944"}}>
-							
-							<p class="card-text" style={{textAlign:"center"}}>
-							With supporting text below as a natural lead-in to additional content.</p>
-							
-						</div>
-					</div>
-				</div> */}
-				<button type="button" class="btn btn-info mmit-join">SBG MMIT Traders Group<br />Join Telegram</button>
+
+				<button type="button" class="btn btn-info mmit-join">BSXG MMIT Traders Group<br />Join Telegram</button>
 			</section>
 
 
 			<section class="auction__area pt-0 pb-30">
-            <div class="container">
-               <div class="card dash-card">
-                  <div class="card-header bg-box">
-                     <a href="https://sbgglobal.io/user/sbg-vip-achiever">
-                        <h3 class="card-title" style={{textAlign: "center"}}>SBG VIP Achiever's</h3>
-                     </a>
-                  </div>
-                  <div class="card-body p-0">
-                     <div class="upcoming__table">
-                        <div class="table-responsive">
-                           <table class="table">
-                              <thead class="tbl-th">
-                                 <tr>
-                                    <th class="tbl-color">Sr. No.</th>
-                                    <th class="tbl-color">User Name</th>
-                                    <th class="tbl-color">User Id</th>
-                                    <th class="tbl-color">Level</th>
-                                 </tr>
-                              </thead>
-                              <tbody class="bg-box" style={{overflow: "hidden"}}>
-                                                                          
-                                 <tr style={{backgroundColor:" transparent !important",border:"0px solid !important"}}>
-                                    <td>1.</td>
-                                    <td>Vinod kumar</td>
-                                    <td>SBG783515</td>
-                                    <td>Expert</td>
-                                 </tr>
-                                         
-                                 <tr style={{backgroundColor:" transparent !important",border:"0px solid !important"}}>
-                                    <td>2.</td>
-                                    <td>Girjesh Kumar pandey</td>
-                                    <td>SBG110390</td>
-                                    <td>Expert</td>
-                                 </tr>
-                                         
-                                 <tr style={{backgroundColor:" transparent !important",border:"0px solid !important"}}>
-                                    <td>3.</td>
-                                    <td>Anil pratap</td>
-                                    <td>SBG100083</td>
-                                    <td>Expert</td>
-                                 </tr>
-                                         
-                                 <tr style={{backgroundColor:" transparent !important",border:"0px solid !important"}}>
-                                    <td>4.</td>
-                                    <td>Sonu 1</td>
-                                    <td>SBG341565</td>
-                                    <td>Expert</td>
-                                 </tr>
-                                         
-                                 <tr style={{backgroundColor:" transparent !important",border:"0px solid !important"}}>
-                                    <td>5.</td>
-                                    <td>Abhishek</td>
-                                    <td>SBG146347</td>
-                                    <td>Expert</td>
-                                 </tr>
-                                                             
-                              </tbody>
-                           </table>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="card-header bg-box">
-                     <a href="https://sbgglobal.io/user/sbg-vip-achiever">
-                        <h3 class="card-title" style={{textAlign: "center"}}>More</h3>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </section>
+				<div class="container">
+					<div class="card dash-card">
+						<div class="card-header bg-box">
+							<a href="https://sbgglobal.io/user/sbg-vip-achiever">
+								<h3 class="card-title" style={{ textAlign: "center", color: "black", padding: "10px 0px" }}>BSXG VIP Achiever's</h3>
+							</a>
+						</div>
+						<div class="card-body p-0" style={{ textAlign: "center" }}>
+							<div class="upcoming__table">
+								<div class="table-responsive">
+									<table class="table bsxg_vip">
+										<thead class="tbl-th" style={{ background: "#0fa2bf" }}>
+											<tr>
+												<th class="tbl-color">Sr. No.</th>
+												<th class="tbl-color">User Name</th>
+												<th class="tbl-color">User Id</th>
+												<th class="tbl-color">Level</th>
+											</tr>
+										</thead>
+										<tbody class="bg-box" style={{ overflow: "hidden", background: "#c7d3e7" }}>
 
+											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+												<td>1.</td>
+												<td>Vinod kumar</td>
+												<td>BSXG783515</td>
+												<td>Expert</td>
+											</tr>
 
-			<section class="section-spacing inverse-bg" id="countdown-warp">
+											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+												<td>2.</td>
+												<td>Girjesh Kumar pandey</td>
+												<td>BSXG110390</td>
+												<td>Expert</td>
+											</tr>
+
+											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+												<td>3.</td>
+												<td>Anil pratap</td>
+												<td>BSXG100083</td>
+												<td>Expert</td>
+											</tr>
+
+											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+												<td>4.</td>
+												<td>Sonu 1</td>
+												<td>BSXG341565</td>
+												<td>Expert</td>
+											</tr>
+
+											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+												<td>5.</td>
+												<td>Abhishek</td>
+												<td>BSXG146347</td>
+												<td>Expert</td>
+											</tr>
+
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="card-header bg-box" style={{ marginTop: "-16px" }}>
+							<a href="https://sbgglobal.io/user/sbg-vip-achiever">
+								<h3 class="card-title" style={{ textAlign: "center", color: "black", marginTop: "5px" }}>More</h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="auction__area pt-0 " style={{ marginTop: "50px" }}>
+				<div class="container">
+					<div class="card dash-card">
+						<div class="card-header bg-box">
+							<a href="https://sbgglobal.io/user/sbg-vip-achiever">
+								<h3 class="card-title" style={{ textAlign: "center", color: "black", padding: "10px 0px" }}>BSXG Global Pool Achiever's</h3>
+							</a>
+						</div>
+						<div class="card-body p-0" style={{ textAlign: "center" }}>
+							<div class="upcoming__table">
+								<div class="table-responsive">
+									<table class="table bsxg_vip">
+										<thead class="tbl-th" style={{ background: "#0fa2bf" }}>
+											<tr>
+												<th class="tbl-color">Sr. No.</th>
+												<th class="tbl-color">User Name</th>
+												<th class="tbl-color">User Id</th>
+												<th class="tbl-color">Level</th>
+											</tr>
+										</thead>
+										<tbody class="bg-box" style={{ overflow: "hidden", background: "#c7d3e7" }}>
+
+											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+												<td>1.</td>
+												<td>Vinod kumar</td>
+												<td>BSXG783515</td>
+												<td>2 STAR</td>
+											</tr>
+
+											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+												<td>2.</td>
+												<td>Girjesh Kumar pandey</td>
+												<td>BSXG110390</td>
+												<td>2 STAR</td>
+											</tr>
+
+											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+												<td>3.</td>
+												<td>Anil pratap</td>
+												<td>BSXG100083</td>
+												<td>2 STAR</td>
+											</tr>
+
+											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+												<td>4.</td>
+												<td>Sonu 1</td>
+												<td>BSXG341565</td>
+												<td>2 STAR</td>
+											</tr>
+
+											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+												<td>5.</td>
+												<td>Abhishek</td>
+												<td>BSXG146347</td>
+												<td>2 STAR</td>
+											</tr>
+
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="card-header bg-box" style={{ marginTop: "-16px" }}>
+							<a href="https://sbgglobal.io/user/sbg-vip-achiever">
+								<h3 class="card-title" style={{ textAlign: "center", color: "black", marginTop: "5px" }}>More</h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="row">
+					<div class="col-sm-5">
+						<form style={{
+							margin: "95px",
+							background: "#c7d3e7",
+							padding: "30px",
+							borderRadius: "5px"
+						}}>
+							<h2 style={{ color: "black", textAlign: "center" }}>Share your Review</h2>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Title:</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+								//  placeholder="Enter email" 
+								/>
+
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Message:</label>
+								<input type="password" class="form-control" id="exampleInputPassword1"
+								//  placeholder="Password" 
+								/>
+							</div>
+							<button type="submit" class="btn btn-primary d-flex m-auto">Submit</button>
+						</form>
+
+					</div>
+					<div class="col-sm-7" style={{
+						color: "white",
+						marginTop: "28px",
+						padding: "0px 71px",
+						/* background: red; */
+						marginBottom: "93px",
+						paddingTop: "80px",
+					}}>
+						<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="card text-center">
+										<div class="card-body" style={{ background: "#c7d3e7", height: "350px" }}>
+											<img src="https://sbgglobal.io/sbg-assets-dashboard/img/activity/shiba-inu.png" alt="" />
+											<h3 style={{ color: "black" }}>Miracle system strong plan quick payment</h3>
+											<p class="card-text" style={{ color: "#01222b" }}>With supporting text below as a natural lead-in to additional content.</p>
+											<h3 style={{ color: "black" }}> Ajay Kumar - BSXG640098</h3>
+										</div>
+
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="card text-center">
+										<div class="card-body" style={{ background: "#c7d3e7", height: "350px" }}>
+											<img src="https://sbgglobal.io/sbg-assets-dashboard/img/activity/reward-2.png" alt="" />
+											<h3 style={{ color: "black" }}>Miracle system strong plan quick payment</h3>
+											<p class="card-text" style={{ color: "#01222b" }}>With supporting text below as a natural lead-in to additional content.</p>
+											<h3 style={{ color: "black" }}> Vipin Kumar - BSXG640098</h3>
+										</div>
+
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="card text-center">
+										<div class="card-body" style={{ background: "#c7d3e7", height: "350px" }}>
+											<img src="https://sbgglobal.io/sbg-assets-dashboard/img/activity/today-earning.png" alt="" />
+											<h3 style={{ color: "black" }}>Miracle system strong plan quick payment</h3>
+											<p class="card-text" style={{ color: "#01222b" }}>With supporting text below as a natural lead-in to additional content.</p>
+											<h3 style={{ color: "black" }}> Atul Kumar - BSXG640098</h3>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section style={{ marginBottom: "50px" }}>
+				<h1 style={{ textAlign: "center" }}>BSXG Updates</h1>
+				<div class="row" style={{ margin: "0px 65px" }}>
+					<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+						<div class="card dash-card">
+							<div class="card-header" style={{ padding: "0.2rem 1rem !important", textAlign: "center", padding: "20px", background: " #c7d3e7" }}>
+								<h3 class="card-title news-card-title" style={{ color: "black" }}>BSXG Trending News</h3>
+							</div>
+							<div class="card-body p-0">
+								<div class="">
+									<ul class="list-group mb-0">
+
+										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent !important" }}>
+											<div class="w-3 h-3 bg-success mr-3 mt-1 brround"></div>
+											<div>
+												<label class="fs-12" style={{ fontSize: "20px", fontWeight: "700" }}>SBGGLOBAL MEGA SEMINAR</label>
+												<p style={{ fontSize: "14px", color: "#000" }}>You All Are Invited.
+													Location MIEPA VENUE at Palace Compound Near Advanced Hospital.</p>
+												<p class="mb-0 fs-12" style={{ fontSize: "14px", color: "#000" }}><span style={{ fontSize: "14px", fontWeight: "500", color: "#000" }}>17th July 2022 (11:00 AM)</span></p>
+											</div>
+										</li>
+
+										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent !important" }}>
+											<div class="w-3 h-3 bg-success mr-3 mt-1 brround"></div>
+											<div>
+												<label class="fs-12" style={{ fontSize: "20px", fontWeight: "700" }}>BSXG Global Seminar</label>
+												<p style={{ fontSize: "14px", color: "#000" }}>10th May 2022 - Shillong Meghalaya</p>
+												<p class="mb-0 fs-12" style={{ fontSize: "14px", color: "#000" }}><span style={{ fontSize: "14px", fontWeight: "500", color: "#000" }}>Anyone have team in this
+													State, please let us know.
+													Thanks.</span></p>
+											</div>
+										</li>
+
+										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent !important" }}>
+											<div class="w-3 h-3 bg-success mr-3 mt-1 brround"></div>
+											<div>
+												<label class="fs-12" style={{ fontSize: "20px", fontWeight: "700" }}>BSXG Global Seminar</label>
+												<p style={{ fontSize: "14px", color: "#000" }}>8th May 2022 - Imphal Manipur</p>
+												<p class="mb-0 fs-12" style={{ fontSize: "14px", color: "#000" }}><span style={{ fontSize: "14px", fontWeight: "500", color: "#000" }}>Anyone have team in this
+													State, please let us know.
+													Thanks.</span></p>
+											</div>
+										</li>
+
+										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent !important" }}>
+											<div class="w-3 h-3 bg-success mr-3 mt-1 brround"></div>
+											<div>
+												<label class="fs-12" style={{ fontSize: "20px", fontWeight: "700" }}>BSXG Global Seminar</label>
+												<p style={{ fontSize: "14px", color: " #000" }}>6th May 2022 - Surat Gujarat</p>
+												<p class="mb-0 fs-12" style={{ fontSize: "14px", color: "#000" }}><span style={{ fontSize: "14px", fontWeight: "500", color: "#000" }}>Anyone have team in this
+													State, please let us know.
+													Thanks.</span></p>
+											</div>
+										</li>
+
+										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent !important" }}>
+											<div class="w-3 h-3 bg-success mr-3 mt-1 brround"></div>
+											<div>
+												<label class="fs-12" style={{ fontSize: "20px", fontWeight: "700" }}>BSXG Global Seminar</label>
+												<p style={{ fontSize: "14px", color: "#000" }}>4th May 2022 -  Ahmedabad Gujarat</p>
+												<p class="mb-0 fs-12" style={{ fontSize: "14px", color: "#000" }}><span style={{ fontSize: "14px", fontWeight: "500", color: "#000" }}>Anyone have team in this
+													State, please let us know.
+													Thanks.</span></p>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 zoom-mb">
+						<div class="card">
+
+							<img src="/Images/blog1.jpg" />
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			{/* <section class="section-spacing inverse-bg" id="countdown-warp">
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-md-6">
@@ -772,9 +992,9 @@ const Home = () => {
 
 					</div>
 				</div>
-			</section>
+			</section> */}
 
-			<section class="section-spacing" id="roadmap">
+			{/* <section class="section-spacing" id="roadmap">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -835,9 +1055,9 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
-			<section id="testimonial" class="section-spacing inverse-bg">
+			{/* <section id="testimonial" class="section-spacing inverse-bg">
 				<div class="container">
 					<div class="text-block wow fadeIn" data-wow-delay="0.2s">
 						<h2>See Whats Our Clients Say's About Us</h2>
@@ -885,9 +1105,9 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
-			<section id="team" class="section-spacing">
+			{/* <section id="team" class="section-spacing">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -990,9 +1210,9 @@ const Home = () => {
 					</div>
 				</div>
 				<div class="moreteam-btn"><a href="#" >More Team</a></div>
-			</section>
+			</section> */}
 
-			<section class="section-spacing inverse-bg" id="trademobile">
+			{/* <section class="section-spacing inverse-bg" id="trademobile">
 				<div class="container">
 					<div class="row align-items-center">
 
@@ -1010,9 +1230,9 @@ const Home = () => {
 
 					</div>
 				</div>
-			</section>
+			</section> */}
 
-			<section class="section-spacing" id="blog">
+			{/* <section class="section-spacing" id="blog">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -1093,11 +1313,11 @@ const Home = () => {
 
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 
-			<div class="clearfix"></div>
-			<footer id="footer_bar">
+
+			{/* <footer id="footer_bar">
 				<div class="row">
 					<div class="col-md-7 footer_profile">
 						<div class="row">
@@ -1121,7 +1341,7 @@ const Home = () => {
 						<div class="row">
 							<div class="col-md-2">
 							</div>
-							{/* <div class="col-md-3">
+							<div class="col-md-3">
 					<h3>Useful links</h3>
 					<ul>
 						<li><a href="#">Privacy Policy</a></li>
@@ -1140,18 +1360,18 @@ const Home = () => {
 						<li><a href="#">Trading</a></li>
 						<li><a href="#">Team</a></li>
 					</ul>
-				</div> */}
-							{/* <div class="col-md-4">
+				</div>
+							<div class="col-md-4">
 					<h3>Office Address</h3>
 					<p><i class="fa fa-address-card"></i> Usa. xyz ICO crypto team combines a passion for esports<br /><i class="fa fa-envelope"></i> abc@xyz.com<br /><i class="fa fa-phone"></i> +1634-234-2345</p>
-				</div> */}
+				</div>
 
 						</div>
 
 
 					</div>
 					<div class="col-md-5 newsletter_warp">
-						{/* <div class="row">
+						<div class="row">
 								<div class="col-md-9">
 <div class="newsletter">
 	<h3>Newsletter</h3>
@@ -1168,7 +1388,7 @@ const Home = () => {
 </div>
 
 
-<hr /> */}
+<hr />
 
 						<h3>Join the conversation</h3>
 						<ul class="social-media">
@@ -1196,7 +1416,7 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-			</footer>
+			</footer> */}
 
 
 			<div class="back-top">
@@ -1207,9 +1427,92 @@ const Home = () => {
 				</a>
 			</div>
 
+			{/* <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+				Launch demo modal
+			</button> */}
+
+
+
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title" id="exampleModalLabel" style={{ color: "black", textAlign: "center" }}>Get up to 2000% Rewards</h3>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body" style={{background:"#d5cece"}}>
+							<div style={{
+								justifyContent: "center",
+								display: " flex",
+								margin: "10px"
+							}}>
+								<div style={{ height: "100px", width: "200px", border: "1px solid gray",borderRadius:"5px",background:"white",textAlign:"center" }}>
+                                      <p>BSXG070907</p>
+									  <h5>Vipin Kumar</h5>
+								</div>
+
+							</div>
+                          <div style={{justifyContent:"center",display:"flex"}}>
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style={{marginRight:"10px"}}>Copy Link</button>
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Signup</button>
+						</div>
+						</div>
+						{/* <div class="modal-footer">
+							Share
+						</div> */}
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+			{/* <div class="modal-dialog modal_dialog_invite">
+               <div class="modal-content modal_content_invite">
+                  <button class="modal-close modal_close_invite btn-toggle-modal" id="close_invite_modal">X</button>
+                  <div class="logo">
+                     <img src="https://sbgglobal.io/sbg-assets-dashboard/img/about/Logo.png" style={{width: "35%"}}/>
+                  </div>
+                  <center>
+                     <h3 style={{color: "white"}}>Get up to 2000% Rewards</h3>
+                     <div class="sectionimage">
+                        <img src="https://sbgglobal.io/sbg-assets-dashboard/img/money.png"/>
+                     </div>
+                     <div class="invite_box">
+                        <h4 style={{fontWeight: "bold",color: "#355283",padding: "30px 10px 10px 13px",marginTop: "-19px"}}><span style={{fontSize: "18px",color: "red"}}>SBG677001</span></h4>
+                        <h5 style={{color: "black",paddingBottom: "20px"}}>Jitendra </h5>
+                     </div>
+                  </center>
+                  <div class="background">
+                     <center>
+                        <div class="share__social share-icon-account">
+                           <span id="refer_link"></span>
+                           <div class="background">
+                              <center>
+                                 <button class="clipboard" onclick="copyReferLink()">Copy link</button>
+                                 <a class="signup_modal_btn" href="https://sbgglobal.io/refer-register/U0JHNjc3MDAx">Signup </a>
+                              </center>
+                           </div>
+                                                   </div>
+                     </center>
+                  </div>
+               </div>
+            </div> */}
+
 
 		</div>
+
+
 	)
+
 }
 
+
 export default Home
+
+

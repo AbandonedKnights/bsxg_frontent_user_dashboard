@@ -156,7 +156,7 @@ p {
 	width: 100%;
 	float: left;
 	height: auto;
-	margin: 0 0 70px;
+	/* margin: 0 0 20px; */
 }
 .section-title p {
 	display: block;
@@ -816,7 +816,7 @@ a + a {
  color:#999;
 }
 .form-group {
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 }
 .help-block.with-errors ul {
 	padding: 10px 0 0;
@@ -1016,7 +1016,7 @@ textarea.form-control {
 	padding: 0 15px!important;
 }
 body {
-	padding-top: 80px;
+	/* padding-top: 80px; */
 }
 .navbar {
 	padding: 15px 0;
@@ -1681,4 +1681,17 @@ h1 {
 #blog .testimonial-icon {
 	margin-bottom: 20px;
 	margin-top: 0px
+}
+
+.btn-12{
+    background: rgb(0,172,238);
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+   
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0;
+    text-align: center;
+	font-size: 18px;
+   
 }

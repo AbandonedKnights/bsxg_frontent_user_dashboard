@@ -30,6 +30,10 @@ import Kyform from "./pages/Account_section/Kyform";
 import Home from "./pages/Home";
 import { N_getWebsiteData } from "./utils/api_functions";
 import { GET_WEBSITE_DATA } from "./features/WebData";
+import Activation from "./pages/Activation";
+import Restake from "./pages/Restake";
+import Diposit_panel from "./pages/Diposit_panel";
+import Withdrawal_panel from "./pages/Withdrawal_panel";
 const Router = ({ props }) => {
   const dispatch = useDispatch();
 
@@ -37,7 +41,7 @@ const Router = ({ props }) => {
     const soc = createSocketClient("kujgwvfq-a-ghosttown-z-1fhhup0p6");
     soc.on("cmc_updated", (res) => {
       dispatch(cmcPayload({ coins: res, cmcLoading: false }));
-          dispatch(GET_CURRENCY_DATA({cur_graph:{currency_coin: Date.now(), currency_price: 2}}))
+      dispatch(GET_CURRENCY_DATA({ cur_graph: { currency_coin: Date.now(), currency_price: 2 } }))
     });
 
     soc.on("order_history_updated", (res) => {
@@ -51,13 +55,13 @@ const Router = ({ props }) => {
     soc.on("sell_order_updated", (res) => {
       dispatch(sell_Order({ sellOrder: res }));
     });
-    N_getWebsiteData().then((res)=>{
+    N_getWebsiteData().then((res) => {
       if (res.status === 200) {
-       dispatch(GET_WEBSITE_DATA({webdata: res.data.params.website}));
-       return res.data.params.website;
-     }
-       
-      })
+        dispatch(GET_WEBSITE_DATA({ webdata: res.data.params.website }));
+        return res.data.params.website;
+      }
+
+    })
   }, []);
   return (
     <>
@@ -74,17 +78,22 @@ const Router = ({ props }) => {
         <Route exact path="/fund" element={<WalletFund />} />
         <Route exact path="/withdraw" element={<Withdraw />} />
         <Route exact path="/deposit" element={<Deposit />} />
-       
+
         <Route
           exact
           path="/transationhistory"
           element={<TransactionHistory />}
         />
-        <Route exact path="/Security_Settings" element={<Account/>}/>
-     <Route exact path="/Referral_Bonus" element={<ReferalBonus/>}/>
-     <Route exact path="/Security_Settings" element={<Account/>}/>
-     <Route exact path="/Kyc" element={<Kyform/>}/>
-     <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/Security_Settings" element={<Account />} />
+        <Route exact path="/Referral_Bonus" element={<ReferalBonus />} />
+        <Route exact path="/Security_Settings" element={<Account />} />
+        <Route exact path="/Kyc" element={<Kyform />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/activation" element={<Activation />} />
+        <Route exact path="/restake" element={<Restake />} />
+        <Route exact path="/diposit_panel" element={<Diposit_panel />} />
+        <Route exact path="/withdrawal_panel" element={<Withdrawal_panel/>} />
+
       </Routes>
       <Footer />
       <div>
