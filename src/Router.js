@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Exchange from "./pages/Exchange";
 import { Toaster } from "react-hot-toast";
 import { Route, Routes } from "react-router-dom";
 import "react-notifications/lib/notifications.css";
@@ -27,7 +26,7 @@ import Activation from "./pages/Activation";
 import Restake from "./pages/Restake";
 import Diposit_panel from "./pages/Diposit_panel";
 import Withdrawal_panel from "./pages/Withdrawal_panel";
-import Home_page from "./pages/Main_page/Home_page";
+import Home from "./pages/Home";
 const Router = ({ props }) => {
   const dispatch = useDispatch();
 
@@ -59,11 +58,7 @@ const Router = ({ props }) => {
   }, []);
   return (
     <>
-    <Routes>
-    <Route exact path="/" element={<Home_page/>} />
-    </Routes>
-      <MyNavbar />
-      <Routes>
+     <Routes>
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/register" element={<Register />} />
         {/* <Route exact path="/dashboard" element={<Dashboard />} /> */}
@@ -79,7 +74,6 @@ const Router = ({ props }) => {
         <Route exact path="/Security_Settings" element={<Account />} />
         <Route exact path="/Referral_Bonus" element={<ReferalBonus />} />
         <Route exact path="/Security_Settings" element={<Account />} />
-        <Route exact path="/Kyc" element={<Kyform />} />
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/activation" element={<Activation />} />
         <Route exact path="/restake" element={<Restake />} />
