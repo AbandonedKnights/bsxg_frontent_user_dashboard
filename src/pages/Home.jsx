@@ -1,9 +1,22 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import MyNavbar from '../components/MyNavbar'
 import './styles.css'
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+	const { isLoggedIn } = useSelector((state) => state?.user?.value);
+
+	const navigate = useNavigate();
+	useEffect(() => {
+	  if (!isLoggedIn) {
+		console.log("iw::", isLoggedIn);
+		navigate("../", { replace: true });
+	  }
+	}, [isLoggedIn]);
 	return (
 		<div>
+			<MyNavbar />
 			{/* <div class="row flag-row" >
                <div class="col-md-1 flag-width">
                   <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-India.png" className='flag' style={{width:"100%"}}/>
