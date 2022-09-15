@@ -31,7 +31,7 @@ const EmailLogin = () => {
               "exchange_inrx_userID",
               res.data.params.user_id
             );
-            navigate("../wallet", { replace: true });
+            navigate("../home", { replace: true });
           } else {
             setIsAuthenticating(false);
           }
@@ -61,7 +61,7 @@ const EmailLogin = () => {
                     "exchange_inrx_userID",
                     res.data.params.user_id
                   );
-                  navigate("../wallet", { replace: true });
+                  navigate("../home", { replace: true });
                 } else{
                   setIsAuthenticating(false);
                 }

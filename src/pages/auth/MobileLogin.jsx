@@ -30,7 +30,7 @@ const MobileLogin = () => {
               "exchange_inrx_userID",
               res.data.params.user_id
             );
-            navigate("../wallet", { replace: true });
+            navigate("../home", { replace: true });
           } else {
             setIsAuthenticating(false);
           }
@@ -60,7 +60,7 @@ const MobileLogin = () => {
                     "exchange_inrx_userID",
                     res.data.params.user_id
                   );
-                  navigate("../wallet", { replace: true });
+                  navigate("../home", { replace: true });
                 } else {
                   toast.error(res.message);
                   setIsAuthenticating(false);
