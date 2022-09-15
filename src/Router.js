@@ -49,17 +49,6 @@ const Router = ({ props }) => {
     soc.on("sell_order_updated", (res) => {
       dispatch(sell_Order({ sellOrder: res }));
     });
-<<<<<<< HEAD
-    N_getWebsiteData().then((res)=>{
-        if (res.status === 200) {
-        dispatch(GET_WEBSITE_DATA({webdata: res.data.params.website}));
-        return res.data.params.website;
-      }
-      })
-  }, []);
-  return (
-    <>
-=======
     N_getWebsiteData().then((res) => {
       if (res.status === 200) {
         dispatch(GET_WEBSITE_DATA({ webdata: res.data.params.website }));
@@ -74,7 +63,6 @@ const Router = ({ props }) => {
     <Route exact path="/" element={<Home_page/>} />
     </Routes>
       <MyNavbar />
->>>>>>> Home_page
       <Routes>
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/register" element={<Register />} />

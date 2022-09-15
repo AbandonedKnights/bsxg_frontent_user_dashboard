@@ -1131,9 +1131,6 @@ body::-webkit-scrollbar-thumb {
   color: rgb(54, 53, 55);
   font-family: Tahoma, Helvetica, Arial, Roboto, sans-serif;
   transition: all 0.5s linear 0s;
-<<<<<<< HEAD
-}
-=======
 }
 
 /* Flag  */
@@ -1232,4 +1229,3 @@ body::-webkit-scrollbar-thumb {
 .bsxg_vip{
   color:"white" !important
 }
->>>>>>> Home_page
