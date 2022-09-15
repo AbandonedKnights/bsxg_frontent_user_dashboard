@@ -7,33 +7,29 @@ export default function Home_page() {
 
                 <div class="html-top-content">
                     <div class="theme-top-section">
-
                         <header class="theme-main-menu">
-                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                                <a class="navbar-brand" href="#">Navbar</a>
+                            <nav class="navbar navbar-expand-lg" style={{ backgroundColor: "#05092b", padding: " 0px 85px" }}>
+                                <a class="navbar-brand" href="#">
+
+                                    <img
+                                        src="/images/BSXG.png"
+                                        style={{ height: "60px", width: "150px" }}
+                                        alt=" img not found"
+                                    />
+                                </a>
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
 
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent" style={{ justifyContent: "flex-end" }}>
                                     <ul class="navbar-nav mr-auto">
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                            <a class="nav-link" href="#features">Feature <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Link</a>
+                                            <a class="nav-link" href="#services">Services</a>
                                         </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Dropdown
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="#">Action</a>
-                                                <a class="dropdown-item" href="#">Another action</a>
-                                                <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item" href="#">Something else here</a>
-                                            </div>
-                                        </li>
+
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Disabled</a>
                                         </li>
@@ -44,7 +40,9 @@ export default function Home_page() {
 
                         </header>
 
-
+<section>
+<img src="https://sbgglobal.io/sbg-assets-dashboard/img/slider/dashboard-slider/pop2.jpg" class="d-block w-100" alt="..." />
+</section>
 
 
                         <div id="theme-banner" class="theme-banner-one">
