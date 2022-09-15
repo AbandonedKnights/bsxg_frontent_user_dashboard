@@ -834,7 +834,7 @@ const Home = () => {
 								/>
 
 							</div>
-							<div class="form-group">
+							<div class="form-group" style={{marginBottom:"30px"}}>
 								<label for="exampleInputPassword1">Message:</label>
 								<input type="password" class="form-control" id="exampleInputPassword1"
 								//  placeholder="Password" 
@@ -846,7 +846,7 @@ const Home = () => {
 					</div>
 					<div class="col-sm-7" style={{
 						color: "white",
-						marginTop: "28px",
+						marginTop: "15px",
 						padding: "0px 71px",
 						/* background: red; */
 						marginBottom: "93px",

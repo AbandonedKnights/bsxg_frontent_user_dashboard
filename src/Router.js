@@ -34,6 +34,7 @@ import Activation from "./pages/Activation";
 import Restake from "./pages/Restake";
 import Diposit_panel from "./pages/Diposit_panel";
 import Withdrawal_panel from "./pages/Withdrawal_panel";
+import Home_page from "./pages/Main_page/Home_page";
 const Router = ({ props }) => {
   const dispatch = useDispatch();
 
@@ -65,6 +66,9 @@ const Router = ({ props }) => {
   }, []);
   return (
     <>
+    <Routes>
+    <Route exact path="/" element={<Home_page/>} />
+    </Routes>
       <MyNavbar />
       <Routes>
         <Route exact path="/exchange" element={<Exchange />}>
@@ -88,12 +92,18 @@ const Router = ({ props }) => {
         <Route exact path="/Referral_Bonus" element={<ReferalBonus />} />
         <Route exact path="/Security_Settings" element={<Account />} />
         <Route exact path="/Kyc" element={<Kyform />} />
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/home" element={<Home />} />
         <Route exact path="/activation" element={<Activation />} />
         <Route exact path="/restake" element={<Restake />} />
         <Route exact path="/diposit_panel" element={<Diposit_panel />} />
         <Route exact path="/withdrawal_panel" element={<Withdrawal_panel/>} />
 
+
+        <Route exact path="/Security_Settings" element={<Account/>}/>
+     <Route exact path="/Referral_Bonus" element={<ReferalBonus/>}/>
+     <Route exact path="/Security_Settings" element={<Account/>}/>
+     <Route exact path="/Kyc" element={<Kyform/>}/>
+     <Route exact path="/dashboard" element={<Home/>}/>
       </Routes>
       <Footer />
       <div>
