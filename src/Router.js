@@ -4,7 +4,6 @@ import { Route, Routes } from "react-router-dom";
 import "react-notifications/lib/notifications.css";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
-import { useDispatch } from "react-redux";
 import createSocketClient from "./socket/socket";
 import ForgotPassword from "./pages/ForgotPassword";
 import TransactionHistory from "./pages/TransactionHistory";
@@ -27,8 +26,19 @@ import Restake from "./pages/Restake";
 import Diposit_panel from "./pages/Diposit_panel";
 import Withdrawal_panel from "./pages/Withdrawal_panel";
 import Home from "./pages/Home";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 const Router = ({ props }) => {
   const dispatch = useDispatch();
+  const { isLoggedIn } = useSelector((state) => state?.user?.value);
+
+	const navigate = useNavigate();
+	useEffect(() => {
+	  if (isLoggedIn) {
+		console.log("iw::", isLoggedIn);
+		navigate("../home", { replace: true });
+	  }
+	}, [isLoggedIn]);
 
   useEffect(() => {
     const soc = createSocketClient("kujgwvfq-a-ghosttown-z-1fhhup0p6");
