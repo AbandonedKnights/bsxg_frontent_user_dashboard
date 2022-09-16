@@ -191,7 +191,7 @@ export default function MobileRegistration(props) {
             <div>
               <Link
                 to="#"
-                className="text-success fw-bold py-1"
+                className="text-light fw-bold py-1"
                 onClick={(e) => {
                   e.preventDefault();
                   sendMobileVerificationCode();
@@ -283,7 +283,7 @@ export default function MobileRegistration(props) {
           }}
           checked={isAgreed}
         />
-        <label className="form-check-label" for="exampleCheck1">
+        <label className="form-check-label" for="exampleCheck1" style={{color:"white"}}>
           I Agree The <a href="">Terms and policy</a>
           <br />
           <span>

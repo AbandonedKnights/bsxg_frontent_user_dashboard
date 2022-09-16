@@ -33,7 +33,8 @@ export default function Register(props) {
           <div className="row">
             <div className="col-lg-12">
               <h1>{t("register")}</h1>
-              <div className="login_area_block">
+              <div className="login_area_block" style={{background:" rgb(27 67 72)",
+    borderRadius: "5px"}}>
                 {/* <ul className="nav nav-tabs" id="myTab" role="tablist">
                   <li className="nav-item" role="presentation">
                     <button
@@ -88,7 +89,7 @@ export default function Register(props) {
                   <label for="exampleCheck1" classNameName="mt-2">
                     <span className="register-txt">
                       Do you have an account{" "}
-                      <Link to="/login">Login?</Link>
+                      <Link to="/login"  style={{color:"white"}}>Login?</Link>
                     </span>
                     <br />
                   </label>

@@ -71,7 +71,7 @@ export default function MyNavbar(props) {
                   <a class="nav-link " href="#home"><i className="fa fa-home" aria-hidden="true" style={{color:"#f59a09"}} > </i>   Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about-us"><i className="fa fa-area-chart"aria-hidden="true" style={{color:"#f59a09"}}> </i> Market</a>
+                  <a class="nav-link" href="/market"><i className="fa fa-area-chart"aria-hidden="true" style={{color:"#f59a09"}}> </i> Market</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#features"><i className="fa fa-graduation-cap"aria-hidden="true" style={{color:"#f59a09"}}> </i> Academy</a>

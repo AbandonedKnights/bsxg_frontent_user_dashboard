@@ -339,7 +339,7 @@ export default function EmailRegistration(props) {
             <div>
               <Link
                 to="#"
-                className="text-success fw-bold py-1"
+                className="text-light fw-bold py-1"
                 onClick={(e) => {
                   e.preventDefault();
                   sendEmailVerificationCode();
@@ -432,7 +432,7 @@ export default function EmailRegistration(props) {
             <div>
               <Link
                 to="#"
-                className="text-success fw-bold py-1"
+                className="text-light fw-bold py-1"
                 onClick={(e) => {
                   e.preventDefault();
                   sendMobileVerificationCode();
@@ -529,7 +529,7 @@ export default function EmailRegistration(props) {
           }}
           checked={isAgreed}
         />
-        <label className="form-check-label" for="exampleCheck1">
+        <label className="form-check-label" for="exampleCheck1" style={{color:"white"}}>
           I Agree The <a href="">Terms and policy</a>
           <br />
           <span>
@@ -542,6 +542,7 @@ export default function EmailRegistration(props) {
 
       <button
         type="submit"
+        style={{borderRadius:"5px"}}
         className={isAgreed ? "btn-success" : ""}
         disabled={!isAgreed}
       >

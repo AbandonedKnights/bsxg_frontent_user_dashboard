@@ -90,6 +90,9 @@ const EmailLogin = () => {
           className="login_input"
           placeholder="Email"
           name="email"
+          style={{marginBottom: "15px",
+              borderRadius: "5px",
+              paddingLeft:"15px"}}
           {...register("email", {
             required: "Email  is required.",
             pattern:
@@ -106,6 +109,9 @@ const EmailLogin = () => {
           <input
             type="number"
             className="login_input"
+            style={{
+              borderRadius: "5px",
+              paddingLeft:"15px"}}
             placeholder={authenticator == 2?'Enter Google Authenticator Code':'Enter Mobile Number OTP'}
             name="otp"
             {...register("otp", {
@@ -122,6 +128,9 @@ const EmailLogin = () => {
           className="login_input"
           placeholder="Password"
           name="password"
+          style={{marginBottom: "15px",
+              borderRadius: "5px",
+              paddingLeft:"15px"}}
           {...register("password", {
             required: "You must specify a password",
             minLength: {
@@ -142,12 +151,14 @@ const EmailLogin = () => {
           />
           <label className="form-check-label " for="exampleCheck1">
             <span>Remember the username</span>{" "}
-            <Link to="/forgot_password" className="forgot">Forgot Password?</Link>
+            <Link to="/forgot_password" className="forgot" style={{color:"white"}}>Forgot Password?</Link>
             <br />
           </label>
         </div>
 
-        <button type="submit" classNameName="btn-success">
+        <button type="submit" classNameName="btn-success"
+         style={{borderRadius: "5px",
+             fontSize: "17px"}}>
           {isAuthenticating ? (
             <>
               <span
