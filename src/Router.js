@@ -31,16 +31,17 @@ import { useNavigate } from "react-router-dom";
 import Tree from "./pages/Tree";
 import Wallet_transfer from "./pages/Wallet_transfer";
 import Market from "./pages/Market";
+import Academy from "./pages/Academy";
 const Router = ({ props }) => {
   const dispatch = useDispatch();
   const { isLoggedIn } = useSelector((state) => state?.user?.value);
 
 	const navigate = useNavigate();
 	useEffect(() => {
-	  if (isLoggedIn) {
+	 /*  if (isLoggedIn) {
 		console.log("iw::", isLoggedIn);
 		navigate("../home", { replace: true });
-	  }
+	  } */
 	}, [isLoggedIn]);
 
   useEffect(() => {
@@ -89,14 +90,16 @@ const Router = ({ props }) => {
         <Route exact path="/Security_Settings" element={<Account />} />
         <Route exact path="/Referral_Bonus" element={<ReferalBonus />} />
         <Route exact path="/Security_Settings" element={<Account />} />
-        <Route exact path="/market" element={<Home />} />
+        <Route exact path="/home" element={<Home />} />
         <Route exact path="/activation" element={<Activation />} />
         <Route exact path="/restake" element={<Restake />} />
         <Route exact path="/diposit_panel" element={<Diposit_panel/>} />
         <Route exact path="/withdrawal_panel" element={<Withdrawal_panel/>} />
         <Route exact path="/tree" element={<Tree/>} />
         <Route exact path="/wallet_transfer" element={<Wallet_transfer/>} />
-        <Route exact path="/home" element={<Market/>} />
+        <Route exact path="/market" element={<Market/>} />
+        <Route exact path="/academy" element={<Academy/>} />
+
 
 
 

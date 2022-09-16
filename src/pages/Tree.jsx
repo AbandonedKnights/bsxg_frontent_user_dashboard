@@ -1,8 +1,10 @@
 import React from 'react'
+import MyNavbar from '../components/MyNavbar'
 
 export default function Tree() {
   return (
     <>
+    <MyNavbar/>
         <section class="nft__area pt-100 pb-25">
    <div class="container">
                 <div class="alert blinking" style={{textAlign: "center",fontSize: "20px",fontWeight: "600",color:"white"}}>

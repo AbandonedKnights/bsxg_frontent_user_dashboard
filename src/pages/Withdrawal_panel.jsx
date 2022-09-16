@@ -1,8 +1,10 @@
 import React from 'react'
+import MyNavbar from '../components/MyNavbar'
 
 export default function Withdrawal_panel() {
   return (
     <>
+    <MyNavbar/>
       <section>
 
         <div class="row">

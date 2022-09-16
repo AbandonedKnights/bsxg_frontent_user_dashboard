@@ -1,8 +1,10 @@
 import React from 'react'
+import MyNavbar from '../components/MyNavbar'
 
 export default function Restake() {
   return (
    <>
+   <MyNavbar/>
     <section class="nft__area pt-100 pb-25">
    <div class="container">
      <div class="row">

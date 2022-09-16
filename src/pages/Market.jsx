@@ -111,12 +111,12 @@ export default function Market() {
 		   <div class="row">
 			  <div class="col-xxl-9 table-head-align">
 				 <div class="section__title-wrapper d-none d-sm-block">
-					<h3 class="section__title">Total Portfolio (SBG) <i class="fa fa-eye eye-color" aria-hidden="true"></i></h3>
-					<h5 class="section__title userbuz_fast">0 SBG</h5>
+					<h3 class="section__title">Total Portfolio (BSXG) <i class="fa fa-eye eye-color" aria-hidden="true"></i></h3>
+					<h5 class="section__title userbuz_fast">0 BSXG</h5>
 				 </div>
 				 <div class="section__title-wrapper d-lg-none">
-					<h3 class="section__title" style={{fontSize:"20px"}}>Total Portfolio (SBG) <i class="fa fa-eye eye-color" aria-hidden="true"></i></h3>
-					<h5 class="section__title userbuz_fast" style={{fontSize:"20px"}}>0 SBG</h5>
+					<h3 class="section__title" style={{fontSize:"20px"}}>Total Portfolio (BSXG) <i class="fa fa-eye eye-color" aria-hidden="true"></i></h3>
+					<h5 class="section__title userbuz_fast" style={{fontSize:"20px"}}>0 BSXG</h5>
 				 </div>
 			  </div>
 
@@ -139,7 +139,7 @@ export default function Market() {
 		
 		<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content "}}>
 		   <div class="process__item" style={{textAlign: "center"}}>
-			  <a href="https://sbgglobal.io/user/market/today">
+			  <a href="#">
 				 <div class="process__icon">
 					<span><img src="/Images/coins/activation-report-inside.png" alt="" class="icon-size"/></span>
 				 </div>
@@ -159,7 +159,7 @@ export default function Market() {
 		   <div class="process__item">
 			  <a href="#">
 				 <div class="process__icon active">
-					<span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/restake-report-inside.png" alt="" class="icon-size"/></span>
+					<span><img src="/Images/buy_sell_coin/restake-report-inside.png" alt="" class="icon-size"/></span>
 				 </div>
 			  </a>
 			  <div class="process__content">
@@ -169,7 +169,7 @@ export default function Market() {
 		</div>
 		<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content "}}>
 		   <div class="process__item">
-			  <a href="https://sbgglobal.io/user/market/today">
+			  <a href="#">
 				 <div class="process__icon">
 					<span><img src="/Images/buy_sell_coins/activation-report-inside.png" alt="" class="icon-size"/></span>
 				 </div>
@@ -181,7 +181,7 @@ export default function Market() {
 		</div>
 	 </div>
   </center>
-  <hr style={{color: "#282727"}}/>
+  <hr style={{color: "rgb(255 255 255)"}}/>
 		   <div class="row">
 			  <div class="col-xxl-12">
 				 <div class="tab-content nft__tab" id="nfvtabcontent">
@@ -190,28 +190,28 @@ export default function Market() {
 						  <div class="upcoming__table" style={{width:"100%"}}>
 							 <div class="table-responsive">
 						  <table class="table" style={{width:"100%"}}>
-							 <thead class="tbl-th">
+							 <thead class="tbl-th" style={{color:"white",fontSize:"15px"}}>
 								<tr>
 								   <th class="tbl-color">My Earning</th>
-								   <th class="tbl-color table-right">0 SBG</th>
+								   <th class="tbl-color table-right">0 BSXG</th>
 								</tr>
 							 </thead>
 							 <tbody>
 								<tr>
-								   <td><a href="#">Unilevel</a></td>
-								   <td class="table-right"><a href="#">0 SBG</a></td>
+								   <td><a href="#" style={{color:"white",fontSize:"15px"}}>Unilevel</a></td>
+								   <td class="table-right"><a href="#" style={{color:"white",fontSize:"15px"}}>0 BSXG</a></td>
 								</tr>
 								<tr>
-								   <td><a href="#">Stake Profit</a></td>
-								   <td class="table-right"><a href="#">0 SBG</a></td>
+								   <td><a href="#" style={{color:"white",fontSize:"15px"}}>Stake Profit</a></td>
+								   <td class="table-right"><a href="#" style={{color:"white",fontSize:"15px"}}>0 BSXG</a></td>
 								</tr>
 								<tr>
-								   <td><a href="#">Global Pool</a></td>
-								   <td class="table-right"><a href="#">0 SBG</a></td>
+								   <td><a href="#" style={{color:"white",fontSize:"15px"}}>Global Pool</a></td>
+								   <td class="table-right"><a href="#" style={{color:"white",fontSize:"15px"}}>0 BSXG</a></td>
 								</tr>
 								<tr>
-								   <td><a href="#">Sponsor Income</a></td>
-								   <td class="table-right"><a href="#">0 SBG</a></td>
+								   <td><a href="#" style={{color:"white",fontSize:"15px"}}>Sponsor Income</a></td>
+								   <td class="table-right"><a href="#" style={{color:"white",fontSize:"15px"}}>0 BSXG</a></td>
 								</tr>
 							 </tbody>
 							 </table>
@@ -237,9 +237,9 @@ export default function Market() {
 						  </div>
 						  <div class="activity__content">
 							 <h3 class="activity__title">
-								<a href="#">Total Team Member's (SBG) </a>
+								<a href="#">Total Team Member's (BSXG) </a>
 							 </h3>
-							 <p><a href="#" class="total_team_fast">0</a> Member's <i class="fa fa-eye eye-color" aria-hidden="true"></i></p>
+							 <p style={{color:"black"}}><a href="#" class="total_team_fast">0</a> Member's <i class="fa fa-eye eye-color" aria-hidden="true"></i></p>
 						  </div>
 					   </div>
 					</div>
@@ -249,14 +249,14 @@ export default function Market() {
 					   <div class="activity__item-inner d-flex align-items-center">
 						  <div class="activity__thumb mr-20">
 							 <a href="#">
-								<img src="https://sbgglobal.io/sbg-assets-dashboard/img/activity/reward-2.png" alt=""/>
+								<img src="/Images/coins/reward-2.png" alt=""/>
 							 </a>
 						  </div>
 						  <div class="activity__content">
 							 <h3 class="activity__title">
-								<a href="#">My Referral (SBG)</a>
+								<a href="#">My Referral (BSXG)</a>
 							 </h3>
-							 <p><a href="#">0</a> Member's <i class="fa fa-eye eye-color" aria-hidden="true"></i></p>
+							 <p style={{color:"black"}}><a href="#">0</a> Member's <i class="fa fa-eye eye-color" aria-hidden="true"></i></p>
 						  </div>
 					   </div>
 					</div>
@@ -268,8 +268,10 @@ export default function Market() {
 		 <div class="container">			 
 			<div class="row">
 			  <div class="col-xxl-9 table-head-align">
-				 <div class="section__title-wrapper mb-40">
-					<h3 class="section__title">My Referrals</h3>
+				 <div class="section__title-wrapper mb-40" >
+					<h3 class="section__title" style={{
+                      margin: "30px 0px",
+                      fontSize: "35px"}}>My Referrals</h3>
 				 </div>
 			  </div>
 			</div>

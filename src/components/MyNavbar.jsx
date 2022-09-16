@@ -68,13 +68,13 @@ export default function MyNavbar(props) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 m-auto">
               <li class="nav-item">
-                  <a class="nav-link " href="#home"><i className="fa fa-home" aria-hidden="true" style={{color:"#f59a09"}} > </i>   Home</a>
+                  <a class="nav-link " href="/home"><i className="fa fa-home" aria-hidden="true" style={{color:"#f59a09"}} > </i>   Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/market"><i className="fa fa-area-chart"aria-hidden="true" style={{color:"#f59a09"}}> </i> Market</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#features"><i className="fa fa-graduation-cap"aria-hidden="true" style={{color:"#f59a09"}}> </i> Academy</a>
+                  <a class="nav-link" href="/academy"><i className="fa fa-graduation-cap"aria-hidden="true" style={{color:"#f59a09"}}> </i> Academy</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#roadmap"><i className="fa fa-th-list"aria-hidden="true" style={{color:"#f59a09"}}> </i>  Assets</a>
