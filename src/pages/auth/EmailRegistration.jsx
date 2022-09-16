@@ -69,6 +69,7 @@ export default function EmailRegistration(props) {
   }
 
   const registerUser = async (data) => {
+    console.log("data",data)
     if (isOTPVerified && isOTPMVerified) {
       setIsRegistering(true);
       let registrationToast = toast.loading("Registration in progress...");
@@ -225,6 +226,30 @@ export default function EmailRegistration(props) {
 
   return (
     <form name="registrationForm" onSubmit={handleSubmit(registerUser)}>
+       <div className="app-text-danger" style={{fontSize:'18px'}}>
+            {name}
+          </div>
+          
+      <div className="mb-2">
+        <div className="form-floating">
+          <input
+            value={reffaralid}
+            type="text"
+            className="form-control"
+            id="parent_ref_code"
+            placeholder="enater refrral code"
+            {...register("parent_ref_code", {
+              required: "You must specify a name",
+              minLength: {
+                value: 3,
+                message: "name must have at least 3 characters",
+              },
+            })}
+          />
+          <label for="parent_ref_code">Referral</label>
+        </div>
+      </div>
+
       <div className="mb-2">
         <div className="d-flex justify-content-center align-items-center">
           <div className="form-floating flex-fill">
@@ -494,26 +519,6 @@ export default function EmailRegistration(props) {
           </div>
         )}
       </div>
-      <div className="app-text-danger" style={{fontSize:'18px'}}>
-            {name}
-          </div>
-      <div className="mb-2">
-        <div className="form-floating">
-          <input
-            value={reffaralid}
-            type="text"
-            className="form-control"
-            id="parent_ref_code"
-            placeholder="password"
-            {...register("parent_ref_code")}
-            onChange={(e) => {
-              setRffaralId(e.target.value);
-            }}
-          />
-          <label for="parent_ref_code">Reffer</label>
-        </div>
-      </div>
-
       <div className="form-group form-check terms_and_policy">
         <input
           type="checkbox"
