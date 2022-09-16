@@ -72,7 +72,9 @@ const Router = ({ props }) => {
     <>
      <Routes>
         <Route exact path="/login" element={<Login />} />
-        <Route exact path="/register" element={<Register />} />
+        <Route exact path="/register" element={<Register />}>
+            <Route path=":reffer" element={<Register />} />
+        </Route>
         {/* <Route exact path="/dashboard" element={<Dashboard />} /> */}
         <Route exact path="/forgot_password" element={<ForgotPassword />} />
         <Route exact path="/withdraw" element={<Withdraw />} />

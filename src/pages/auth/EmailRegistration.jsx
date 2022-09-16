@@ -1,9 +1,10 @@
 // import { t } from "i18next";
+import { useEffect } from "react";
 import { createRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 // import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 //import { toast } from "wc-toast";
 import {api_test} from "../../utils/api";
 export default function EmailRegistration(props) {
@@ -23,11 +24,33 @@ export default function EmailRegistration(props) {
   const [isOTPMSent, setIsOTPMSent] = useState(false);
   const [isOTPMVerified, setIsOTPMVerified] = useState();
   const [isRegistering, setIsRegistering] = useState(false);
+  const [reffaralid, setRffaralId] = useState("");
+  const [name, setName] = useState("");
   const [emailAddress, setEmailAddress] = useState("");
   const [mobileNumber, setMobileNumber] = useState("");
   const [userOTP, setUserOTP] = useState("");
   const [userMOTP, setUserMOTP] = useState("");
+  const { reffer } = useParams();
   // const { t } = useTranslation();
+
+
+  useEffect(()=>{
+    api_test
+    .post("getRefferalInfo", {
+      reffer:reffer
+    })
+    .then((res) => {
+      let data =res.data; 
+      if(data.status == 200){
+        setRffaralId(data.profile_data.user)
+        setName(data.profile_data.name)
+      }
+      
+    })
+    .catch((error) => {
+      console.log("user", error);
+    })
+  }, [reffer])
 
   const resetForm = () => {
     (document.forms['registrationForm']).reset();
@@ -42,6 +65,7 @@ export default function EmailRegistration(props) {
     setEmailAddress("");
     setUserOTP("");
     setUserMOTP("");
+    setRffaralId("");
   }
 
   const registerUser = async (data) => {
@@ -470,15 +494,21 @@ export default function EmailRegistration(props) {
           </div>
         )}
       </div>
-
+      <div className="app-text-danger" style={{fontSize:'18px'}}>
+            {name}
+          </div>
       <div className="mb-2">
         <div className="form-floating">
           <input
+            value={reffaralid}
             type="text"
             className="form-control"
             id="parent_ref_code"
             placeholder="password"
             {...register("parent_ref_code")}
+            onChange={(e) => {
+              setRffaralId(e.target.value);
+            }}
           />
           <label for="parent_ref_code">Reffer</label>
         </div>
