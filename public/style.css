@@ -21,7 +21,7 @@ a, a:hover {
 .login_area_block {
   /* width: 315px; */
   width: 415px;
-  border: 2px solid #efefef;
+  /* border: 2px solid #efefef; */
   margin: 0 auto;
 }
 
@@ -40,8 +40,9 @@ a, a:hover {
 }
 
 .login_area_block .nav-tabs .nav-link.active {
-  color: #333;
-  border-bottom: 2px solid #24ac84 !important;
+  color: #fff;
+    /* border-bottom: 2px solid #24ac84 !important; */
+    background: #01222b
 }
 
 .login_area h1 {
@@ -64,7 +65,7 @@ a, a:hover {
 }
 
 .login_form {
-  padding: 15px 30px;
+  padding: 30px 30px;
 }
 
 .login_input {
@@ -117,7 +118,7 @@ label:focus,
 }
 
 .terms_and_policy a {
-  color: #24ac84;
+  color: #0adfbf;
   text-decoration: none;
 }
 
@@ -428,7 +429,7 @@ label:focus,
 
 .nav-tabs {
   border-bottom: 0;
-  background-color: #0f111e;
+  background-color: #01222b !important;
 }
 
 .bl_1 {
@@ -631,7 +632,7 @@ label:focus,
 
 .login_area_block .nav-tabs .nav-link {
   background: #fff;
-  border-bottom: 2px solid #efefef !important;
+  /* border-bottom: 2px solid #efefef !important; */
 }
 
 
@@ -859,6 +860,9 @@ label:focus,
   .wallet_blue .nav-tabs .nav-link {
     padding: 5px 6px;
   }
+  .col-6 {
+    max-width: 100% !important;
+}
 }
 
 body::-webkit-scrollbar {

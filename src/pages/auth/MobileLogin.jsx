@@ -90,6 +90,9 @@ const MobileLogin = () => {
           type="phone"
           className="login_input"
           placeholder="Phone"
+          style={{marginBottom: "15px",
+              borderRadius: "5px",
+              paddingLeft:"15px"}}
           {...register("mobile", {
             required: "You must specify a number",
             minLength: {
@@ -103,6 +106,10 @@ const MobileLogin = () => {
             type="number"
             className="login_input"
             placeholder="OTP"
+            style={{
+              marginBottom: "15px",
+              borderRadius: "5px",
+              paddingLeft:"15px"}}
             name="otp"
             {...register("otp", {
               required: "You must specify a OTP",
@@ -117,6 +124,9 @@ const MobileLogin = () => {
           type="password"
           className="login_input"
           placeholder="Password"
+          style={{
+              borderRadius: "5px",
+              paddingLeft:"15px"}}
           {...register("password", {
             required: "You must specify a password",
             minLength: {
@@ -140,12 +150,14 @@ const MobileLogin = () => {
           />
           <label className="form-check-label" for="exampleCheck1">
            <span> Remember the username </span>{" "}
-            <Link to="/forgot_passowrd"  className="forgot">Forgot Password?</Link>
+            <Link to="/forgot_passowrd"  className="forgot" style={{color:"white"}}>Forgot Password?</Link>
             <br />
           </label>
         </div>
 
         <button type="submit" classNameName="btn-success"
+        style={{borderRadius: "5px",
+             fontSize: "17px"}}
         // onClick={()=>{
         //   {!isAuthenticating?toast.error("Somthing went wrong "):null}
         // }}

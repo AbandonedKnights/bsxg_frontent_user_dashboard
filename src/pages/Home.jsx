@@ -692,9 +692,9 @@ const Home = () => {
 			<section class="auction__area pt-0 pb-30">
 				<div class="container">
 					<div class="card dash-card">
-						<div class="card-header bg-box">
+						<div class="card-header bg-box"style={{ textAlign: "center"}}>
 							<a href="https://sbgglobal.io/user/sbg-vip-achiever">
-								<h3 class="card-title" style={{ textAlign: "center", color: "black", padding: "10px 0px" }}>BSXG VIP Achiever's</h3>
+								<h3 class="card-title" style={{color: "black", padding: "10px 0px" }}>BSXG VIP Achiever's</h3>
 							</a>
 						</div>
 						<div class="card-body p-0" style={{ textAlign: "center" }}>
@@ -751,9 +751,9 @@ const Home = () => {
 								</div>
 							</div>
 						</div>
-						<div class="card-header bg-box" style={{ marginTop: "-16px" }}>
+						<div class="card-header bg-box" style={{ marginTop: "-16px",textAlign:"center" }}>
 							<a href="https://sbgglobal.io/user/sbg-vip-achiever">
-								<h3 class="card-title" style={{ textAlign: "center", color: "black", marginTop: "5px" }}>More</h3>
+								<h3 class="card-title" style={{ color: "black", marginTop: "5px" }}>More</h3>
 							</a>
 						</div>
 					</div>
@@ -763,9 +763,9 @@ const Home = () => {
 			<section class="auction__area pt-0 " style={{ marginTop: "50px" }}>
 				<div class="container">
 					<div class="card dash-card">
-						<div class="card-header bg-box">
+						<div class="card-header bg-box" style={{ textAlign: "center"}}>
 							<a href="https://sbgglobal.io/user/sbg-vip-achiever">
-								<h3 class="card-title" style={{ textAlign: "center", color: "black", padding: "10px 0px" }}>BSXG Global Pool Achiever's</h3>
+								<h3 class="card-title" style={{  color: "black", padding: "10px 0px" }}>BSXG Global Pool Achiever's</h3>
 							</a>
 						</div>
 						<div class="card-body p-0" style={{ textAlign: "center" }}>
@@ -822,9 +822,9 @@ const Home = () => {
 								</div>
 							</div>
 						</div>
-						<div class="card-header bg-box" style={{ marginTop: "-16px" }}>
+						<div class="card-header bg-box" style={{ marginTop: "-16px",textAlign: "center" }}>
 							<a href="https://sbgglobal.io/user/sbg-vip-achiever">
-								<h3 class="card-title" style={{ textAlign: "center", color: "black", marginTop: "5px" }}>More</h3>
+								<h3 class="card-title" style={{ color: "black", marginTop: "5px" }}>More</h3>
 							</a>
 						</div>
 					</div>

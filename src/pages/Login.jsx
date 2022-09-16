@@ -25,8 +25,8 @@ export default function Login(props) {
         <div className="row">
           <div className="col-lg-12">
             <h1>{t("login")}</h1>
-            <div className="login_area_block col-6">
-              <ul className="nav nav-tabs" id="myTab" role="tablist">
+            <div className="login_area_block col-6" style={{padding:"25px 10px",background:"rgb(27 67 72)",borderRadius:"5px"}}>
+              <ul className="nav nav-tabs" id="myTab" role="tablist" style={{margin:"0px 30px"}}>
                 <li className="nav-item" role="presentation">
                   <button
                     className="nav-link active"
@@ -37,8 +37,10 @@ export default function Login(props) {
                     role="tab"
                     aria-controls="home"
                     aria-selected="true"
+                    style={{borderRadius:"5px 0px 0px 5px",padding:"15px"}}
                   >
-                    <img src="images/msg_icon.png" alt="not found" /> Email
+                    {/* <img src="images/msg_icon.png" alt="not found" style={{margin:"auto"}} /> */}
+                     Email
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">
@@ -51,8 +53,10 @@ export default function Login(props) {
                     role="tab"
                     aria-controls="profile"
                     aria-selected="false"
+                    style={{borderRadius: "0px 5px 5px 0px",padding:"15px"}}
                   >
-                    <img src="images/phone_icon.png" alt="not found" /> Phone
+                    {/* <img src="images/phone_icon.png" alt="not found" style={{margin:"auto"}} />  */}
+                    Phone
                   </button>
                 </li>
               </ul>
@@ -70,7 +74,7 @@ export default function Login(props) {
                   <label for="exampleCheck1" classNameName="mt-2">
                     <span className="register-txt">
                       Do you have an account{" "}
-                      <Link to="/register">Register?</Link>
+                      <Link to="/register" style={{color:"white"}}>Register?</Link>
                     </span>
                     <br />
                   </label>
@@ -87,7 +91,7 @@ export default function Login(props) {
                   <label for="exampleCheck1" classNameName="mt-2">
                     <span className="register-txt">
                       Do you have an account{" "}
-                      <Link to="/register">Register?</Link>
+                      <Link to="/register"  style={{color:"white"}}>Register?</Link>
                     </span>
                     <br />
                   </label>
