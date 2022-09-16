@@ -14,7 +14,7 @@ const HomePage = () => {
 					<header class="theme-main-menu color-white">
 						<div class="container">
 							<div class="menu-wrapper clearfix">
-								<div class="logo"><Link to="/"><img src="./images/logo.png" alt="Logo" style={{height:'70px', width:'180px'}}/></Link></div>
+								<div class="logo"><Link to="/"><img src="./images/logo.png" alt="Logo" style={{height:'130px', width:'300px'}}/></Link></div>
 								
 								<ul class="right-widget celarfix">
 									<li class="login-button"><Link to="/login">Login <i class="flaticon-right-thin"></i></Link></li>
@@ -28,22 +28,22 @@ const HomePage = () => {
 							    		<div class="collapse navbar-collapse" id="navbarResponsive">
 							    		  <ul class="navbar-nav">
 							    		  	<li class="nav-item">
-							    		  	  <a class="nav-link js-scroll-trigger" href="#about">About</a>
+							    		  	  <a class="nav-link active" href="#about">About</a>
 							    		  	</li>
 							    		  	<li class="nav-item">
-							    		  	  <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+							    		  	  <a class="nav-link" href="#features">Features</a>
 							    		  	</li>
 							    		  	<li class="nav-item">
-							    		  	  <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+							    		  	  <a class="nav-link" href="#services">Services</a>
 							    		  	</li>
 							    		  	<li class="nav-item">
-							    		  	  <a class="nav-link js-scroll-trigger" href="#token">Token</a>
+							    		  	  <a class="nav-link" href="#token">Token</a>
 							    		  	</li>
 							    		  	<li class="nav-item">
-							    		  	  <a class="nav-link js-scroll-trigger" href="#roadmap">Roadmap</a>
+							    		  	  <a class="nav-link" href="#roadmap">Roadmap</a>
 							    		  	</li>
 							    		  	<li class="nav-item">
-							    		  	  <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+							    		  	  <a class="nav-link" href="#contact">Contact</a>
 							    		  	</li>
 							    		  </ul>
 							    		</div>
@@ -58,7 +58,7 @@ const HomePage = () => {
 						<img src="./images/shape/4.png" alt="" class="illustration" />
 						<div class="container">
 							<div class="main-text-wrapper">
-								<h1>Your best crypto <br />Startup agency for <br />Business.</h1>
+								<h1>WELCOME AT<br />AMAZING GLOBAL<br />BUSINESS OPPORTUNITY.</h1>
 								<p>Now it’s much easy to connect faster then ever!</p>
 								<ul class="button-group clearfix">
 									<li><Link to="/register">Sign Up</Link></li>
@@ -77,11 +77,10 @@ const HomePage = () => {
 										<h2>Let us introduce about the Crypto currency</h2>
 									</div>
 									<p class="sub-text">cryto came into being clear vision to become a global leader in the world of crypto currency market.</p>
-									<p class="text">Lorem ipsum dolor sit amet, has at lorem utinam mucius, per at elitr dicam malorum. Fugit convenire ei eam, adhuc putant eam et. Verear petentium vel an, nullam viderer eam an. Illud liber ad sed. Ea eos scripta iudicabit, dicit persius ponderum id nec.</p>
-									<p class="know-more">Want to learn more about us? <a href="#">Clieck here</a></p>
+									<p class="text">A cryptocurrency (or “crypto”) is a digital asset that can circulate without the need for a central monetary authority such as a government or bank. Instead, cryptocurrencies are created using cryptographic techniques that enable people to buy, sell or trade them securely.</p>
 								</div>
 								<div class="col-lg-6 order-lg-first">
-									<img src="images/shape/5.png" alt="" data-aos="zoom-out" />
+									<img src="images/shape/5.png" alt="" style={{opacity:1}} data-aos="zoom-out" />
 								</div>
 							</div>
 						</div> 
@@ -98,7 +97,7 @@ const HomePage = () => {
 					<div class="line-shape-six shape"></div>
 					<div class="container">
 						<div class="theme-title text-center">
-							<h2>We’re Nearly Ready <br />to launch</h2>
+							<h2>Benefits for Crypto</h2>
 						</div>
 						
 
@@ -264,8 +263,8 @@ const HomePage = () => {
 								<div class="row">
 									<div class="col-lg-4 col-sm-6 footer-logo">
 										<div class="logo"><Link to="/"><img src="./images/logo.png" alt="Logo" /></Link></div>
-										<a href="#" class="email">crytoco@company.com</a>
-										<a href="#" class="mobile">648-xxx-xxxx</a>
+										<a href="#" class="email">info@bsxg.io</a>
+										{/* <a href="#" class="mobile">648-xxx-xxxx</a> */}
 									</div>
 									<div class="col-lg-4 col-sm-6 footer-list">
 										<h4 class="title">Quick Links</h4>
@@ -288,9 +287,13 @@ const HomePage = () => {
 							<div class="bottom-footer clearfix">
 								<p class="copyright">&copy; 2022 <Link to="/">BSXG</Link> All Right Reserved</p>
 								<ul>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.facebook.com/bsxglobal/?ti=as" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="https://twitter.com/BSXGLOBAL?t=aEqnfjS16TiWLdmT_WXRQQ&s=35" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="https://instagram.com/bsxg_global?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								</ul>
+								<ul>
+									<li><a href="https://t.me/bsxg_global" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+									<li><a href="https://youtube.com/channel/UCf1d06Ap6IeazAVSE5fr6lg" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 								</ul>
 							</div> 
 						</div>
