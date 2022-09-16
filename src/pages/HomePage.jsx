@@ -287,9 +287,13 @@ const HomePage = () => {
 							<div class="bottom-footer clearfix">
 								<p class="copyright">&copy; 2022 <Link to="/">BSXG</Link> All Right Reserved</p>
 								<ul>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.facebook.com/bsxglobal/?ti=as" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="https://twitter.com/BSXGLOBAL?t=aEqnfjS16TiWLdmT_WXRQQ&s=35" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="https://instagram.com/bsxg_global?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								</ul>
+								<ul>
+									<li><a href="https://t.me/bsxg_global" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+									<li><a href="https://youtube.com/channel/UCf1d06Ap6IeazAVSE5fr6lg" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 								</ul>
 							</div> 
 						</div>
