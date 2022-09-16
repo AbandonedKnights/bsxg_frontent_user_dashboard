@@ -129,13 +129,13 @@ const Home = () => {
 					</div>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="https://sbgglobal.io/sbg-assets-dashboard/img/slider/dashboard-slider/dubai-expo-bnn.jpg" class="d-block w-100" alt="..." />
+							<img src="/Images/banner/banner1.jpg" class="d-block w-100" alt="..." />
 						</div>
 						<div class="carousel-item">
-							<img src="https://sbgglobal.io/sbg-assets-dashboard/img/slider/dashboard-slider/pop2.jpg" class="d-block w-100" alt="..." />
+							<img src="/Images/banner/banner2.jpg" class="d-block w-100" alt="..." />
 						</div>
 						<div class="carousel-item">
-							<img src="https://sbgglobal.io/sbg-assets-dashboard/img/slider/dashboard-slider/slider-one.jpg" class="d-block w-100" alt="..." />
+							<img src="/Images/banner/banner_3.jpg" class="d-block w-100" alt="..." />
 						</div>
 						{/* <div class="carousel-item">
 							<img src="https://sbgglobal.io/sbg-assets-dashboard/img/slider/dashboard-slider/zax_listed.jpg" class="d-block w-100" alt="..." />
@@ -184,7 +184,8 @@ const Home = () => {
 			<section class="process__area pt-0 pb-0 col-lg-10">
 				<div class="container" style={{ textAlign: "end" }}>
 					<div class=" menu-center">
-						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-1 col-sm-6 icon-alignment">
+						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-1 col-sm-6 icon-alignment" style={{justifyContent: "center",
+                           display: "flex"}}>
 							<button class="show-modal btn-toggle-modal"
 								type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
 								style={{ margin: "0px !important", background: "none" }} id="invite_modal">
@@ -247,7 +248,7 @@ const Home = () => {
 							</a>
 						</div>
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
-							<a href="https://sbgglobal.io/user/my-tree">
+							<a href="/tree">
 								<div class="process__item mb-10">
 									<div class="process__icon mb-2 item_text">
 										<img src="https://sbgglobal.io/sbg-assets-dashboard/img/dash-icons/treeview-new.png" alt="" class="icon-size" />
@@ -259,9 +260,9 @@ const Home = () => {
 							</a>
 						</div>
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
-							<a href="https://sbgglobal.io/user/transfer-wallet">
+							<a href="/wallet_transfer">
 								<div class="process__item mb-10">
-									<div class="process__icon mb-2 item_text">
+									<div class="process__icon mb-2 item_text" style={{justifyContent:"center",display:"flex"}}>
 										<img src="https://sbgglobal.io/sbg-assets-dashboard/img/dash-icons/wallettransfer-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">

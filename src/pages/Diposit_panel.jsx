@@ -12,7 +12,7 @@ export default function Diposit_panel() {
                <div class="process__item active">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/deposit-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/deposit-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -24,7 +24,7 @@ export default function Diposit_panel() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/deposit-report.png" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/deposit-report.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -96,12 +96,18 @@ export default function Diposit_panel() {
                   <div class="row">
                      <div style={{background:"#eeecec",paddingTop: "4%"}}>
                         <center>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/trx-coin.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/usdt-coin.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/bnb-coin.png"/><br/>
-                           <h3 style={{color:"black"}}>Crypto Wallet Deposit</h3>
+                        <span style={{display: "flex",
+                            justifyContent: "center"}}>
+                           <img src="/Images/coins/trx-coin.png"/>
+                           <img src="/Images/coins/usdt-coin.png"/>
+                           <img src="/Images/coins/bnb-coin.png"/><br/>
+                           </span>
+                           <h3 style={{color:"black"}}>BSXG Wallet Deposit</h3>
+                          
                            <br/>
+                           
                         </center>
+                        
                         <div class="container" id="cset">
                            <form method="POST" action="https://sbgglobal.io/user/add-money-wallet" accept-charset="UTF-8"/><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn"/>
                            <div class="row" style={{paddingTop: "5%"}}>
@@ -129,7 +135,7 @@ export default function Diposit_panel() {
                                                 <label class="col-md-3 control-label" for="selectbasic" style={{color: "white"}}>Select Coin</label>
                                                 <div class="col-md-12">
                                                    <select class="form-control" name="coin_name">
-                                                      <option disabled="" selected="">Select Crypto Coin</option>
+                                                      <option disabled="" selected="">Select BSXG Coin</option>
                                                       <option value="BNB">BNB</option>
                                                       <option value="TRX">TRON</option>
                                                       <option value="USDT.TRC20">USDT</option>
@@ -157,7 +163,7 @@ export default function Diposit_panel() {
                                        <div class="frame">
                                           <center>
                                              <div class="image">
-                                                <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/deposit-bottom.png" style={{width: "25%"}}/><br/>
+                                                <img src="/Images/buy_sell_icon/deposit-bottom.png" style={{width: "25%"}}/><br/>
                                                 <span>
                                                 <button type="button" onclick="submitForm()" class="custom-btn btn-12" id="deposit_btn"
                                                 style={{margin:"20px"}}>Add coin
@@ -174,27 +180,28 @@ export default function Diposit_panel() {
                         <br/>
                         <center>
                        
-                           <h1 style={{color:"black"}}>Upcoming Crypto Wallet</h1>
+                           <h1 style={{color:"black"}}>Upcoming BSXG Wallet</h1>
                            
                         </center>
                         <br/>
-                        <center>
-                           {/* <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/bgvt_c.png" style={{height: "63px", width: "63px"}}/> */}
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/mmit_c.png" style={{height: "63px", width: "63px"}}/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/zax_c.png" style={{height: "63px", width: "63px"}}/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/btc-coin.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/eth-coin.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/ltc-coin.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/cx1.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/cx2.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/cx3.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/cx4.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/cx5.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/cx6.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/cx7.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/cx8.png"/>
-                           <img src="https://sbgglobal.io/sbg-assets-dashboard/img/coin-icons/cx9.png"/>
-                        </center>
+                        <center style={{display: "flex",
+                       justifyContent: "center"}}>
+                      <img src="/Images/coins/mmit_c.png" style={{ height: "63px", width: "63px" }} />
+                      <img src="/Images/coins/bnb-coin.png" style={{ height: "63px", width: "63px" }} />
+                      <img src="/Images/coins/btc-coin.png" style={{ height: "63px", width: "63px" }} />
+                      <img src="/Images/coins/cx1.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/Images/coins/cx2.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/Images/coins/cx3.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/Images/coins/cx4.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/Images/coins/cx5.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/Images/coins/cx6.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/Images/coins/cx7.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/Images/coins/cx8.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/Images/coins/cx9.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/Images/coins/eth-coin.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/Images/coins/ltc-coin.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/Images/coins/zax_c.png"style={{ height: "63px", width: "63px" }}  />
+                    </center>
                         <br/><br/>
                      </div>
                   </div>

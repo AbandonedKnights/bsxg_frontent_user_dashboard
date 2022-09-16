@@ -28,6 +28,8 @@ import Withdrawal_panel from "./pages/Withdrawal_panel";
 import Home from "./pages/Home";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import Tree from "./pages/Tree";
+import Wallet_transfer from "./pages/Wallet_transfer";
 const Router = ({ props }) => {
   const dispatch = useDispatch();
   const { isLoggedIn } = useSelector((state) => state?.user?.value);
@@ -87,8 +89,11 @@ const Router = ({ props }) => {
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/activation" element={<Activation />} />
         <Route exact path="/restake" element={<Restake />} />
-        <Route exact path="/diposit_panel" element={<Diposit_panel />} />
+        <Route exact path="/diposit_panel" element={<Diposit_panel/>} />
         <Route exact path="/withdrawal_panel" element={<Withdrawal_panel/>} />
+        <Route exact path="/tree" element={<Tree/>} />
+        <Route exact path="/wallet_transfer" element={<Wallet_transfer/>} />
+
 
 
         <Route exact path="/Security_Settings" element={<Account/>}/>

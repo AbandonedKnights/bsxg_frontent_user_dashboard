@@ -12,7 +12,7 @@ export default function Activation() {
                <div class="process__item active">
                   <a href="/activation">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/activation-panel-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/activation-panel-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -22,9 +22,9 @@ export default function Activation() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content !important"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/activation-reports">
+                  <a href="/activation">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/activation-report-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/activation-report-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -36,7 +36,7 @@ export default function Activation() {
                <div class="process__item">
                   <a href="/restake">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/restake-panel-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/restake-panel-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -46,9 +46,9 @@ export default function Activation() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content !important"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/topup-panel-report">
+                  <a href="/restake">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/restake-report-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/restake-report-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -58,9 +58,9 @@ export default function Activation() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content !important"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/stake-plans">
+                  <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/stake-profit-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/stake-profit-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -70,9 +70,9 @@ export default function Activation() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content !important"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/transfer-wallet">
+                  <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/wallet-transfer-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/wallet-transfer-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -84,13 +84,13 @@ export default function Activation() {
          </div>
       </div>
       
-      <center>
+      {/* <center>
          <div class="row d-lg-none d-sm-none" style={{marginLeft: "5px"}}>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content !important"}}>
                <div class="process__item active">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/activation-panel-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/activation-panel-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -162,7 +162,7 @@ export default function Activation() {
            
             
          </div>
-      </center>
+      </center> */}
       <hr style={{color: "#282727 !important"}}/>
       
                 <div class="alert blinking" style={{textAlign: "center",fontSize: "20px",fontWeight: "600"}}>
@@ -204,7 +204,7 @@ export default function Activation() {
                                                 <h4>Refer Code</h4>
                                                 <div class="profile__input">
                                                    <input onkeyup="getReferDetail('refer_code')" type="text" class="form-control" value="BSXG" name="refer_code" style={{backgroundColor: "white"}}/>
-                                                   <i class="fa fa-user" aria-hidden="true"></i>
+                                                   {/* <i class="fa fa-user" aria-hidden="true"></i> */}
                                                    <small class="text-danger refer_code"></small>
                                                 </div>
                                              </div>
@@ -214,7 +214,7 @@ export default function Activation() {
                                                 <h4>Refer Name</h4>
                                                 <div class="profile__input">
                                                    <input type="text" name="receiver_name" class="form-control" id="receiver_name" disabled=""/>
-                                                   <i class="fa-light fa-users"></i>
+                                                   {/* <i class="fa-light fa-users"></i> */}
                                                    <small class="text-warning id-status" style={{display: "none"}}>ID Status: <span class="font-weight-bold" id="activation_status"></span></small>
                                                 </div>
                                              </div>
@@ -224,7 +224,7 @@ export default function Activation() {
                                                 <h4>Plan Name</h4>
                                                 <div class="profile__input">
                                                    <input type="text" name="plan_name" class="form-control" id="plan_name" disabled=""/>
-                                                   <i class="fa-light fa-globe"></i>
+                                                   {/* <i class="fa-light fa-globe"></i> */}
                                                 </div>
                                              </div>
                                           </div>
@@ -233,7 +233,7 @@ export default function Activation() {
                                                 <h4>Reward Wallet</h4>
                                                 <div class="profile__input">
                                                    <input type="text" class="form-control" name="available_balances" id="available_balances" value="" disabled=""/>
-                                                   <i class="fa-light fa-database"></i>
+                                                   {/* <i class="fa-light fa-database"></i> */}
                                                    <small class="text-danger available_balances"></small>
                                                 </div>
                                              </div>
@@ -243,7 +243,7 @@ export default function Activation() {
                                                     <h4>Activation Wallet</h4>
                                                     <div class="profile__input">
                                                        <input type="text" class="form-control" name="available_income_balances" id="available_income_balances" value="" disabled=""/>
-                                                       <i class="fa-light fa-database"></i>
+                                                       {/* <i class="fa-light fa-database"></i> */}
                                                        <small class="text-danger available_income_balances"></small>
                                                     </div>
                                                  </div>

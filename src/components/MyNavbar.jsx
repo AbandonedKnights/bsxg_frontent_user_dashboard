@@ -40,15 +40,17 @@ export default function MyNavbar(props) {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark app-bg-dark">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg navbar-dark app-bg-dark"
+    style={{padding: "0px !important"}}>
+      <div className="container-fluid" style={{marginLeft: "60px",
+    padding: "0px"}}>
         {/* <a className="navbar-brand" href="/">
           Navbar
         </a> */}
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/home">
           <img
             src="/images/logo.png"
-            style={{ height: "30px" }}
+            style={{ height: "70px" }}
             alt=" img not found"
           />
         </Link>
