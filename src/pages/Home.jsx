@@ -190,7 +190,7 @@ const Home = () => {
 								type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
 								style={{ margin: "0px !important", background: "none" }} id="invite_modal">
 								<div class="process__item mb-10">
-									<div class="process__icon mb-2">
+									<div class="process__icon mb-2" style={{justifyContent:"center",display:"flex"}}>
 										<img src="/Images/buy_sell_icon/Invite-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">
@@ -202,7 +202,7 @@ const Home = () => {
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
 							<a href="/activation">
 								<div class="process__item mb-10">
-									<div class="process__icon mb-2 item_text">
+									<div class="process__icon mb-2 item_text"  style={{justifyContent:"center",display:"flex"}}>
 										<img src="/Images/buy_sell_icon/activation-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">
@@ -214,7 +214,7 @@ const Home = () => {
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
 							<a href="/restake">
 								<div class="process__item mb-10">
-									<div class="process__icon mb-2 item_text">
+									<div class="process__icon mb-2 item_text" style={{justifyContent:"center",display:"flex"}}>
 										<img src="/Images/buy_sell_icon/restake-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">
@@ -226,7 +226,7 @@ const Home = () => {
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
 							<a href="/diposit_panel">
 								<div class="process__item mb-10 item_text">
-									<div class="process__icon mb-2">
+									<div class="process__icon mb-2" style={{justifyContent:"center",display:"flex"}}>
 										<img src="/Images/buy_sell_icon/deposit-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">
@@ -238,7 +238,7 @@ const Home = () => {
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
 							<a href="/withdrawal_panel">
 								<div class="process__item mb-10 item_text">
-									<div class="process__icon mb-2">
+									<div class="process__icon mb-2" style={{justifyContent:"center",display:"flex"}}>
 										<img src="/Images/buy_sell_icon/withdrawal-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">
@@ -250,7 +250,7 @@ const Home = () => {
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
 							<a href="/tree">
 								<div class="process__item mb-10">
-									<div class="process__icon mb-2 item_text">
+									<div class="process__icon mb-2 item_text" style={{justifyContent:"center",display:"flex"}}>
 										<img src="/Images/buy_sell_icon/treeview-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">

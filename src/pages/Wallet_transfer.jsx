@@ -283,7 +283,7 @@ export default function Wallet_transfer() {
                                        <div class="profile__btn submit-btn" 
                                         style={{    justifyContent: "center",
                                          display:" flex",
-                                         margin: "15px"}}
+                                         margin: "40px 0px"}}
                                        >
                                           <button type="button" onclick="sendOtpWalletTransfer()" class="tp-btn-3 wall_btn">Send OTP</button>
                                        </div>

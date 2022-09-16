@@ -51,7 +51,9 @@ export default function Academy() {
                                  </div>
                               </div>
                               <div class="auction__sm-btn">
-                                 <a href="https://blog.sbgglobal.io/what-is-binance-coin-bnb/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px "}}>Read more</button></a>
+                                 <a href="https://blog.sbgglobal.io/what-is-binance-coin-bnb/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px ",padding: "5px 10px",
+                                borderRadius: "20px",
+                                 border:" 2px solid #401966"}}>Read more</button></a>
                               </div>
                            </div>
                         </div>
@@ -81,7 +83,9 @@ export default function Academy() {
                                  </div>
                               </div>
                               <div class="auction__sm-btn">
-                                 <a href="https://blog.sbgglobal.io/advanced-resources-into-the-endeavor-with-blockchain/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px "}}>Read more</button></a>
+                                 <a href="https://blog.sbgglobal.io/advanced-resources-into-the-endeavor-with-blockchain/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px",padding: "5px 10px",
+                                borderRadius: "20px",
+                                 border:" 2px solid #401966"}}>Read more</button></a>
                               </div>
                            </div>
                         </div>
@@ -111,7 +115,9 @@ export default function Academy() {
                                  </div>
                               </div>
                               <div class="auction__sm-btn">
-                                 <a href="https://blog.sbgglobal.io/what-is-convertible-virtual-currency/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px "}}>Read more</button></a>
+                                 <a href="https://blog.sbgglobal.io/what-is-convertible-virtual-currency/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px ",padding: "5px 10px",
+                                borderRadius: "20px",
+                                 border:" 2px solid #401966"}}>Read more</button></a>
                               </div>
                            </div>
                         </div>
@@ -144,7 +150,9 @@ export default function Academy() {
                                  </div>
                               </div>
                               <div class="auction__sm-btn">
-                                 <a href="https://blog.sbgglobal.io/link-between-blockchain-and-cryptocurrency/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px "}}>Read more</button></a>
+                                 <a href="https://blog.sbgglobal.io/link-between-blockchain-and-cryptocurrency/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px ",padding: "5px 10px",
+                                borderRadius: "20px",
+                                 border:" 2px solid #401966"}}>Read more</button></a>
                               </div>
                            </div>
                         </div>
@@ -174,7 +182,9 @@ export default function Academy() {
                                  </div>
                               </div>
                               <div class="auction__sm-btn">
-                                 <a href="https://blog.sbgglobal.io/know-about-crypto-charges-tax/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px "}}>Read more</button></a>
+                                 <a href="https://blog.sbgglobal.io/know-about-crypto-charges-tax/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px ",padding: "5px 10px",
+                                borderRadius: "20px",
+                                 border:" 2px solid #401966"}}>Read more</button></a>
                               </div>
                            </div>
                         </div>
@@ -204,7 +214,9 @@ export default function Academy() {
                                  </div>
                               </div>
                               <div class="auction__sm-btn">
-                                 <a href="https://blog.sbgglobal.io/crypto-trading-strategies/"><button type="button" class="tp-btn-gradient"  style={{margin:"10px 0px "}}>Read more</button></a>
+                                 <a href="https://blog.sbgglobal.io/crypto-trading-strategies/"><button type="button" class="tp-btn-gradient"  style={{margin:"10px 0px ",padding: "5px 10px",
+                                borderRadius: "20px",
+                                 border:" 2px solid #401966"}}>Read more</button></a>
                               </div>
                            </div>
                         </div>

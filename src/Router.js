@@ -32,6 +32,7 @@ import Tree from "./pages/Tree";
 import Wallet_transfer from "./pages/Wallet_transfer";
 import Market from "./pages/Market";
 import Academy from "./pages/Academy";
+import Assets from "./pages/Assets";
 const Router = ({ props }) => {
   const dispatch = useDispatch();
   const { isLoggedIn } = useSelector((state) => state?.user?.value);
@@ -99,6 +100,8 @@ const Router = ({ props }) => {
         <Route exact path="/wallet_transfer" element={<Wallet_transfer/>} />
         <Route exact path="/market" element={<Market/>} />
         <Route exact path="/academy" element={<Academy/>} />
+        <Route exact path="/assets" element={<Assets/>} />
+
 
 
 

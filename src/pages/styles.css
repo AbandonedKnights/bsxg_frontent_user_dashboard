@@ -1707,4 +1707,9 @@ h1 {
     border-radius: 6px;
     border: 2px solid #3771fe;
 }
-/* read More Button */
+
+.tp-btn-gradient:hover{
+   background-color: #4c1a87;
+   color:white;
+
+}

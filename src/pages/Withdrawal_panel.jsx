@@ -36,9 +36,7 @@ export default function Withdrawal_panel() {
               </div>
             </div>
           </div>
-        </div>
-
-        <center>
+          <center>
           <div class="row d-lg-none d-sm-none" style={{ marginLeft: "5px" }}>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{ width: "max-content !important" }}>
               <div class="process__item active">
@@ -74,7 +72,7 @@ export default function Withdrawal_panel() {
             <div class="tab-content nft__tab" id="nfvtabcontent">
               <div class="tab-pane fade show active" id="nav-trending" role="tabpanel" aria-labelledby="nav-trending-tab">
                 <div class="row">
-                  <div style={{ background: "#eeecec", paddingTop: "4%" }}>
+                  <div style={{  paddingTop: "4%" }}>
                     <center>
                     <span style={{display: "flex",
                        justifyContent: "center"}}>
@@ -113,7 +111,7 @@ export default function Withdrawal_panel() {
                           <div class="col-md-1" style={{ width: "6.0%" }}></div>
                           <div class="col-md-5 benificary-form">
                             <form method="POST" action="https://sbgglobal.io/user/crypto-transfer/add-beneficiary" accept-charset="UTF-8" id="benificary-form"><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />
-                              <div class="form-group" style={{background:"#0c1939",
+                              <div class="form-group" style={{background:"rgb(21 58 68)",
                                  padding: "10px",
                                  borderRadius: "5px"}}>
                                 <label class="col-md-12 control-label" for="selectbasic" style={{ color: "white" }}>Add New BSXG Wallet Address</label>
@@ -127,7 +125,7 @@ export default function Withdrawal_panel() {
                                 </div>
                               </div>
                               <br />
-                              <div class="form-group" style={{background:"#0c1939",
+                              <div class="form-group" style={{background:"rgb(21 58 68)",
                                  padding: "10px",
                                  borderRadius: "5px"}}>
                                 <label class="col-md-12 control-label" for="selectbasic" style={{ color: "white" }}>Receiver's Wallet Address</label>
@@ -137,7 +135,7 @@ export default function Withdrawal_panel() {
                                 </div>
                               </div>
                               <br />
-                              <div class="form-group" style={{background:"#0c1939",
+                              <div class="form-group" style={{background:"rgb(21 58 68)",
                                  padding: "10px",
                                  borderRadius: "5px"}}>
                                 <label class="col-md-6 control-label" for="selectbasic" style={{ color: "white" }}>Select OTP Mode</label>
@@ -209,7 +207,7 @@ export default function Withdrawal_panel() {
                           </div>
                           <div class="col-md-5 crypto-form">
                             <form method="POST" action="https://sbgglobal.io/user/crypto-transfer/transfer-crypto" accept-charset="UTF-8" id="transfer-form" ><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />
-                            <div class="form-group"style={{background:"#0c1939",
+                            <div class="form-group"style={{background:"rgb(21 58 68)",
                                  padding: "10px",
                                  borderRadius: "5px"}}>
                               <label class="col-md-12 control-label" for="selectbasic" style={{ color: "white" }}>Choose BSXG Wallet Address</label>
@@ -222,7 +220,7 @@ export default function Withdrawal_panel() {
                               </div>
                             </div>
                             <br />
-                            <div class="form-group"style={{background:"#0c1939",
+                            <div class="form-group"style={{background:"rgb(21 58 68)",
                                  padding: "10px",
                                  borderRadius: "5px"}}>
                               <label class="col-md-12 control-label" for="selectbasic" style={{ color: "white" }}>Available Balance: SBG 0</label>
@@ -232,7 +230,7 @@ export default function Withdrawal_panel() {
                               </div>
                             </div>
                             <br />
-                            <div class="form-group" style={{background:"#0c1939",
+                            <div class="form-group" style={{background:"rgb(21 58 68)",
                                  padding: "10px",
                                  borderRadius: "5px"}}>
                               <label class="col-md-6 control-label" for="selectbasic" style={{ color: "white" }}>Select OTP Mode</label>
@@ -434,6 +432,9 @@ export default function Withdrawal_panel() {
 
 
         </div>
+        </div>
+
+       
       </section>
     </>
   )
