@@ -626,7 +626,7 @@ const Home = () => {
 				</div>
 			</section>
 
-			<section class="section-spacing inverse-bg" id="features">
+			{/* <section class="section-spacing inverse-bg" id="features">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -678,14 +678,14 @@ const Home = () => {
 
 
 				</div>
-			</section>
+			</section> */}
 			<section style={{
 				justifyContent: "center",
 				display: "flex",
 				margin: "30px 0px",
 			}}>
 
-				<button type="button" class="btn btn-info mmit-join">BSXG MMIT Traders Group<br />Join Telegram</button>
+				<button type="button" class="btn btn-info mmit-join">BSXG  Group<br />Join Telegram</button>
 			</section>
 
 
