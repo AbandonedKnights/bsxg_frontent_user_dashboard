@@ -21,18 +21,18 @@ const HomePage = () => {
                         <li class="menu-item"><a href="#howitworks" class="nav-link">How It Works</a></li>
                         <li class="menu-item"><a href="#tokensale" class="nav-link">Token Sale</a></li>
                         <li class="menu-item"><a href="#bounty" class="nav-link">Bounty</a></li>
-                        <li class="menu-item"><a href="#roadmap" class="nav-link">Roadmap</a></li>
+                        {/* <li class="menu-item"><a href="#roadmap" class="nav-link">Roadmap</a></li> */}
                         <li class="menu-item"><a href="#team" class="nav-link">Team</a></li>
-                        <li class="menu-item"><a href="#faq" class="nav-link">Faq</a></li>
+                        {/* <li class="menu-item"><a href="#faq" class="nav-link">Faq</a></li> */}
                     </ul>
-                    <div class="tm-language">
+                    {/* <div class="tm-language">
                     	<div class="tm-active-language">EN</div>
                     	<div class="tm-lenguage-dropdown">
                     		<a href="#">FR</a>
                     		<a href="#">CH</a>
                     		<a href="#">HI</a>
                     	</div>
-                    </div>
+                    </div> */}
                     <div class="tm-menu-meta">
 						<Link to="login" class="tm-btn tm-style1 tm-with-border">LOGIN</Link>
 						<Link to="register" class="tm-btn tm-style1 tm-with-border">SIGNUP</Link>
