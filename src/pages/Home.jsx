@@ -1,6 +1,5 @@
 import React,{useEffect,useState } from 'react'
 import MyNavbar from '../components/MyNavbar'
-import './styles.css'
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Invite from './Invite';
