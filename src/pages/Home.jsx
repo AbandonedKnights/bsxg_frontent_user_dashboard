@@ -3,14 +3,12 @@ import MyNavbar from '../components/MyNavbar'
 import './styles.css'
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import {api_test} from "../utils/api";
+import Invite from './Invite';
 
 const Home = () => {
 	const { isLoggedIn } = useSelector((state) => state?.user?.value);
 	const { userInfo } = useSelector((state) => state?.user?.value);
 	const user_id = userInfo.user_id;
-	const [reffaralid, setRffaralId] = useState("");
-	const [name, setName] = useState("");
 	const navigate = useNavigate();
 	useEffect(() => {
 	  if (!isLoggedIn) {
@@ -18,25 +16,6 @@ const Home = () => {
 		navigate("../", { replace: true });
 	  }
 	}, [isLoggedIn]);
-
-	
-	useEffect(()=>{
-		api_test
-		.post("getRefferalInfo", {
-			user_id:user_id
-		})
-		.then((res) => {
-		  let data =res.data; 
-		  if(data.status == 200){
-			setRffaralId(data.profile_data.user)
-			setName(data.profile_data.name)
-		  }
-		  
-		})
-		.catch((error) => {
-		  console.log("user", error);
-		})
-	  }, [])
 
 	return (
 		<div>
@@ -208,21 +187,7 @@ const Home = () => {
 			<section class="process__area pt-0 pb-0 col-lg-10">
 				<div class="container" style={{ textAlign: "end" }}>
 					<div class=" menu-center">
-						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-1 col-sm-6 icon-alignment" style={{justifyContent: "center",
-                           display: "flex"}}>
-							<button class="show-modal btn-toggle-modal"
-								type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-								style={{ margin: "0px !important", background: "none" }} id="invite_modal">
-								<div class="process__item mb-10">
-									<div class="process__icon mb-2" style={{justifyContent:"center",display:"flex"}}>
-										<img src="/Images/buy_sell_icon/Invite-new.png" alt="" class="icon-size" />
-									</div>
-									<div class="process__content">
-										<p class="icon-name">Invite</p>
-									</div>
-								</div>
-							</button>
-						</div>
+						<Invite />
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
 							<a href="/activation">
 								<div class="process__item mb-10">
@@ -1468,39 +1433,6 @@ const Home = () => {
 			{/* <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
 				Launch demo modal
 			</button> */}
-
-
-
-			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h3 class="modal-title" id="exampleModalLabel" style={{ color: "black", textAlign: "center" }}>Get up to 2000% Rewards</h3>
-							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-						</div>
-						<div class="modal-body" style={{background:"#d5cece"}}>
-							<div style={{
-								justifyContent: "center",
-								display: " flex",
-								margin: "10px"
-							}}>
-								<div style={{ height: "100px", width: "200px", border: "1px solid gray",borderRadius:"5px",background:"white",textAlign:"center" }}>
-                                      <p>{reffaralid}</p>
-									  <h5>{name}</h5>
-								</div>
-
-							</div>
-                          <div style={{justifyContent:"center",display:"flex"}}>
-							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style={{marginRight:"10px"}}>Copy Link</button>
-							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Signup</button>
-						</div>
-						</div>
-						{/* <div class="modal-footer">
-							Share
-						</div> */}
-					</div>
-				</div>
-			</div>
 
 
 
