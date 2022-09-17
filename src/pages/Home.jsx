@@ -294,17 +294,17 @@ const Home = () => {
                      <div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
                         <div class="activity__item-inner d-flex align-items-center">
                            <div class="activity__thumb mr-20">
-                              <a href="https://sbgglobal.io/user/bonanza-transfer">
+                              <a href="#">
                               <img src="https://sbgglobal.io/sbg-assets-dashboard/img/activity/baby-doge.png" alt=""/>
                               </a>
                            </div>
                            <div class="activity__content">
                               <h3 class="activity__title">
-                                 <a href="https://sbgglobal.io/user/bonanza-transfer">Baby Doge</a>
+                                 <a href="#">Baby Doge</a>
                               </h3>
                               <p><span id="baby_doge_amount" style="color:#3771fe;">0 </span> <i class="fa fa-eye eye-color baby_doge_eye" aria-hidden="true"></i> </p>
                            </div>
-                           <a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{fontSize: "150%",marginLeft: "20px"}}></i></a>
+                           <a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{fontSize: "150%",marginLeft: "20px"}}></i></a>
                         </div>
                      </div>
                   </div>
@@ -312,17 +312,17 @@ const Home = () => {
                      <div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
                         <div class="activity__item-inner d-flex align-items-center">
                            <div class="activity__thumb mr-20">
-                              <a href="https://sbgglobal.io/user/bonanza-transfer">
+                              <a href="#">
                               <img src="https://sbgglobal.io/sbg-assets-dashboard/img/activity/shiba-inu.png" alt=""/>
                               </a>
                            </div>
                            <div class="activity__content">
                               <h3 class="activity__title">
-                                 <a href="https://sbgglobal.io/user/bonanza-transfer">Shiba Inu</a>
+                                 <a href="#">Shiba Inu</a>
                               </h3>
                               <p><span id="shiba_amount" style="color:#3771fe;">0 </span> <i class="fa fa-eye eye-color shiba_eye" aria-hidden="true"></i> </p>
                            </div>
-                           <a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style="font-size: 150%;margin-left: 20px;"></i></a>
+                           <a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style="font-size: 150%;margin-left: 20px;"></i></a>
                         </div>
                      </div>
                   </div>
@@ -365,18 +365,18 @@ const Home = () => {
 					<div class="activity__item d-md-flex align-items-center justify-content-between mb-8 bg-box">
 						<div class="activity__item-inner d-flex align-items-center">
 							<div class="activity__thumb mr-20">
-								<a href="https://sbgglobal.io/user/bonanza-transfer">
+								<a href="#">
 									<img src="https://sbgglobal.io/sbg-assets-dashboard/img/activity/baby-doge.png" alt="" />
 								</a>
 							</div>
 							<div class="activity__content">
 								<h3 class="activity__title">
-									<a href="https://sbgglobal.io/user/bonanza-transfer">Baby Doge</a>
+									<a href="#">Baby Doge</a>
 								</h3>
 								<p><span id="baby_doge_amount"
 									style={{ color: "#3771fe" }}>0 </span> <i class="fa fa-eye eye-color baby_doge_eye" aria-hidden="true"></i> </p>
 							</div>
-							<a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
+							<a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
 						</div>
 					</div>
 				</div> */}
@@ -385,17 +385,17 @@ const Home = () => {
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
-									<a href="https://sbgglobal.io/user/bonanza-transfer">
+									<a href="#">
 										<img src="/Images/coins/baby-doge.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
 									<h3 class="activity__title">
-										<a href="https://sbgglobal.io/user/bonanza-transfer">Baby Doge</a>
+										<a href="#">Baby Doge</a>
 									</h3>
 									<p><span id="baby_doge_amount" style={{ color: "white" }}>0 </span> <i class="fa fa-eye eye-color baby_doge_eye" aria-hidden="true"></i> </p>
 								</div>
-								<a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
+								<a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
 							</div>
 						</div>
 					</div>
@@ -404,17 +404,17 @@ const Home = () => {
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
-									<a href="https://sbgglobal.io/user/bonanza-transfer">
+									<a href="#">
 										<img src="/Images/coins/shiba-inu.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
 									<h3 class="activity__title">
-										<a href="https://sbgglobal.io/user/bonanza-transfer">Shiba Inu</a>
+										<a href="#">Shiba Inu</a>
 									</h3>
 									<p><span id="baby_doge_amount" style={{ color: "white" }}>0 </span> <i class="fa fa-eye eye-color baby_doge_eye" aria-hidden="true"></i> </p>
 								</div>
-								<a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
+								<a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
 							</div>
 						</div>
 					</div>
@@ -422,17 +422,17 @@ const Home = () => {
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
-									<a href="https://sbgglobal.io/user/bonanza-transfer">
+									<a href="#">
 										<img src="/Images/coins/upcoming-reward.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
 									<h3 class="activity__title">
-										<a href="https://sbgglobal.io/user/bonanza-transfer">Up Rewards</a>
+										<a href="#">Up Rewards</a>
 									</h3>
 									<p><span id="baby_doge_amount" style={{ color: "white" }}>0 </span> <i class="fa fa-eye eye-color baby_doge_eye" aria-hidden="true"></i> </p>
 								</div>
-								<a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
+								<a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
 							</div>
 						</div>
 					</div>
@@ -440,17 +440,17 @@ const Home = () => {
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
-									<a href="https://sbgglobal.io/user/bonanza-transfer">
+									<a href="#">
 										<img src="/Images/coins/today-earning.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
 									<h3 class="activity__title">
-										<a href="https://sbgglobal.io/user/bonanza-transfer">Today's Earning</a>
+										<a href="#">Today's Earning</a>
 									</h3>
 									<p><span id="baby_doge_amount" style={{ color: "white" }}>0 </span> <i class="fa fa-eye eye-color baby_doge_eye" aria-hidden="true"></i> </p>
 								</div>
-								<a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
+								<a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
 							</div>
 						</div>
 					</div>
@@ -458,17 +458,17 @@ const Home = () => {
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
-									<a href="https://sbgglobal.io/user/bonanza-transfer">
+									<a href="#">
 										<img src="/Images/coins/reward-2.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
 									<h3 class="activity__title">
-										<a href="https://sbgglobal.io/user/bonanza-transfer">Total Earning</a>
+										<a href="#">Total Earning</a>
 									</h3>
 									<p><span id="baby_doge_amount" style={{ color: "white" }}>0 </span> <i class="fa fa-eye eye-color baby_doge_eye" aria-hidden="true"></i> </p>
 								</div>
-								<a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
+								<a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
 							</div>
 						</div>
 					</div>
@@ -476,17 +476,17 @@ const Home = () => {
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
-									<a href="https://sbgglobal.io/user/bonanza-transfer">
+									<a href="#">
 										<img src="/Images/coins/avl-balance.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
 									<h3 class="activity__title">
-										<a href="https://sbgglobal.io/user/bonanza-transfer">Reward Balance</a>
+										<a href="#">Reward Balance</a>
 									</h3>
 									<p><span id="baby_doge_amount" style={{ color: "white" }}>0 </span> <i class="fa fa-eye eye-color baby_doge_eye" aria-hidden="true"></i> </p>
 								</div>
-								<a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
+								<a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
 							</div>
 						</div>
 					</div>
@@ -494,17 +494,17 @@ const Home = () => {
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
-									<a href="https://sbgglobal.io/user/bonanza-transfer">
+									<a href="#">
 										<img src="/Images/coins/activation-balance.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
 									<h3 class="activity__title">
-										<a href="https://sbgglobal.io/user/bonanza-transfer">Active Balance</a>
+										<a href="#">Active Balance</a>
 									</h3>
 									<p><span id="baby_doge_amount" style={{ color: "white" }}>0 </span> <i class="fa fa-eye eye-color baby_doge_eye" aria-hidden="true"></i> </p>
 								</div>
-								<a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
+								<a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
 							</div>
 						</div>
 					</div>
@@ -512,17 +512,17 @@ const Home = () => {
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
-									<a href="https://sbgglobal.io/user/bonanza-transfer">
+									<a href="#">
 										<img src="/Images/coins/hold-wallet.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
 									<h3 class="activity__title">
-										<a href="https://sbgglobal.io/user/bonanza-transfer">Hold Wallet</a>
+										<a href="#">Hold Wallet</a>
 									</h3>
 									<p><span id="baby_doge_amount" style={{ color: "white" }}>0 </span> <i class="fa fa-eye eye-color baby_doge_eye" aria-hidden="true"></i> </p>
 								</div>
-								<a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
+								<a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
 							</div>
 						</div>
 					</div>
@@ -530,17 +530,17 @@ const Home = () => {
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
-									<a href="https://sbgglobal.io/user/bonanza-transfer">
+									<a href="#">
 										<img src="/Images/coins/total-portfolios-new.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
 									<h3 class="activity__title">
-										<a href="https://sbgglobal.io/user/bonanza-transfer">Total Portfolio</a>
+										<a href="#">Total Portfolio</a>
 									</h3>
 									<p><span id="baby_doge_amount" style={{ color: "white" }}> 0 </span> <i class="fa fa-eye eye-color baby_doge_eye" aria-hidden="true"></i> </p>
 								</div>
-								<a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
+								<a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
 							</div>
 						</div>
 					</div>
@@ -548,17 +548,17 @@ const Home = () => {
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
-									<a href="https://sbgglobal.io/user/bonanza-transfer">
+									<a href="#">
 										<img src="/Images/coins/todays-portfolios-new.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
 									<h3 class="activity__title">
-										<a href="https://sbgglobal.io/user/bonanza-transfer">Today Portfolio</a>
+										<a href="#">Today Portfolio</a>
 									</h3>
 									<p><span id="baby_doge_amount" style={{ color: "white" }}>0 </span> <i class="fa fa-eye eye-color baby_doge_eye" aria-hidden="true"></i> </p>
 								</div>
-								<a href="https://sbgglobal.io/user/bonanza-transfer"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
+								<a href="#"> <i class="fa-solid fa-up-right-from-square fa-rotate-270" style={{ fontSize: "150%", marginLeft: "20px" }}></i></a>
 							</div>
 						</div>
 					</div>
@@ -693,7 +693,7 @@ const Home = () => {
 				<div class="container">
 					<div class="card dash-card">
 						<div class="card-header bg-box"style={{ textAlign: "center"}}>
-							<a href="https://sbgglobal.io/user/sbg-vip-achiever">
+							<a href="#">
 								<h3 class="card-title" style={{color: "black", padding: "10px 0px" }}>BSXG VIP Achiever's</h3>
 							</a>
 						</div>
@@ -752,7 +752,7 @@ const Home = () => {
 							</div>
 						</div>
 						<div class="card-header bg-box" style={{ marginTop: "-16px",textAlign:"center" }}>
-							<a href="https://sbgglobal.io/user/sbg-vip-achiever">
+							<a href="#">
 								<h3 class="card-title" style={{ color: "black", marginTop: "5px" }}>More</h3>
 							</a>
 						</div>
@@ -764,7 +764,7 @@ const Home = () => {
 				<div class="container">
 					<div class="card dash-card">
 						<div class="card-header bg-box" style={{ textAlign: "center"}}>
-							<a href="https://sbgglobal.io/user/sbg-vip-achiever">
+							<a href="#">
 								<h3 class="card-title" style={{  color: "black", padding: "10px 0px" }}>BSXG Global Pool Achiever's</h3>
 							</a>
 						</div>
@@ -823,7 +823,7 @@ const Home = () => {
 							</div>
 						</div>
 						<div class="card-header bg-box" style={{ marginTop: "-16px",textAlign: "center" }}>
-							<a href="https://sbgglobal.io/user/sbg-vip-achiever">
+							<a href="#">
 								<h3 class="card-title" style={{ color: "black", marginTop: "5px" }}>More</h3>
 							</a>
 						</div>

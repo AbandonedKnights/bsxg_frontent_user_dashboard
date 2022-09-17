@@ -180,7 +180,7 @@ export default function Activation() {
                       </div>
                       <div class="modal-body">
                         <video controls="" id="video1" style={{width: "100%", height: "auto", margin:"0 auto", frameborder:"0"}}>
-                          <source src="https://sbgglobal.io/sbg-assets-dashboard/videos/activate_restake.mp4" type="video/mp4"/>
+                          <source src="#" type="video/mp4"/>
                           Your browser doesn't support Video!!!.
                         </video>
                       </div>
@@ -199,7 +199,7 @@ export default function Activation() {
                                  <div class="profile__info">
                                     <h3 class="profile__info-title">Id Activation Panel</h3>
                                     <div class="profile__info-content">
-                                       <form method="POST" action="https://sbgglobal.io/user/activate-id" accept-charset="UTF-8" id="activation-form"><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn"/>
+                                       <form method="POST" action="#" accept-charset="UTF-8" id="activation-form"><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn"/>
                                        <div class="row">
                                           <div class="col-xxl-6 col-md-6">
                                              <div class="profile__input-box">

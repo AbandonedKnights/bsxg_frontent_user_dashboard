@@ -92,7 +92,7 @@ export default function Wallet_transfer() {
                <div class="process__item active">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/activation-panel-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="#" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -104,7 +104,7 @@ export default function Wallet_transfer() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/activation-report-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="#" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -116,7 +116,7 @@ export default function Wallet_transfer() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/restake-panel-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="#" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -128,7 +128,7 @@ export default function Wallet_transfer() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/restake-report-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="#" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -140,7 +140,7 @@ export default function Wallet_transfer() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/stake-profit-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="#" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -152,7 +152,7 @@ export default function Wallet_transfer() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/wallet-transfer-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="#" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -180,7 +180,7 @@ export default function Wallet_transfer() {
               </div>
               <div class="modal-body">
                 <video controls="" id="video1" style={{width:" 100%", height: "auto", margin:"0 auto", frameborder:"0"}}>
-                  <source src="https://sbgglobal.io/sbg-assets-dashboard/videos/wallet_transfer.mp4" type="video/mp4"/>
+                  <source src="#" type="video/mp4"/>
                   Your browser doesn't support Video!!!.
                 </video>
               </div>
@@ -200,7 +200,7 @@ export default function Wallet_transfer() {
                            <div class="profile__info">
                               <h3 class="profile__info-title" style={{textAlign: "center"}}>Transfer Wallet (ID to ID &amp; Self Transfer)</h3>
                               <div class="profile__info-content transfer-form">
-                                 <form method="POST" action="https://sbgglobal.io/user/transfer-wallet" accept-charset="UTF-8" id="wallet-transfer-form"/><input name="_token" type="hidden" value="XyN7x1j8njkeAoRBbbo0FpP696QVbWf9iZBSEP3M"/>
+                                 <form method="POST" action="#" accept-charset="UTF-8" id="wallet-transfer-form"/><input name="_token" type="hidden" value="XyN7x1j8njkeAoRBbbo0FpP696QVbWf9iZBSEP3M"/>
                                  <input type="hidden" name="otp" class="otp1main" value="null"/>
                                  <div class="row">
                                     <div class="col-xxl-6 col-md-6">
@@ -337,7 +337,7 @@ export default function Wallet_transfer() {
                         </button>
                     </div>
                     <div class="modal-body p-0">
-                        <img class="w-100 d-block" src="https://sbgglobal.io/sbg-assets-dashboard/img/popup/wallet-transfer-modal.jpg" style={{width: "-webkit-fill-available !important"}}/>
+                        <img class="w-100 d-block" src="#" style={{width: "-webkit-fill-available !important"}}/>
                     </div>
                   
                 </div>

@@ -306,7 +306,7 @@ export default function Assets() {
                   </div>
                   <div class="col-md-8 col-lg-8 col-xl-8 align-self-center">
                      <div class="filter-section">
-                        <form method="GET" action="https://sbgglobal.io/user/assets/all" accept-charset="UTF-8" id="assets-form">
+                        <form method="GET" action="#" accept-charset="UTF-8" id="assets-form">
                         <div class="container-fluid">
                            <div class="row" style={{marginLeft: "10px" , marginRight: "calc(-1.9 * var(--bs-gutter-x))"}}>
                               <div class="col-sm-3 col-md-3 col-lg-3 mt-5">
