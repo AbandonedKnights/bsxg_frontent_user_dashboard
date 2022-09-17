@@ -69,11 +69,43 @@ export default function EmailRegistration(props) {
     setUserOTP("");
     setUserMOTP("");
     setRffaralId("");
+    setValue("");
   }
 
+  // const registerUser = async (data) => {
+  //   data.mobile_number = value;
+  //   if (isOTPVerified && isOTPMVerified) {
+  //     setIsRegistering(true);
+  //     let registrationToast = toast.loading("Registration in progress...");
+  //     api_test
+  //       .post("/register_new_user", data)
+  //       .then((res) => {
+  //         toast.success(res?.data?.message, {
+  //           duration: 5000,
+  //           id: registrationToast,
+  //         });
+  //         resetForm();
+  //       })
+  //       .catch((error) => {
+  //         toast.error(error?.response?.data?.message ?? error.message, {
+  //           duration: 5000,
+  //           id: registrationToast,
+  //         });
+  //       })
+  //       .then(() => {
+  //         setIsRegistering(false);
+  //       });
+  //   } else {
+  //     toast.error("Please verify your email first.", {
+  //       duration: 5000,
+  //       id: "VerifyEmail & mobile First",
+  //     });
+  //   }
+  // };
+
   const registerUser = async (data) => {
-    console.log("data",data)
-    if (isOTPVerified && isOTPMVerified) {
+    data.mobile_number = value;
+    if (isOTPVerified) {
       setIsRegistering(true);
       let registrationToast = toast.loading("Registration in progress...");
       api_test
