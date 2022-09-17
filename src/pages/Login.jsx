@@ -15,7 +15,7 @@ export default function Login(props) {
   useEffect(() => {
     if (isLoggedIn) {
       console.log("cmae in loguse::");
-      navigate("../wallet", { replace: true });
+      navigate("../home", { replace: true });
     }
   }, []);
   
