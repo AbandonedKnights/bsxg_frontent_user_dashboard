@@ -8,11 +8,11 @@ const HomePage = () => {
         <div class="tm-header-menu">
             <div class="container tm-header-menu-container">
                 <div class="tm-site-branding">
-                    <a href="index.html" class="tm-logo-link">
-                        <img src="assets/img/logo.png" alt="" class="tm-logo" />
+                    <a href="#" class="tm-logo-link">
+                        <img src="/images/logo.png"  style={{ height: "70px" }} alt="" class="tm-logo" />
                     </a>
                     <span class="tm-site-title">
-                    	<a href="#">Ocher</a>
+                    	<a href="#">BSXG Global</a>
                     </span>
                 </div>
                 <nav class="tm-primary-nav tm-section-active">
