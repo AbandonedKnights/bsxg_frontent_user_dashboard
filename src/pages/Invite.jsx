@@ -32,7 +32,7 @@ const Invite = () => {
          style={{ margin: "0px !important", background: "none" }} id="invite_modal">
          <div class="process__item mb-10">
              <div class="process__icon mb-2" style={{justifyContent:"center",display:"flex"}}>
-                 <img src="/Images/buy_sell_icon/Invite-new.png" alt="" class="icon-size" />
+                 <img src="./images/buy_sell_icon/Invite-new.png" alt="" class="icon-size" />
              </div>
              <div class="process__content">
                  <p class="icon-name">Invite</p>
