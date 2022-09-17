@@ -1,6 +1,5 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
-
 const HomePage = () => {
   return (
    <>
@@ -35,8 +34,10 @@ const HomePage = () => {
                     	</div>
                     </div>
                     <div class="tm-menu-meta">
-                    	<button class="tm-btn tm-style1 tm-with-border" data-toggle="modal" data-target="#tm-login">LOGIN</button>
-                    	<button class="tm-btn tm-style1 tm-with-border" data-toggle="modal" data-target="#tm-signup">SIGNUP</button>
+						<Link to="login" class="tm-btn tm-style1 tm-with-border">LOGIN</Link>
+						<Link to="register" class="tm-btn tm-style1 tm-with-border">SIGNUP</Link>
+                    	{/* <button class="tm-btn tm-style1 tm-with-border" data-toggle="modal" data-target="#tm-login">LOGIN</button>
+                    	<button class="tm-btn tm-style1 tm-with-border" data-toggle="modal" data-target="#tm-signup">SIGNUP</button> */}
                     </div>
                 </nav>
             </div>

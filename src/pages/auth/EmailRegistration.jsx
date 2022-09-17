@@ -5,6 +5,8 @@ import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 // import { useTranslation } from "react-i18next";
 import { Link, useParams } from "react-router-dom";
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input'
 //import { toast } from "wc-toast";
 import {api_test} from "../../utils/api";
 export default function EmailRegistration(props) {
@@ -31,6 +33,7 @@ export default function EmailRegistration(props) {
   const [userOTP, setUserOTP] = useState("");
   const [userMOTP, setUserMOTP] = useState("");
   const { reffer } = useParams();
+  const [value, setValue] = useState()
   // const { t } = useTranslation();
 
 
@@ -371,6 +374,15 @@ export default function EmailRegistration(props) {
         )} */}
       </div>
       <div className="mb-2">
+        <PhoneInput
+        className="form-control form-control-sm"
+        international
+        country="US"
+        placeholder="Enter phone number"
+        value={value}
+        onChange={setValue}/>
+      </div>
+      {/* <div className="mb-2">
         <div className="d-flex justify-content-center align-items-center">
           <div className="form-floating flex-fill">
             <input
@@ -455,7 +467,7 @@ export default function EmailRegistration(props) {
             </div>
           </div>
         )}
-      </div>
+      </div> */}
       <div className="mb-2">
         <div className="form-floating">
           <input
