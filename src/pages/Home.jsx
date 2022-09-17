@@ -132,13 +132,13 @@ const Home = () => {
 					</div>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="/Images/banner/banner1.png" class="d-block w-100" style={{height:'414px'}} alt="..." />
+							<img src="./images/banner/banner1.png" class="d-block w-100" style={{height:'414px'}} alt="..." />
 						</div>
 						<div class="carousel-item">
-							<img src="/Images/banner/banner2.jpg" class="d-block w-100" alt="..." />
+							<img src="./images/banner/banner2.jpg" class="d-block w-100" alt="..." />
 						</div>
 						<div class="carousel-item">
-							<img src="/Images/banner/banner_3.jpg" class="d-block w-100" alt="..." />
+							<img src="./images/banner/banner_3.jpg" class="d-block w-100" alt="..." />
 						</div>
 						{/* <div class="carousel-item">
 							<img src="https://sbgglobal.io/sbg-assets-dashboard/img/slider/dashboard-slider/zax_listed.jpg" class="d-block w-100" alt="..." />
@@ -192,7 +192,7 @@ const Home = () => {
 							<a href="/activation">
 								<div class="process__item mb-10">
 									<div class="process__icon mb-2 item_text"  style={{justifyContent:"center",display:"flex"}}>
-										<img src="/Images/buy_sell_icon/activation-new.png" alt="" class="icon-size" />
+										<img src="./images/buy_sell_icon/activation-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">
 										<p class="icon-name">Activation</p>
@@ -204,7 +204,7 @@ const Home = () => {
 							<a href="/restake">
 								<div class="process__item mb-10">
 									<div class="process__icon mb-2 item_text" style={{justifyContent:"center",display:"flex"}}>
-										<img src="/Images/buy_sell_icon/restake-new.png" alt="" class="icon-size" />
+										<img src="./images/buy_sell_icon/restake-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">
 										<p class="icon-name">Restake</p>
@@ -216,7 +216,7 @@ const Home = () => {
 							<a href="/diposit_panel">
 								<div class="process__item mb-10 item_text">
 									<div class="process__icon mb-2" style={{justifyContent:"center",display:"flex"}}>
-										<img src="/Images/buy_sell_icon/deposit-new.png" alt="" class="icon-size" />
+										<img src="./images/buy_sell_icon/deposit-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">
 										<p class="icon-name">Deposit</p>
@@ -228,7 +228,7 @@ const Home = () => {
 							<a href="/withdrawal_panel">
 								<div class="process__item mb-10 item_text">
 									<div class="process__icon mb-2" style={{justifyContent:"center",display:"flex"}}>
-										<img src="/Images/buy_sell_icon/withdrawal-new.png" alt="" class="icon-size" />
+										<img src="./images/buy_sell_icon/withdrawal-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">
 										<p class="icon-name">Withdraw</p>
@@ -240,7 +240,7 @@ const Home = () => {
 							<a href="/tree">
 								<div class="process__item mb-10">
 									<div class="process__icon mb-2 item_text" style={{justifyContent:"center",display:"flex"}}>
-										<img src="/Images/buy_sell_icon/treeview-new.png" alt="" class="icon-size" />
+										<img src="./images/buy_sell_icon/treeview-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">
 										<p class="icon-name">Tree View</p>
@@ -252,7 +252,7 @@ const Home = () => {
 							<a href="/wallet_transfer">
 								<div class="process__item mb-10">
 									<div class="process__icon mb-2 item_text" style={{justifyContent:"center",display:"flex"}}>
-										<img src="/Images/buy_sell_icon/wallettransfer-new.png" alt="" class="icon-size" />
+										<img src="./images/buy_sell_icon/wallettransfer-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">
 										<p class="icon-name">Wallet Transfer</p>
@@ -375,7 +375,7 @@ const Home = () => {
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
 									<a href="#">
-										<img src="/Images/coins/baby-doge.png" alt="" />
+										<img src="./images/coins/baby-doge.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
@@ -394,7 +394,7 @@ const Home = () => {
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
 									<a href="#">
-										<img src="/Images/coins/shiba-inu.png" alt="" />
+										<img src="./images/coins/shiba-inu.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
@@ -412,7 +412,7 @@ const Home = () => {
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
 									<a href="#">
-										<img src="/Images/coins/upcoming-reward.png" alt="" />
+										<img src="./images/coins/upcoming-reward.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
@@ -430,7 +430,7 @@ const Home = () => {
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
 									<a href="#">
-										<img src="/Images/coins/today-earning.png" alt="" />
+										<img src="./images/coins/today-earning.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
@@ -448,7 +448,7 @@ const Home = () => {
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
 									<a href="#">
-										<img src="/Images/coins/reward-2.png" alt="" />
+										<img src="./images/coins/reward-2.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
@@ -466,7 +466,7 @@ const Home = () => {
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
 									<a href="#">
-										<img src="/Images/coins/avl-balance.png" alt="" />
+										<img src="./images/coins/avl-balance.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
@@ -484,7 +484,7 @@ const Home = () => {
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
 									<a href="#">
-										<img src="/Images/coins/activation-balance.png" alt="" />
+										<img src="./images/coins/activation-balance.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
@@ -502,7 +502,7 @@ const Home = () => {
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
 									<a href="#">
-										<img src="/Images/coins/hold-wallet.png" alt="" />
+										<img src="./images/coins/hold-wallet.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
@@ -520,7 +520,7 @@ const Home = () => {
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
 									<a href="#">
-										<img src="/Images/coins/total-portfolios-new.png" alt="" />
+										<img src="./images/coins/total-portfolios-new.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
@@ -538,7 +538,7 @@ const Home = () => {
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
 									<a href="#">
-										<img src="/Images/coins/todays-portfolios-new.png" alt="" />
+										<img src="./images/coins/todays-portfolios-new.png" alt="" />
 									</a>
 								</div>
 								<div class="activity__content">
@@ -564,43 +564,43 @@ const Home = () => {
 							<div class="position-relative marquee-container d-none d-sm-block">
 								<div class="marquee d-flex justify-content-around">
 									
-										<img src="/Images/Slide_coins/btc.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
+										<img src="./images/Slide_coins/btc.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 											style={{ height: "20px", marginTop: "5px" }}
 										></img>
 									 <span>	BTC<b>3,588.39</b></span>
-									<img src="/Images/Slide_coins/trx.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
+									<img src="./images/Slide_coins/trx.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 										style={{ height: "20px", marginTop: "5px" }}
 									></img>
 									<span>XRP<b>0.32</b></span>
-									<img src="/Images/Slide_coins/eth.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
+									<img src="./images/Slide_coins/eth.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 										style={{ height: "20px", marginTop: "5px" }}
 									></img>
 									<span>ETH<b>116.36</b></span>
-									<img src="/Images/Slide_coins/bnb.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
+									<img src="./images/Slide_coins/bnb.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 										style={{ height: "20px", marginTop: "5px" }}
 									></img>
 									<span>EOS<b>2.44</b></span>
-									<img src="/Images/Slide_coins/usdt.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
+									<img src="./images/Slide_coins/usdt.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 										style={{ height: "20px", marginTop: "5px" }}
 									></img>
 									<span>USDT<b>1.01</b></span>
-									<img src="/Images/Slide_coins/zax.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
+									<img src="./images/Slide_coins/zax.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 										style={{ height: "20px", marginTop: "5px" }}
 									></img>
 									<span>LTC<b>32.61</b></span>
-									<img src="/Images/Slide_coins/bnb.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
+									<img src="./images/Slide_coins/bnb.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 										style={{ height: "20px", marginTop: "5px" }}
 									></img>
 									<span>XLM<b>0.10</b></span>
-									<img src="/Images/Slide_coins/trx.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
+									<img src="./images/Slide_coins/trx.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 										style={{ height: "20px", marginTop: "5px" }}
 									></img>
 									<span>TRX<b>0.03</b></span>
-									<img src="/Images/Slide_coins/mmit.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
+									<img src="./images/Slide_coins/mmit.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 										style={{ height: "20px", marginTop: "5px" }}
 									></img>
 									<span>BSV<b>74.29</b></span>
-									<img src="/Images/Slide_coins//bnb.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
+									<img src="./images/Slide_coins//bnb.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 										style={{ height: "20px", marginTop: "5px" }}
 									></img>
 									<span>ADA<b>0.04</b></span>
@@ -860,7 +860,7 @@ const Home = () => {
 								<div class="carousel-item active">
 									<div class="card text-center">
 										<div class="card-body" style={{ background: "#c7d3e7", height: "350px" }}>
-										<img src="/Images/dp.jpg" alt="" style={{height:"60px",justifyContent:"center",display:"inline",margin:"30px 0px",borderRadius:"5px"}}/>
+										<img src="./images/dp.jpg" alt="" style={{height:"60px",justifyContent:"center",display:"inline",margin:"30px 0px",borderRadius:"5px"}}/>
 											<h3 style={{ color: "black" }}>Miracle system strong plan quick payment</h3>
 											<p class="card-text" style={{ color: "#01222b" }}>With supporting text below as a natural lead-in to additional content.</p>
 											<h3 style={{ color: "black" }}> Ajay Kumar - BSXG640098</h3>
@@ -871,7 +871,7 @@ const Home = () => {
 								<div class="carousel-item">
 									<div class="card text-center">
 										<div class="card-body" style={{ background: "#c7d3e7", height: "350px" }}>
-										<img src="/Images/dp.jpg" alt="" style={{height:"60px",justifyContent:"center",display:"inline",margin:"30px 0px",borderRadius:"5px"}}/>
+										<img src="./images/dp.jpg" alt="" style={{height:"60px",justifyContent:"center",display:"inline",margin:"30px 0px",borderRadius:"5px"}}/>
 											<h3 style={{ color: "black" }}>Miracle system strong plan quick payment</h3>
 											<p class="card-text" style={{ color: "#01222b" }}>With supporting text below as a natural lead-in to additional content.</p>
 											<h3 style={{ color: "black" }}> Vipin Kumar - BSXG640098</h3>
@@ -882,7 +882,7 @@ const Home = () => {
 								<div class="carousel-item">
 									<div class="card text-center">
 										<div class="card-body" style={{ background: "#c7d3e7", height: "350px" }}>
-											<img src="/Images/dp.jpg" alt="" style={{height:"60px",justifyContent:"center",display:"inline",margin:"30px 0px",borderRadius:"5px"}}/>
+											<img src="./images/dp.jpg" alt="" style={{height:"60px",justifyContent:"center",display:"inline",margin:"30px 0px",borderRadius:"5px"}}/>
 											<h3 style={{ color: "black" }}>Miracle system strong plan quick payment</h3>
 											<p class="card-text" style={{ color: "#01222b" }}>With supporting text below as a natural lead-in to additional content.</p>
 											<h3 style={{ color: "black" }}> Atul Kumar - BSXG640098</h3>
@@ -970,7 +970,7 @@ const Home = () => {
 					<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 zoom-mb">
 						<div class="card">
 
-							<img src="/Images/blog1.jpg" />
+							<img src="./images/blog1.jpg" />
 
 						</div>
 					</div>
