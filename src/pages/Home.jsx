@@ -1,12 +1,16 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useState } from 'react'
 import MyNavbar from '../components/MyNavbar'
 import './styles.css'
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import {api_test} from "../utils/api";
 
 const Home = () => {
 	const { isLoggedIn } = useSelector((state) => state?.user?.value);
-
+	const { userInfo } = useSelector((state) => state?.user?.value);
+	const user_id = userInfo.user_id;
+	const [reffaralid, setRffaralId] = useState("");
+	const [name, setName] = useState("");
 	const navigate = useNavigate();
 	useEffect(() => {
 	  if (!isLoggedIn) {
@@ -14,6 +18,26 @@ const Home = () => {
 		navigate("../", { replace: true });
 	  }
 	}, [isLoggedIn]);
+
+	
+	useEffect(()=>{
+		api_test
+		.post("getRefferalInfo", {
+			user_id:user_id
+		})
+		.then((res) => {
+		  let data =res.data; 
+		  if(data.status == 200){
+			setRffaralId(data.profile_data.user)
+			setName(data.profile_data.name)
+		  }
+		  
+		})
+		.catch((error) => {
+		  console.log("user", error);
+		})
+	  }, [])
+
 	return (
 		<div>
 			<MyNavbar />
@@ -1461,8 +1485,8 @@ const Home = () => {
 								margin: "10px"
 							}}>
 								<div style={{ height: "100px", width: "200px", border: "1px solid gray",borderRadius:"5px",background:"white",textAlign:"center" }}>
-                                      <p>BSXG070907</p>
-									  <h5>Vipin Kumar</h5>
+                                      <p>{reffaralid}</p>
+									  <h5>{name}</h5>
 								</div>
 
 							</div>
