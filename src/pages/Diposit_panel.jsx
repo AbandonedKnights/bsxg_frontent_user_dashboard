@@ -44,7 +44,7 @@ export default function Diposit_panel() {
                <div class="process__item active">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/deposit-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="#" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -54,9 +54,9 @@ export default function Diposit_panel() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content !important"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/assets/deposit">
+                  <a href="#">
                      <div class="process__icon">
-                        <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/deposit-report.png" alt="" class="icon-size"/></span>
+                        <span><img src="#" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -83,7 +83,7 @@ export default function Diposit_panel() {
                       </div>
                       <div class="modal-body">
                         <video controls="" id="video1" style={{width: "100%", height: "auto", margin:"0 auto", frameborder:"0"}}>
-                          <source src="https://sbgglobal.io/sbg-assets-dashboard/videos/deposit.mp4" type="video/mp4"/>
+                          <source src="#" type="video/mp4"/>
                           Your browser doesn't support Video!!!.
                         </video>
                       </div>
@@ -111,7 +111,7 @@ export default function Diposit_panel() {
                         </center>
                         
                         <div class="container" id="cset">
-                           <form method="POST" action="https://sbgglobal.io/user/add-money-wallet" accept-charset="UTF-8"/><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn"/>
+                           <form method="POST" action="#" accept-charset="UTF-8"/><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn"/>
                            <div class="row" style={{paddingTop: "5%"}}>
                               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  column col-sm-offset-0 col-md-offset-2 col-lg-offset-3">
                                  

@@ -20,7 +20,7 @@ export default function Tree() {
                       </div>
                       <div class="modal-body">
                         <video controls="" id="video1" style={{width: "100%", height: "auto", margin:"0 auto", frameborder:"0"}}>
-                          <source src="https://sbgglobal.io/sbg-assets-dashboard/videos/levels-video.mp4" type="video/mp4"/>
+                          <source src="#" type="video/mp4"/>
                           Your browser doesn't support Video!!!.
                         </video>
                       </div>

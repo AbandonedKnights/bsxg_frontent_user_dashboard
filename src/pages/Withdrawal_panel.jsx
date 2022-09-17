@@ -42,7 +42,7 @@ export default function Withdrawal_panel() {
               <div class="process__item active">
                 <a href="#">
                   <div class="process__icon">
-                    <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/withdrawal-inside.png" alt="" class="icon-size" /></span>
+                    <span><img src="#" alt="" class="icon-size" /></span>
                   </div>
                 </a>
                 <div class="process__content">
@@ -52,9 +52,9 @@ export default function Withdrawal_panel() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{ width: "max-content !important" }}>
               <div class="process__item">
-                <a href="https://sbgglobal.io/user/assets/crypto-transfer">
+                <a href="#">
                   <div class="process__icon">
-                    <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/withdrawal-report-inside.png" alt="" class="icon-size" /></span>
+                    <span><img src="#" alt="" class="icon-size" /></span>
                   </div>
                 </a>
                 <div class="process__content">
@@ -95,7 +95,7 @@ export default function Withdrawal_panel() {
                             </div>
                             <div class="modal-body">
                               <video controls="" id="video1" style={{ width: "100%", height: "auto", margin: "0 auto", frameborder: "0" }}>
-                                <source src="https://sbgglobal.io/sbg-assets-dashboard/videos/withdrawal.mp4" type="video/mp4" />
+                                <source src="#" type="video/mp4" />
                                 Your browser doesn't support Video!!!.
                               </video>
                             </div>
@@ -110,7 +110,7 @@ export default function Withdrawal_panel() {
                         <div class="row">
                           <div class="col-md-1" style={{ width: "6.0%" }}></div>
                           <div class="col-md-5 benificary-form">
-                            <form method="POST" action="https://sbgglobal.io/user/crypto-transfer/add-beneficiary" accept-charset="UTF-8" id="benificary-form"><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />
+                            <form method="POST" action="#" accept-charset="UTF-8" id="benificary-form"><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />
                               <div class="form-group" style={{background:"rgb(21 58 68)",
                                  padding: "10px",
                                  borderRadius: "5px"}}>
@@ -206,7 +206,7 @@ export default function Withdrawal_panel() {
                             </div>
                           </div>
                           <div class="col-md-5 crypto-form">
-                            <form method="POST" action="https://sbgglobal.io/user/crypto-transfer/transfer-crypto" accept-charset="UTF-8" id="transfer-form" ><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />
+                            <form method="POST" action="#" accept-charset="UTF-8" id="transfer-form" ><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />
                             <div class="form-group"style={{background:"rgb(21 58 68)",
                                  padding: "10px",
                                  borderRadius: "5px"}}>
@@ -323,7 +323,7 @@ export default function Withdrawal_panel() {
                 <div class="modal-header text-center">
                 </div>
                 <div class="modal-body">
-                  <form method="POST" action="https://sbgglobal.io/user/crypto-transfer/transfer-crypto" accept-charset="UTF-8" id="transfer-form1"><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />                 <input type="hidden" name="beneficiary" value="" />
+                  <form method="POST" action="#" accept-charset="UTF-8" id="transfer-form1"><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />                 <input type="hidden" name="beneficiary" value="" />
                     <input type="hidden" name="amount" value="" />
                     <input type="hidden" name="channel" value="" />
                     <div class="col-16">
@@ -354,7 +354,7 @@ export default function Withdrawal_panel() {
                 <div class="modal-header text-center">
                 </div>
                 <div class="modal-body">
-                  <form method="POST" action="https://sbgglobal.io/user/crypto-transfer/transfer-crypto" accept-charset="UTF-8" id="transfer-form1"><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />                 <input type="hidden" name="beneficiary" value="" />
+                  <form method="POST" action="#" accept-charset="UTF-8" id="transfer-form1"><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />                 <input type="hidden" name="beneficiary" value="" />
                     <input type="hidden" name="amount" value="" />
                     <input type="hidden" name="channel" value="" />
                     <div class="col-16">
@@ -384,11 +384,11 @@ export default function Withdrawal_panel() {
 
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content" style={{ borderRadius: "20px" }}>
-                <img src="https://sbgglobal.io/assets/images/icons/celebration.gif" style={{ height: "auto", position: "absolute", width: "-webkit-fill-available" }} />
+                <img src="#" style={{ height: "auto", position: "absolute", width: "-webkit-fill-available" }} />
                 <div class="modal-body text-center">
                   {/* <button type="button" class="close" data-dismiss="modal">&times;</button> */}
                   <div class="text-center" style={{ margin: "15px" }}>
-                    <img src="https://sbgglobal.io/assets/images/icons/tick-success.gif" style={{ height: "100px" }} />
+                    <img src="#" style={{ height: "100px" }} />
                     <div style={{ color: "#039f6c", fontSize: "2rem", fontWeight: "bold" }}>Congratulations </div>
                   </div>
                   <div class="text-center " style={{ boxShadow: "0px 0px 0px 5px #b0afaf17 inset", padding: "20px", borderRadius: "30px" }}>

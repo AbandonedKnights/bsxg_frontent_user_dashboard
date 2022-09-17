@@ -31,7 +31,7 @@ export default function Academy() {
                                   borderRadius:" 5px"}}>
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
-                                 <img src="/Images/Academy/blog-1.jpg" alt=""/>
+                                 {/* <img src="/Images/Academy/blog-1.jpg" alt=""/> */}
                               </a>
                            </div>
                            <div class="auction__sm-content">
@@ -41,9 +41,9 @@ export default function Academy() {
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
                                     <a href="#">
-                                       <img src="/Images/Academy/blog-1.jpg" alt="" style={{height: "31px",
+                                       {/* <img src="/Images/Academy/blog-1.jpg" alt="" style={{height: "31px",
                                       borderRadius:" 14px",
-                                       margin: "-70px 10px"}}/>
+                                       margin: "-70px 10px"}}/> */}
                                     </a>
                                  </div>
                                  <div class="auction__sm-show">
@@ -51,7 +51,7 @@ export default function Academy() {
                                  </div>
                               </div>
                               <div class="auction__sm-btn">
-                                 <a href="https://blog.sbgglobal.io/what-is-binance-coin-bnb/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px ",padding: "5px 10px",
+                                 <a href="#"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px ",padding: "5px 10px",
                                 borderRadius: "20px",
                                  border:" 2px solid #401966"}}>Read more</button></a>
                               </div>
@@ -63,7 +63,7 @@ export default function Academy() {
                                   borderRadius:" 5px"}}>
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
-                                 <img src="/Images/Academy/blog-2.jpg" alt=""/>
+                                 {/* <img src="/Images/Academy/blog-2.jpg" alt=""/> */}
                               </a>
                            </div>
                            <div class="auction__sm-content">
@@ -73,9 +73,9 @@ export default function Academy() {
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
                                     <a href="#">
-                                       <img src="/Images/Academy/blog-2.jpg" alt="" style={{height: "31px",
+                                       {/* <img src="/Images/Academy/blog-2.jpg" alt="" style={{height: "31px",
                                       borderRadius:" 14px",
-                                       margin: "-70px 10px"}}/>
+                                       margin: "-70px 10px"}}/> */}
                                     </a>
                                  </div>
                                  <div class="auction__sm-show">
@@ -83,7 +83,7 @@ export default function Academy() {
                                  </div>
                               </div>
                               <div class="auction__sm-btn">
-                                 <a href="https://blog.sbgglobal.io/advanced-resources-into-the-endeavor-with-blockchain/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px",padding: "5px 10px",
+                                 <a href="#"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px",padding: "5px 10px",
                                 borderRadius: "20px",
                                  border:" 2px solid #401966"}}>Read more</button></a>
                               </div>
@@ -95,7 +95,7 @@ export default function Academy() {
                                   borderRadius:" 5px"}}>
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
-                                 <img src="/Images/Academy/blog-3.jpg" alt=""/>
+                                 {/* <img src="/Images/Academy/blog-3.jpg" alt=""/> */}
                               </a>
                            </div>
                            <div class="auction__sm-content">
@@ -105,9 +105,9 @@ export default function Academy() {
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
                                     <a href="#">
-                                       <img src="/Images/Academy/blog-3.jpg" alt=""style={{height: "31px",
+                                       {/* <img src="/Images/Academy/blog-3.jpg" alt=""style={{height: "31px",
                                       borderRadius:" 14px",
-                                       margin: "-70px 10px"}}/>
+                                       margin: "-70px 10px"}}/> */}
                                     </a>
                                  </div>
                                  <div class="auction__sm-show">
@@ -115,7 +115,7 @@ export default function Academy() {
                                  </div>
                               </div>
                               <div class="auction__sm-btn">
-                                 <a href="https://blog.sbgglobal.io/what-is-convertible-virtual-currency/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px ",padding: "5px 10px",
+                                 <a href="#"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px ",padding: "5px 10px",
                                 borderRadius: "20px",
                                  border:" 2px solid #401966"}}>Read more</button></a>
                               </div>
@@ -130,7 +130,7 @@ export default function Academy() {
                                   borderRadius:" 5px"}}>
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
-                                 <img src="/Images/Academy/blog-4.jpg" alt=""/>
+                                 {/* <img src="/Images/Academy/blog-4.jpg" alt=""/> */}
                               </a>
                            </div>
                            <div class="auction__sm-content">
@@ -140,9 +140,9 @@ export default function Academy() {
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
                                     <a href="#">
-                                       <img src="/Images/Academy/blog-4.jpg" alt=""style={{height: "31px",
+                                       {/* <img src="/Images/Academy/blog-4.jpg" alt=""style={{height: "31px",
                                       borderRadius:" 14px",
-                                       margin: "-70px 10px"}}/>
+                                       margin: "-70px 10px"}}/> */}
                                     </a>
                                  </div>
                                  <div class="auction__sm-show">
@@ -150,7 +150,7 @@ export default function Academy() {
                                  </div>
                               </div>
                               <div class="auction__sm-btn">
-                                 <a href="https://blog.sbgglobal.io/link-between-blockchain-and-cryptocurrency/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px ",padding: "5px 10px",
+                                 <a href="#"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px ",padding: "5px 10px",
                                 borderRadius: "20px",
                                  border:" 2px solid #401966"}}>Read more</button></a>
                               </div>
@@ -162,7 +162,7 @@ export default function Academy() {
                                   borderRadius:" 5px"}}>
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
-                                 <img src="/Images/Academy/blog-5.jpg" alt=""/>
+                                 {/* <img src="/Images/Academy/blog-5.jpg" alt=""/> */}
                               </a>
                            </div>
                            <div class="auction__sm-content">
@@ -172,9 +172,9 @@ export default function Academy() {
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
                                     <a href="#">
-                                       <img src="/Images/Academy/blog-5.jpg" alt=""style={{height: "31px",
+                                       {/* <img src="/Images/Academy/blog-5.jpg" alt=""style={{height: "31px",
                                       borderRadius:" 14px",
-                                       margin: "-70px 10px"}}/>
+                                       margin: "-70px 10px"}}/> */}
                                     </a>
                                  </div>
                                  <div class="auction__sm-show">
@@ -182,7 +182,7 @@ export default function Academy() {
                                  </div>
                               </div>
                               <div class="auction__sm-btn">
-                                 <a href="https://blog.sbgglobal.io/know-about-crypto-charges-tax/"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px ",padding: "5px 10px",
+                                 <a href="#"><button type="button" class="tp-btn-gradient" style={{margin:"10px 0px ",padding: "5px 10px",
                                 borderRadius: "20px",
                                  border:" 2px solid #401966"}}>Read more</button></a>
                               </div>
@@ -194,7 +194,7 @@ export default function Academy() {
                                   borderRadius:" 5px"}}>
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
-                                 <img src="/Images/Academy/blog-6.jpg" alt=""/>
+                                 {/* <img src="/Images/Academy/blog-6.jpg" alt=""/> */}
                               </a>
                            </div>
                            <div class="auction__sm-content">
@@ -204,9 +204,9 @@ export default function Academy() {
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
                                     <a href="#">
-                                       <img src="/Images/Academy/blog-6.jpg" alt=""style={{height: "31px",
+                                       {/* <img src="/Images/Academy/blog-6.jpg" alt=""style={{height: "31px",
                                       borderRadius:" 14px",
-                                       margin: "-70px 10px"}}/>
+                                       margin: "-70px 10px"}}/> */}
                                     </a>
                                  </div>
                                  <div class="auction__sm-show">
@@ -214,7 +214,7 @@ export default function Academy() {
                                  </div>
                               </div>
                               <div class="auction__sm-btn">
-                                 <a href="https://blog.sbgglobal.io/crypto-trading-strategies/"><button type="button" class="tp-btn-gradient"  style={{margin:"10px 0px ",padding: "5px 10px",
+                                 <a href="#"><button type="button" class="tp-btn-gradient"  style={{margin:"10px 0px ",padding: "5px 10px",
                                 borderRadius: "20px",
                                  border:" 2px solid #401966"}}>Read more</button></a>
                               </div>
