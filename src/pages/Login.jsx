@@ -13,10 +13,10 @@ export default function Login(props) {
   const { isLoggedIn } = useSelector((state) => state?.user?.value);
 
   useEffect(() => {
-    if (isLoggedIn) {
-      console.log("cmae in loguse::");
-      navigate("../home", { replace: true });
-    }
+    // if (isLoggedIn) {
+    //   console.log("cmae in loguse::");
+    //   navigate("../home", { replace: true });
+    // }
   }, []);
   
   return (

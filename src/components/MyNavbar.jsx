@@ -80,7 +80,7 @@ export default function MyNavbar(props) {
                   <a class="nav-link" href="/assets"><i className="fa fa-th-list"aria-hidden="true" style={{color:"#f59a09"}}> </i>  Assets</a>
                 </li>				
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact"><i className="fa fa-user"aria-hidden="true" style={{color:"#f59a09"}}> </i> Account</a>
+                  <a class="nav-link" href="/account_page"><i className="fa fa-user"aria-hidden="true" style={{color:"#f59a09"}}> </i> Account</a>
                 </li>
                 <li class="nav-item btn-login">
                   <button className="btn btn-danger mt-2"

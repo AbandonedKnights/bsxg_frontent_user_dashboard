@@ -185,7 +185,7 @@ const Home = () => {
 				</div>
 			</section>
 			<section class="process__area pt-0 pb-0 col-lg-10">
-				<div class="container" style={{ textAlign: "end" }}>
+				<div class="container" style={{ justifyContent: "end",display:"flex"}}>
 					<div class=" menu-center">
 						<Invite />
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
@@ -260,6 +260,18 @@ const Home = () => {
 								</div>
 							</a>
 						</div>
+						{/* <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
+							<a href="/wallet_transfer">
+								<div class="process__item mb-10">
+									<div class="process__icon mb-2 item_text" style={{justifyContent:"center",display:"flex"}}>
+										<img src="./images/buy_sell_icon/wallettransfer-new.png" alt="" class="icon-size" />
+									</div>
+									<div class="process__content">
+										<p class="icon-name">Wallet Transfer</p>
+									</div>
+								</div>
+							</a>
+						</div> */}
 
 						{/* <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
 											<a href="https://sbgglobal.io/user/compound-calculator">
