@@ -3255,10 +3255,10 @@ a:active {
     background-color: rgba(255, 255, 255, 0.1);
 }
 .tm-light-blue-bg {
-    background-color: #262d2e
+    background-color: #013162
 }
 .tm-dark-blue-bg {
-    background-color: #262d2e;
+    background-color: #02376d;
 }
 .tm-gray-bg {
     background-color: #fafafa;
@@ -3584,7 +3584,7 @@ a:active {
 }
 .tm-header-menu {
     height: 100px;
-    background-color: #262d2e;
+    background-color: #012244;
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
