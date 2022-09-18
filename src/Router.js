@@ -40,10 +40,10 @@ const Router = ({ props }) => {
 
 	const navigate = useNavigate();
 	useEffect(() => {
-	 /*  if (isLoggedIn) {
+	 if (isLoggedIn) {
 		console.log("iw::", isLoggedIn);
 		navigate("../home", { replace: true });
-	  } */
+	  } 
 	}, [isLoggedIn]);
 
   useEffect(() => {
@@ -92,7 +92,6 @@ const Router = ({ props }) => {
         <Route exact path="/Security_Settings" element={<Account />} />
         <Route exact path="/Referral_Bonus" element={<ReferalBonus />} />
         <Route exact path="/Security_Settings" element={<Account />} />
-        <Route exact path="/home" element={<Home />} />
         <Route exact path="/activation" element={<Activation />} />
         <Route exact path="/restake" element={<Restake />} />
         <Route exact path="/diposit_panel" element={<Diposit_panel/>} />
@@ -103,15 +102,9 @@ const Router = ({ props }) => {
         <Route exact path="/academy" element={<Academy/>} />
         <Route exact path="/assets" element={<Assets/>} />
         <Route exact path="/account_page" element={<Account_page/>} />
-
-
-
-
-
-
-
         <Route exact path="/Security_Settings" element={<Account/>}/>
-     <Route exact path="/Referral_Bonus" element={<ReferalBonus/>}/>
+        <Route exact path="/Referral_Bonus" element={<ReferalBonus/>}/>
+        <Route exact path="/home" element={<Home />} />
      <Route exact path="/" element={<HomePage/>}/>
       </Routes>
       {/* <Footer /> */}

@@ -102,7 +102,8 @@ export default function Diposit_panel() {
                             justifyContent: "center"}}>
                            <img src="/Images/coins/trx-coin.png"/>
                            <img src="/Images/coins/usdt-coin.png"/>
-                           <img src="/Images/coins/bnb-coin.png"/><br/>
+                           <img src="/Images/coins/bnb-coin.png"/>
+                           <img src="/Images/coins/eth-coin.png"/><br/>
                            </span>
                            <h3 style={{color:"black"}}>BSXG Wallet Deposit</h3>
                           
@@ -140,6 +141,7 @@ export default function Diposit_panel() {
                                                       <option disabled="" selected="">Select BSXG Coin</option>
                                                       <option value="BNB">BNB</option>
                                                       <option value="TRX">TRON</option>
+                                                      <option value="ETH">ETH</option>
                                                       <option value="USDT.TRC20">USDT</option>
 																										   
 												   </select>
@@ -188,21 +190,9 @@ export default function Diposit_panel() {
                         <br/>
                         <center style={{display: "flex",
                        justifyContent: "center"}}>
-                      <img src="/Images/coins/mmit_c.png" style={{ height: "63px", width: "63px" }} />
-                      <img src="/Images/coins/bnb-coin.png" style={{ height: "63px", width: "63px" }} />
-                      <img src="/Images/coins/btc-coin.png" style={{ height: "63px", width: "63px" }} />
-                      <img src="/Images/coins/cx1.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx2.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx3.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx4.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx5.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx6.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx7.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx8.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx9.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/eth-coin.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/ltc-coin.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/zax_c.png"style={{ height: "63px", width: "63px" }}  />
+                        <img src="/Images/coins/bnb-coin.png" style={{ height: "63px", width: "63px" }} />
+                        <img src="/Images/coins/btc-coin.png" style={{ height: "63px", width: "63px" }} />
+                       <img src="/Images/coins/eth-coin.png"style={{ height: "63px", width: "63px" }}  />
                     </center>
                         <br/><br/>
                      </div>

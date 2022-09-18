@@ -11,12 +11,12 @@ export default function MyNavbar(props) {
   const dispatch = useDispatch();
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
-  useEffect(() => {
-    if (!isLoggedIn) {
-      console.log("iw::", isLoggedIn);
-      navigate("../", { replace: true });
-    }
-  }, [isLoggedIn]);
+  // useEffect(() => {
+  //   if (!isLoggedIn) {
+  //     console.log("iw::", isLoggedIn);
+  //     navigate("../", { replace: true });
+  //   }
+  // }, [isLoggedIn]);
   //console.log("navbar", isLoggedIn);
   const langs = {
     en: "English/USD",

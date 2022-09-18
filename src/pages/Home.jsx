@@ -1,7 +1,7 @@
 import React,{useEffect,useState } from 'react'
 import MyNavbar from '../components/MyNavbar'
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Invite from './Invite';
 
 const Home = () => {
@@ -212,7 +212,7 @@ const Home = () => {
 							</a>
 						</div>
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
-							<a href="/diposit_panel">
+							<Link to="../Diposit_panel">
 								<div class="process__item mb-10 item_text">
 									<div class="process__icon mb-2" style={{justifyContent:"center",display:"flex"}}>
 										<img src="./images/buy_sell_icon/deposit-new.png" alt="" class="icon-size" />
@@ -221,7 +221,7 @@ const Home = () => {
 										<p class="icon-name">Deposit</p>
 									</div>
 								</div>
-							</a>
+							</Link>
 						</div>
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
 							<a href="/withdrawal_panel">
