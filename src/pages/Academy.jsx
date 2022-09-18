@@ -31,7 +31,7 @@ export default function Academy() {
                                   borderRadius:" 5px"}}>
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
-                                 {/* <img src="/Images/Academy/blog-1.jpg" alt=""/> */}
+                                 {/* <img src="/images/Academy/blog-1.jpg" alt=""/> */}
                               </a>
                            </div>
                            <div class="auction__sm-content">
@@ -41,7 +41,7 @@ export default function Academy() {
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
                                     <a href="#">
-                                       {/* <img src="/Images/Academy/blog-1.jpg" alt="" style={{height: "31px",
+                                       {/* <img src="/images/Academy/blog-1.jpg" alt="" style={{height: "31px",
                                       borderRadius:" 14px",
                                        margin: "-70px 10px"}}/> */}
                                     </a>
@@ -63,7 +63,7 @@ export default function Academy() {
                                   borderRadius:" 5px"}}>
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
-                                 {/* <img src="/Images/Academy/blog-2.jpg" alt=""/> */}
+                                 {/* <img src="/images/Academy/blog-2.jpg" alt=""/> */}
                               </a>
                            </div>
                            <div class="auction__sm-content">
@@ -73,7 +73,7 @@ export default function Academy() {
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
                                     <a href="#">
-                                       {/* <img src="/Images/Academy/blog-2.jpg" alt="" style={{height: "31px",
+                                       {/* <img src="/images/Academy/blog-2.jpg" alt="" style={{height: "31px",
                                       borderRadius:" 14px",
                                        margin: "-70px 10px"}}/> */}
                                     </a>
@@ -95,7 +95,7 @@ export default function Academy() {
                                   borderRadius:" 5px"}}>
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
-                                 {/* <img src="/Images/Academy/blog-3.jpg" alt=""/> */}
+                                 {/* <img src="/images/Academy/blog-3.jpg" alt=""/> */}
                               </a>
                            </div>
                            <div class="auction__sm-content">
@@ -105,7 +105,7 @@ export default function Academy() {
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
                                     <a href="#">
-                                       {/* <img src="/Images/Academy/blog-3.jpg" alt=""style={{height: "31px",
+                                       {/* <img src="/images/Academy/blog-3.jpg" alt=""style={{height: "31px",
                                       borderRadius:" 14px",
                                        margin: "-70px 10px"}}/> */}
                                     </a>
@@ -130,7 +130,7 @@ export default function Academy() {
                                   borderRadius:" 5px"}}>
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
-                                 {/* <img src="/Images/Academy/blog-4.jpg" alt=""/> */}
+                                 {/* <img src="/images/Academy/blog-4.jpg" alt=""/> */}
                               </a>
                            </div>
                            <div class="auction__sm-content">
@@ -140,7 +140,7 @@ export default function Academy() {
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
                                     <a href="#">
-                                       {/* <img src="/Images/Academy/blog-4.jpg" alt=""style={{height: "31px",
+                                       {/* <img src="/images/Academy/blog-4.jpg" alt=""style={{height: "31px",
                                       borderRadius:" 14px",
                                        margin: "-70px 10px"}}/> */}
                                     </a>
@@ -162,7 +162,7 @@ export default function Academy() {
                                   borderRadius:" 5px"}}>
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
-                                 {/* <img src="/Images/Academy/blog-5.jpg" alt=""/> */}
+                                 {/* <img src="/images/Academy/blog-5.jpg" alt=""/> */}
                               </a>
                            </div>
                            <div class="auction__sm-content">
@@ -172,7 +172,7 @@ export default function Academy() {
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
                                     <a href="#">
-                                       {/* <img src="/Images/Academy/blog-5.jpg" alt=""style={{height: "31px",
+                                       {/* <img src="/images/Academy/blog-5.jpg" alt=""style={{height: "31px",
                                       borderRadius:" 14px",
                                        margin: "-70px 10px"}}/> */}
                                     </a>
@@ -194,7 +194,7 @@ export default function Academy() {
                                   borderRadius:" 5px"}}>
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
-                                 {/* <img src="/Images/Academy/blog-6.jpg" alt=""/> */}
+                                 {/* <img src="/images/Academy/blog-6.jpg" alt=""/> */}
                               </a>
                            </div>
                            <div class="auction__sm-content">
@@ -204,7 +204,7 @@ export default function Academy() {
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
                                     <a href="#">
-                                       {/* <img src="/Images/Academy/blog-6.jpg" alt=""style={{height: "31px",
+                                       {/* <img src="/images/Academy/blog-6.jpg" alt=""style={{height: "31px",
                                       borderRadius:" 14px",
                                        margin: "-70px 10px"}}/> */}
                                     </a>

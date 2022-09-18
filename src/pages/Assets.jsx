@@ -14,7 +14,7 @@ export default function Assets() {
                <div class="process__item active">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/Assets_icons/all-sm.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/Assets_icons/all-sm.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -26,7 +26,7 @@ export default function Assets() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/Assets_icons/total-income-sm.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/Assets_icons/total-income-sm.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -38,7 +38,7 @@ export default function Assets() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/Assets_icons/deposit-sm.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/Assets_icons/deposit-sm.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -50,7 +50,7 @@ export default function Assets() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/Assets_icons/withdrawal-sm.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/Assets_icons/withdrawal-sm.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -62,7 +62,7 @@ export default function Assets() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/Assets_icons/unilevel-sm.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/Assets_icons/unilevel-sm.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -74,7 +74,7 @@ export default function Assets() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/Assets_icons/stake-profit-sm.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/Assets_icons/stake-profit-sm.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -86,7 +86,7 @@ export default function Assets() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/Assets_icons/global-pool-sm.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/Assets_icons/global-pool-sm.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -98,7 +98,7 @@ export default function Assets() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/Assets_icons/sponsor-income-sm.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/Assets_icons/sponsor-income-sm.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -110,7 +110,7 @@ export default function Assets() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <img src="/Images/Assets_icons/vip-club-sm.png" alt="" class="icon-size"/>
+                        <img src="/images/Assets_icons/vip-club-sm.png" alt="" class="icon-size"/>
                      </div>
                   </a>
                   <div class="process__content">
@@ -122,7 +122,7 @@ export default function Assets() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/Assets_icons/wallet-transfer-sm.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/Assets_icons/wallet-transfer-sm.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -140,7 +140,7 @@ export default function Assets() {
                <div class="process__item active">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/Assets_icons/all-sm.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/Assets_icons/all-sm.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -264,7 +264,7 @@ export default function Assets() {
             <div class="container">
                <div class="row">
                   <div class="col-xl-1 col-md-1 col-1" style={{width: "1.333333%"}}>
-                     <img src="/Images/notice.png" style={{height: "25px",float: "right",marginRight: "-20px"}}/>
+                     <img src="/images/notice.png" style={{height: "25px",float: "right",marginRight: "-20px"}}/>
                   </div>
                   <div class="col-xl-11 col-md-11 col-11">
                      <div class="" >

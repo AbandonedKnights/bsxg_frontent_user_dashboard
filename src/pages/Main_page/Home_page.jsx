@@ -48,12 +48,12 @@ export default function Home_page() {
 
 
                         <div id="theme-banner" class="theme-banner-one">
-                            <img src="/Images/k-1.png" alt="" class="illustration" />
-                            <img src="/Images/1-1.png" alt="" class="icon-shape-one" />
-                            <img src="/Images/2-1.png" alt="" class="icon-shape-two" />
-                            <img src="/Images/3-1.png" alt="" class="icon-shape-three" />
+                            <img src="/images/k-1.png" alt="" class="illustration" />
+                            <img src="/images/1-1.png" alt="" class="icon-shape-one" />
+                            <img src="/images/2-1.png" alt="" class="icon-shape-two" />
+                            <img src="/images/3-1.png" alt="" class="icon-shape-three" />
                             <div class="round-shape-one"></div>
-                            <div class="round-shape-two"><img src="/Images/4-1.png" alt="" /></div>
+                            <div class="round-shape-two"><img src="/images/4-1.png" alt="" /></div>
                             <div class="round-shape-three"></div>
                             <div class="container">
                                 <div class="main-text-wrapper">
@@ -140,7 +140,7 @@ export default function Home_page() {
                                 <div class="col-md-4 col-xs-12">
                                     <div class="single-feature">
                                         <div class="icon-box">
-                                            <img src="/Images/5-2.png" alt="" class="primary-icon" />
+                                            <img src="/images/5-2.png" alt="" class="primary-icon" />
                                         </div>
                                         <h3>cryto Is Untraceable</h3>
                                         <p>Sending and receiving addresses as well as transacted amounts.</p>
@@ -158,7 +158,7 @@ export default function Home_page() {
                                 <div class="col-md-4 col-xs-12">
                                     <div class="single-feature">
                                         <div class="icon-box">
-                                            <img src="/Images/7-2.png" alt="" class="primary-icon" />
+                                            <img src="/images/7-2.png" alt="" class="primary-icon" />
                                         </div>
                                         <h3>Transparency & Stability</h3>
                                         <p>In crypto, transparency brings trust & old strong transparency</p>
@@ -179,7 +179,7 @@ export default function Home_page() {
                                         <a href="#" class="learn-more">Learn More <i class="flaticon-right-thin"></i></a>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 img-box"><div><img src="/Images/1-2.png" alt="" /></div></div>
+                                <div class="col-lg-6 img-box"><div><img src="/images/1-2.png" alt="" /></div></div>
                             </div>
 
                             <div class="row single-block">
@@ -191,7 +191,7 @@ export default function Home_page() {
                                         <a href="#" class="learn-more">Learn More <i class="flaticon-right-thin"></i></a>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 order-lg-first img-box"><div><img src="/Images/1.1-2.png" alt="" /></div></div>
+                                <div class="col-lg-6 order-lg-first img-box"><div><img src="/images/1.1-2.png" alt="" /></div></div>
                             </div>
 
                             <div class="row single-block">
@@ -203,18 +203,18 @@ export default function Home_page() {
                                         <a href="#" class="learn-more">Learn More <i class="flaticon-right-thin"></i></a>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 img-box"><div><img src="/Images/2-2.png" alt="" /></div></div>
+                                <div class="col-lg-6 img-box"><div><img src="/images/2-2.png" alt="" /></div></div>
                             </div>
                         </div>
                     </div>
 
 
                     <div class="apps-overview color-one" id="apps-review">
-                        <div class="overlay-bg" style={{ backgroundImage: "url(/Images/bg2.png)" }}>
+                        <div class="overlay-bg" style={{ backgroundImage: "url(/images/bg2.png)" }}>
                             <div class="container">
                                 <div class="inner-wrapper">
-                                    <img src="/Images/1.png" alt="" class="s8-mockup" data-aos="fade-down" data-aos-duration="2500" />
-                                    <img src="/Images/x-1.png" alt="" class="x-mockup" data-aos="fade-up" data-aos-duration="2500" />
+                                    <img src="/images/1.png" alt="" class="s8-mockup" data-aos="fade-down" data-aos-duration="2500" />
+                                    <img src="/images/x-1.png" alt="" class="x-mockup" data-aos="fade-up" data-aos-duration="2500" />
                                     <div class="row">
                                         <div class="col-lg-5 offset-lg-7">
                                             <div class="text">
@@ -224,7 +224,7 @@ export default function Home_page() {
                                                 <p>Mining should be fair & easy! We dose not allow ASIC on our network. The development team is who commited to with keeping it that way.</p>
                                                 <ul class="button-group">
                                                     <li><a href="#"><i class="flaticon-apple"></i> Apple Store</a></li>
-                                                    <li><a href="#"><img src="/Images/playstore-1.png" alt="" /> Google Play</a></li>
+                                                    <li><a href="#"><img src="/images/playstore-1.png" alt="" /> Google Play</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -285,7 +285,7 @@ export default function Home_page() {
                                 <div class="progress-slider">
                                     <div class="item">
                                         <div class="inner-block">
-                                            <div class="icon"><img src="/Images/11-1.png" alt="" /></div>
+                                            <div class="icon"><img src="/images/11-1.png" alt="" /></div>
                                             <h3>Create Account with Mail</h3>
                                             <p>Here will short description of your service.</p>
                                             <div class="num">1</div>
@@ -301,7 +301,7 @@ export default function Home_page() {
                                     </div>
                                     <div class="item">
                                         <div class="inner-block">
-                                            <div class="icon"><img src="/Images/13-1.png" alt="" /></div>
+                                            <div class="icon"><img src="/images/13-1.png" alt="" /></div>
                                             <h3>Send & Receive Money.</h3>
                                             <p>Here will short description of your service.</p>
                                             <div class="num">3</div>
@@ -309,7 +309,7 @@ export default function Home_page() {
                                     </div>
                                     <div class="item">
                                         <div class="inner-block">
-                                            <div class="icon"><img src="/Images/11-1.png" alt="" /></div>
+                                            <div class="icon"><img src="/images/11-1.png" alt="" /></div>
                                             <h3>Create Account with Mail</h3>
                                             <p>Here will short description of your service.</p>
                                             <div class="num">4</div>
@@ -317,7 +317,7 @@ export default function Home_page() {
                                     </div>
                                     <div class="item">
                                         <div class="inner-block">
-                                            <div class="icon"><img src="/Images/12-1.png" alt="" /></div>
+                                            <div class="icon"><img src="/images/12-1.png" alt="" /></div>
                                             <h3>Verify Account in 5 Minutes.</h3>
                                             <p>Here will short description of your service.</p>
                                             <div class="num">5</div>
@@ -339,51 +339,51 @@ export default function Home_page() {
                             <div class="testimonial-slider">
                                 <div class="item">
                                     <div class="single-block clearfix">
-                                        <div class="img-block"><img src="/Images/1-1.jpg" alt="" /></div>
+                                        <div class="img-block"><img src="/images/1-1.jpg" alt="" /></div>
                                         <div class="text">
                                             <h3 class="name">Rashed Kabir</h3>
                                             <span>CEO, Creativegigs</span>
                                             <p>“Success is making our clients succeed. Nothing else matters how we work.”</p>
-                                            <img src="/Images/sign-1.png" alt="" class="sign" />
+                                            <img src="/images/sign-1.png" alt="" class="sign" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="single-block clearfix">
-                                        <div class="img-block"><img src="/Images/2-1.jpg" alt="" /></div>
+                                        <div class="img-block"><img src="/images/2-1.jpg" alt="" /></div>
                                         <div class="text">
                                             <h3 class="name">Jannatul Fa.</h3>
                                             <span>MD. Tourisom Group</span>
                                             <p>“Success is making our clients succeed. Nothing else matters how we work.”</p>
-                                            <img src="/Images/sign-1.png" alt="" class="sign" />
+                                            <img src="/images/sign-1.png" alt="" class="sign" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="single-block clearfix">
-                                        <div class="img-block"><img src="/Images/1-1.jpg" alt="" /></div>
+                                        <div class="img-block"><img src="/images/1-1.jpg" alt="" /></div>
                                         <div class="text">
                                             <h3 class="name">Rashed Kabir</h3>
                                             <span>CEO, Creativegigs</span>
                                             <p>“Success is making our clients succeed. Nothing else matters how we work.”</p>
-                                            <img src="/Images/sign-1.png" alt="" class="sign" />
+                                            <img src="/images/sign-1.png" alt="" class="sign" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="single-block clearfix">
-                                        <div class="img-block"><img src="/Images/2-1.jpg" alt="" /></div>
+                                        <div class="img-block"><img src="/images/2-1.jpg" alt="" /></div>
                                         <div class="text">
                                             <h3 class="name">Jannatul Fa.</h3>
                                             <span>MD. Tourisom Group</span>
                                             <p>“Success is making our clients succeed. Nothing else matters how we work.”</p>
-                                            <img src="/Images/sign-1.png" alt="" class="sign" />
+                                            <img src="/images/sign-1.png" alt="" class="sign" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="single-block clearfix">
-                                        <div class="img-block"><img src="/Images/1-1.jpg" alt="" /></div>
+                                        <div class="img-block"><img src="/images/1-1.jpg" alt="" /></div>
                                         <div class="text">
                                             <h3 class="name">Rashed Kabir</h3>
                                             <span>CEO, Creativegigs</span>
@@ -394,12 +394,12 @@ export default function Home_page() {
                                 </div>
                                 <div class="item">
                                     <div class="single-block clearfix">
-                                        <div class="img-block"><img src="/Images/2-1.jpg" alt="" /></div>
+                                        <div class="img-block"><img src="/images/2-1.jpg" alt="" /></div>
                                         <div class="text">
                                             <h3 class="name">Jannatul Fa.</h3>
                                             <span>MD. Tourisom Group</span>
                                             <p>“Success is making our clients succeed. Nothing else matters how we work.”</p>
-                                            <img src="/Images/sign-1.png" alt="" class="sign" />
+                                            <img src="/images/sign-1.png" alt="" class="sign" />
                                         </div>
                                     </div>
                                 </div>
@@ -467,11 +467,11 @@ export default function Home_page() {
                     <div class="partner-section">
                         <div class="container">
                             <div class="partner-slider">
-                                <div class="item"><a href="#"><img src="/Images/p-1-1.png" alt="" /></a></div>
-                                <div class="item"><a href="#"><img src="/Images/p-2-1.png" alt="" /></a></div>
-                                <div class="item"><a href="#"><img src="/Images/p-3-1.png" alt="" /></a></div>
-                                <div class="item"><a href="#"><img src="/Images/p-4-1.png" alt="" /></a></div>
-                                <div class="item"><a href="#"><img src="/Images/p-5-1.png" alt="" /></a></div>
+                                <div class="item"><a href="#"><img src="/images/p-1-1.png" alt="" /></a></div>
+                                <div class="item"><a href="#"><img src="/images/p-2-1.png" alt="" /></a></div>
+                                <div class="item"><a href="#"><img src="/images/p-3-1.png" alt="" /></a></div>
+                                <div class="item"><a href="#"><img src="/images/p-4-1.png" alt="" /></a></div>
+                                <div class="item"><a href="#"><img src="/images/p-5-1.png" alt="" /></a></div>
                             </div>
                         </div>
                     </div>
@@ -483,7 +483,7 @@ export default function Home_page() {
                                 <div class="top-footer-data-wrapper">
                                     <div class="row">
                                         <div class="col-lg-4 col-sm-6 footer-logo">
-                                            <div class="logo"><a href="index-1.html"><img src="/Images/logo-1.png" alt="Logo" /></a></div>
+                                            <div class="logo"><a href="index-1.html"><img src="/images/logo-1.png" alt="Logo" /></a></div>
                                             <a href="#" class="email">crytoco@company.com</a>
                                             <a href="#" class="mobile">648-xxx-xxxx</a>
                                         </div>

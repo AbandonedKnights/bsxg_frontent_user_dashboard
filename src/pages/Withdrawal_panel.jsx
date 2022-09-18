@@ -14,7 +14,7 @@ export default function Withdrawal_panel() {
                 <div class="process__item active">
                   <a href="#">
                     <div class="process__icon">
-                      <span><img src="/Images/buy_sell_icon/withdrawal-inside.png" alt="" class="icon-size" /></span>
+                      <span><img src="/images/buy_sell_icon/withdrawal-inside.png" alt="" class="icon-size" /></span>
                     </div>
                   </a>
                   <div class="process__content">
@@ -26,7 +26,7 @@ export default function Withdrawal_panel() {
                 <div class="process__item">
                   <a href="#">
                     <div class="process__icon">
-                      <span><img src="/Images/buy_sell_icon/withdrawal-report-inside.png" alt="" class="icon-size" /></span>
+                      <span><img src="/images/buy_sell_icon/withdrawal-report-inside.png" alt="" class="icon-size" /></span>
                     </div>
                   </a>
                   <div class="process__content">
@@ -76,9 +76,9 @@ export default function Withdrawal_panel() {
                     <center>
                     <span style={{display: "flex",
                        justifyContent: "center"}}>
-                      <img src="/Images/coins/trx-coin.png" />
-                      <img src="/Images/coins/usdt-coin.png" />
-                      <img src="/Images/coins/bnb-coin.png" /><br />
+                      <img src="/images/coins/trx-coin.png" />
+                      <img src="/images/coins/usdt-coin.png" />
+                      <img src="/images/coins/bnb-coin.png" /><br />
                       </span>
                       <h3>BSXG Wallet Withdrawal</h3>
 
@@ -269,21 +269,21 @@ export default function Withdrawal_panel() {
                     <br />
                     <center style={{display: "flex",
                        justifyContent: "center"}}>
-                      <img src="/Images/coins/mmit_c.png" style={{ height: "63px", width: "63px" }} />
-                      <img src="/Images/coins/bnb-coin.png" style={{ height: "63px", width: "63px" }} />
-                      <img src="/Images/coins/btc-coin.png" style={{ height: "63px", width: "63px" }} />
-                      <img src="/Images/coins/cx1.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx2.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx3.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx4.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx5.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx6.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx7.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx8.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/cx9.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/eth-coin.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/ltc-coin.png"style={{ height: "63px", width: "63px" }}  />
-                      <img src="/Images/coins/zax_c.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/images/coins/mmit_c.png" style={{ height: "63px", width: "63px" }} />
+                      <img src="/images/coins/bnb-coin.png" style={{ height: "63px", width: "63px" }} />
+                      <img src="/images/coins/btc-coin.png" style={{ height: "63px", width: "63px" }} />
+                      <img src="/images/coins/cx1.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/images/coins/cx2.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/images/coins/cx3.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/images/coins/cx4.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/images/coins/cx5.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/images/coins/cx6.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/images/coins/cx7.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/images/coins/cx8.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/images/coins/cx9.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/images/coins/eth-coin.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/images/coins/ltc-coin.png"style={{ height: "63px", width: "63px" }}  />
+                      <img src="/images/coins/zax_c.png"style={{ height: "63px", width: "63px" }}  />
                     </center>
                     <br /><br />
                   </div>

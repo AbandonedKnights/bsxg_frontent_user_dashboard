@@ -14,7 +14,7 @@ export default function Diposit_panel() {
                <div class="process__item active">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/buy_sell_icon/deposit-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/buy_sell_icon/deposit-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -26,7 +26,7 @@ export default function Diposit_panel() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/buy_sell_icon/deposit-report.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/buy_sell_icon/deposit-report.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -100,10 +100,10 @@ export default function Diposit_panel() {
                         <center>
                         <span style={{display: "flex",
                             justifyContent: "center"}}>
-                           <img src="/Images/coins/trx-coin.png"/>
-                           <img src="/Images/coins/usdt-coin.png"/>
-                           <img src="/Images/coins/bnb-coin.png"/>
-                           <img src="/Images/coins/eth-coin.png"/><br/>
+                           <img src="/images/coins/trx-coin.png"/>
+                           <img src="/images/coins/usdt-coin.png"/>
+                           <img src="/images/coins/bnb-coin.png"/>
+                           <img src="/images/coins/eth-coin.png"/><br/>
                            </span>
                            <h3 style={{color:"black"}}>BSXG Wallet Deposit</h3>
                           
@@ -167,7 +167,7 @@ export default function Diposit_panel() {
                                        <div class="frame">
                                           <center>
                                              <div class="image">
-                                                <img src="/Images/buy_sell_icon/deposit-bottom.png" style={{width: "25%"}}/><br/>
+                                                <img src="/images/buy_sell_icon/deposit-bottom.png" style={{width: "25%"}}/><br/>
                                                 <span>
                                                 <button type="button" onclick="submitForm()" class="custom-btn btn-12" id="deposit_btn"
                                                 style={{margin:"20px"}}>Add coin
@@ -190,9 +190,9 @@ export default function Diposit_panel() {
                         <br/>
                         <center style={{display: "flex",
                        justifyContent: "center"}}>
-                        <img src="/Images/coins/bnb-coin.png" style={{ height: "63px", width: "63px" }} />
-                        <img src="/Images/coins/btc-coin.png" style={{ height: "63px", width: "63px" }} />
-                       <img src="/Images/coins/eth-coin.png"style={{ height: "63px", width: "63px" }}  />
+                        <img src="/images/coins/bnb-coin.png" style={{ height: "63px", width: "63px" }} />
+                        <img src="/images/coins/btc-coin.png" style={{ height: "63px", width: "63px" }} />
+                       <img src="/images/coins/eth-coin.png"style={{ height: "63px", width: "63px" }}  />
                     </center>
                         <br/><br/>
                      </div>

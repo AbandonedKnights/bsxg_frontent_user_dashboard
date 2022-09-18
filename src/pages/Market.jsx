@@ -128,7 +128,7 @@ export default function Market() {
 		   <div class="process__item" style={{textAlign: "center"}}>
 			  <a href="#">
 				 <div class="process__icon">
-					<span><img src="/Images/coins/restake-report-inside.png" alt="" class="icon-size"/></span>
+					<span><img src="/images/coins/restake-report-inside.png" alt="" class="icon-size"/></span>
 				 </div>
 			  </a>
 			  <div class="process__content">
@@ -141,7 +141,7 @@ export default function Market() {
 		   <div class="process__item" style={{textAlign: "center"}}>
 			  <a href="#">
 				 <div class="process__icon">
-					<span><img src="/Images/coins/activation-report-inside.png" alt="" class="icon-size"/></span>
+					<span><img src="/images/coins/activation-report-inside.png" alt="" class="icon-size"/></span>
 				 </div>
 			  </a>
 			  <div class="process__content">
@@ -159,7 +159,7 @@ export default function Market() {
 		   <div class="process__item">
 			  <a href="#">
 				 <div class="process__icon active">
-					<span><img src="/Images/buy_sell_coin/restake-report-inside.png" alt="" class="icon-size"/></span>
+					<span><img src="/images/buy_sell_coin/restake-report-inside.png" alt="" class="icon-size"/></span>
 				 </div>
 			  </a>
 			  <div class="process__content">
@@ -171,7 +171,7 @@ export default function Market() {
 		   <div class="process__item">
 			  <a href="#">
 				 <div class="process__icon">
-					<span><img src="/Images/buy_sell_coins/activation-report-inside.png" alt="" class="icon-size"/></span>
+					<span><img src="/images/buy_sell_coins/activation-report-inside.png" alt="" class="icon-size"/></span>
 				 </div>
 			  </a>
 			  <div class="process__content">
@@ -232,7 +232,7 @@ export default function Market() {
 					   <div class="activity__item-inner d-flex align-items-center">
 						  <div class="activity__thumb mr-20">
 							 <a href="#">
-								<img src="/Images/coins/trophy-1.png" alt=""/>
+								<img src="/images/coins/trophy-1.png" alt=""/>
 							 </a>
 						  </div>
 						  <div class="activity__content">
@@ -249,7 +249,7 @@ export default function Market() {
 					   <div class="activity__item-inner d-flex align-items-center">
 						  <div class="activity__thumb mr-20">
 							 <a href="#">
-								<img src="/Images/coins/reward-2.png" alt=""/>
+								<img src="/images/coins/reward-2.png" alt=""/>
 							 </a>
 						  </div>
 						  <div class="activity__content">

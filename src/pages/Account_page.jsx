@@ -1,7 +1,11 @@
 import React from 'react'
 import MyNavbar from '../components/MyNavbar'
+import { useSelector } from "react-redux";
 
 export default function Account_page() {
+   const { isLoggedIn, userInfo } = useSelector((state) => state?.user?.value);
+   const userid = userInfo.email;
+   console.log(userid,"userid");
   return (
     <div>
     <MyNavbar/>
@@ -10,7 +14,7 @@ export default function Account_page() {
             <button class="btn45" id="reward_modal" style={{display:"none"}}>View Offer</button>
             <div class="container-fluid">
                 <div class="popup__wrapper account-pg-scroll" style={{Zindex: "1",marginTop:"3%"}}>
-                    <div class="popup__content reward-popup-modal">
+                    {/* <div class="popup__content reward-popup-modal">
                        <button class="popup__close">x</button>
                        <div class="popup__details">
                           <div class="row " style={{paddingBottom: "4%",marginTop: "4%"}}>
@@ -18,7 +22,7 @@ export default function Account_page() {
                               
                                 <img src="" class="reward-popup-img" style={{opacity: "0"}}/>
                               
-                                   <p id="responsivetexth"  class="reward-popup-title">Jitendra</p>
+                                   <p id="responsivetexth"  class="reward-popup-title">Vipin</p>
                                    <p id="responsivetextp"  class="reward-popup-rank">0</p>
                              </center>
                             
@@ -27,7 +31,7 @@ export default function Account_page() {
                          
                          
                        </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
@@ -35,26 +39,39 @@ export default function Account_page() {
         <div class="row">
             <div class="col-xxl-12 table-head-align">
                 <div class="section__title-wrapper mb-10 " style={{textAlign: "center"}}> 
-                    <img src="https://sbgglobal.io/sbg-assets-dashboard/img/user/user.jpg" alt="" style={{width: "100px",borderRadius: "15px",marginBottom: "20px"}}/>
-                   <h3 style={{textAlign: "center"}}>Jitendra - SBG677001</h3>
-                   <h4 style={{textAlign: "center",paddingTop: "10px"}}>jitendra.aadhar@gmail.com</h4>
+                    <img src="/images/user.jpg" alt="" style={{width: "100px",borderRadius: "15px",marginBottom: "20px",display:"inline"}}/>
+                   <h3 style={{textAlign: "center"}}>Vipin - {userid}</h3>
+                   <h4 style={{textAlign: "center",paddingTop: "10px"}}>vipinatraura@gmail</h4>
                    
                                        
                                        
-                   <h5 style={{textAlign: "center",paddingTop: "10px"}}>Total Package - 0 SBG</h5>
+                   <h5 style={{textAlign: "center",paddingTop: "10px"}}>Total Package - 0 BSXG</h5>
                 </div>
                 
-                <div class="share__social share-icon-account">
-                    <span id="refer_link" style={{display:"none"}}>https://sbgglobal.io/refer-register/U0JHNjc3MDAx</span>
-                        <a href="#"><i class="fa fa-link refre-link-color" onclick="copyReferLink()"></i></a>
-                        <a href="whatsapp://send?text=https://sbgglobal.io/refer-register/U0JHNjc3MDAx" target="_blank"><i class="fa-brands fa-whatsapp refer-whatsapp-color"></i></a>
-                        <a target="_blank" href="tg://msg?text=https://sbgglobal.io/refer-register/U0JHNjc3MDAx"><i class="fa-brands fa-telegram refer-telegram-color"></i></a>
+                <div class="share__social share-icon-account" style={{display:"flex",justifyContent:"center"}}>
+                    <span id="refer_link" style={{display:"none"}}>https://BSXGglobal.io/refer-register/U0JHNjc3MDAx</span>
+                        <a href="#"><i class="fa fa-link refre-link-color" onclick="copyReferLink()" style={{color: "white",
+                        fontSize: "20px",
+                        background:" gray",
+                        padding: "10px",
+                        borderRadius: "50%"}}
+                        ></i></a>
+                        <a href="whatsapp://send?text=https://sbgglobal.io/refer-register/U0JHNjc3MDAx" target="_blank"><i class="fa-brands fa-whatsapp refer-whatsapp-color" style={{color: "white",
+                        fontSize: "20px",
+                        background:" gray",
+                        padding: "10px",
+                        borderRadius: "50%"}}></i></a>
+                        <a target="_blank" href="tg://msg?text=https://sbgglobal.io/refer-register/U0JHNjc3MDAx"><i class="fa-brands fa-telegram refer-telegram-color" style={{color: "white",
+                        fontSize: "20px",
+                        background:" gray",
+                        padding: "10px",
+                        borderRadius: "50%"}}></i></a>
                 </div>
                      
                 <div class="progress progress-md" style={{height: "35px",marginTop: "15px",marginBottom: "15px"}}>
                                         <div class="progress-bar progress-bar-striped progress-bar-animated bg-green" style={{backgroundColor:" green",width: "0%"}}>
-                        <small class="justify-content-center d-flex position-absolute w-100" style={{fontSize: "20px",fontWeight:" 700", color:"#000" }}>  
-                        <span style={{fontSize: "20px",marginRight: "10px"}}>3X  </span> 0 %</small>
+                        <small class=" position-absolute w-100" style={{fontSize: "20px",fontWeight:" 700", color:"#000",display:"flex",justifyContent:"end" }}>  
+                        <span style={{fontSize: "20px",marginRight: "10px"}}>3X</span> 0 %</small>
                     </div>
                </div>
             </div>
@@ -62,7 +79,7 @@ export default function Account_page() {
         
         <div class="row">
          <div class="col-xxl-12 col-xl-12 table-head-align d-none d-sm-block">
-             <div class="row" style={{marginLeft: "5px"}}>
+             <div class="row" style={{justifyContent:"center"}}>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width:" max-content"}}>
                <div class="process__item">
                   <a href="#">
@@ -205,7 +222,7 @@ export default function Account_page() {
                 <div class="tab-content" id="profile-tabContent">
                    <div class="tab-pane fade show active" id="nav-information" role="tabpanel" aria-labelledby="nav-information-tab">
                       <div class="profile__info">
-                         <h3 class="profile__info-title">Welcome - Jitendra!</h3>
+                         <h3 class="profile__info-title">Welcome - Vipin!</h3>
                          
                          <div class="profile__info-content  update-profile-form">
                             <form method="POST" action="https://sbgglobal.io/user/update-profile" accept-charset="UTF-8" id="profile-update-form"><input name="_token" type="hidden" value="iIMwAX6VRvcDshZMllwGhc0bMwDnVx6W2e2sa1Wa"/>
@@ -216,7 +233,7 @@ export default function Account_page() {
                                      <div class="profile__input-box">
                                         <h4>User Name</h4>
                                         <div class="profile__input">
-                                           <input type="text" placeholder="Enter first name" value="Jitendra" name="first_name" disabled=""/>
+                                           <input type="text" placeholder="Enter first name" value="Vipin kumar" name="first_name" disabled=""/>
                                             <input type="hidden" class="form-control" value="" name="last_name"/>
                                             <small class="text-danger"></small>
                                            <i class="fa-light fa-user"></i>
@@ -227,7 +244,7 @@ export default function Account_page() {
                                      <div class="profile__input-box">
                                         <h4>Email</h4>
                                         <div class="profile__input">
-                                           <input type="email" placeholder="Enter your email" value="jitendra.aadhar@gmail.com" name="email" style={{backgroundColor: "white"}}/>
+                                           <input type="email" placeholder="Enter your email" value="vipinatraura@gmail.com" name="email" style={{backgroundColor: "white"}}/>
                                            <i class="fa-light fa-envelope"></i>
                                             <small class="text-danger"></small>
                                         </div>
