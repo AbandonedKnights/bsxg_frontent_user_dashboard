@@ -567,42 +567,18 @@ const Home = () => {
 											style={{ height: "20px", marginTop: "5px" }}
 										></img>
 									 <span>	BTC<b>3,588.39</b></span>
-									<img src="./images/Slide_coins/trx.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
-										style={{ height: "20px", marginTop: "5px" }}
-									></img>
-									<span>XRP<b>0.32</b></span>
 									<img src="./images/Slide_coins/eth.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 										style={{ height: "20px", marginTop: "5px" }}
 									></img>
 									<span>ETH<b>116.36</b></span>
-									<img src="./images/Slide_coins/bnb.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
-										style={{ height: "20px", marginTop: "5px" }}
-									></img>
-									<span>EOS<b>2.44</b></span>
 									<img src="./images/Slide_coins/usdt.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 										style={{ height: "20px", marginTop: "5px" }}
 									></img>
-									<span>USDT<b>1.01</b></span>
-									<img src="./images/Slide_coins/zax.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
-										style={{ height: "20px", marginTop: "5px" }}
-									></img>
-									<span>LTC<b>32.61</b></span>
-									<img src="./images/Slide_coins/bnb.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
-										style={{ height: "20px", marginTop: "5px" }}
-									></img>
-									<span>XLM<b>0.10</b></span>
+									<span>USDT<b>1</b></span>
 									<img src="./images/Slide_coins/trx.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
 										style={{ height: "20px", marginTop: "5px" }}
 									></img>
 									<span>TRX<b>0.03</b></span>
-									<img src="./images/Slide_coins/mmit.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
-										style={{ height: "20px", marginTop: "5px" }}
-									></img>
-									<span>BSV<b>74.29</b></span>
-									<img src="./images/Slide_coins//bnb.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
-										style={{ height: "20px", marginTop: "5px" }}
-									></img>
-									<span>ADA<b>0.04</b></span>
 								</div>
 
 							</div>
