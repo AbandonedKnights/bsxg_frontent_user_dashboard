@@ -1,7 +1,116 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import MyNavbar from '../components/MyNavbar'
+import {api_test} from "../utils/api";
+import { useSelector } from "react-redux";
+import { add, div } from '../utils/Math';
+import QRCode from "react-qr-code";
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 export default function Diposit_panel() {
+   const { userInfo } = useSelector((state) => state?.user?.value);
+	const user_id = userInfo.user_id;
+   const [coin, setCoin] = useState();
+   const [packages, setPackages] = useState();
+   const [coindata, setCoinData] = useState();
+   const [walletAddress, setWalletAddress] = useState();
+   const [depositBalance, setDepositBalance] = useState();
+   const [depositCoin, setDepositCoin] = useState("none");
+   const [copied, setCopied] = useState(false);
+   const [PackageData, setPackageData] = useState();
+   useEffect(()=>{
+		api_test
+		.post("get-deposit-details")
+		.then((res) => {
+		  let data =res.data; 
+		  if(data.status == 200){
+         setCoin(data.params.coin)
+         setPackages(data.params.packages_data)
+		  }
+		  
+		})
+		.catch((error) => {
+		  console.log("user", error);
+		})
+      api_test
+		.post("get-price")
+		.then((res) => {
+		  let data =res.data; 
+		  if(data.status == 200){
+         setCoinData(data.coins)
+		  }
+		  
+		})
+		.catch((error) => {
+		  console.log("user", error);
+		})
+	  }, [])
+     useEffect(()=>{
+      api_test
+		.post("update-wallet",{user_id})
+		.then((res) => {
+		  let data =res.data; 
+        console.log("updateWallet",data)		  
+		})
+		.catch((error) => {
+		  console.log("user", error);
+		})
+     }, [])
+      const coinlist = coin && coin.map((item) => {
+         if (item.symbol !== "BabyDoge" && item.symbol !== 'SHIB') {
+           return (
+             <>
+             <option value={item.symbol}>{item.symbol} </option>
+             </>
+           );
+         }
+       });
+       const packagelist = depositCoin != 'none' && packages && packages.map((item) => {
+           return (
+             <>
+             <option value={item.amount}>{item.amount}{" "}{item.name} package</option>
+             </>
+           );
+       });
+       const coins = coindata && coindata.map((item) => {
+         return (
+           <>
+          <img src={item.icon} class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
+											style={{ height: "20px", marginTop: "5px" }} />
+									 <span>	{item.symbol}<b>{item.current_price_usdt} $</b></span>
+           </>
+         );
+     });
+     const fetchWallet = (symbol) => {
+      let data = {
+         user_id, 
+         symbol
+      }
+      api_test
+		.post("create-wallets-user", data)
+		.then((res) => {
+		  let data =res.data; 
+		  if(data.status == 200){
+         setWalletAddress(data.wallet_address);
+         setDepositCoin(symbol=='USDT'?'USDT TRC20':symbol)
+         let coinprice = coindata && coindata.find((item)=>item.symbol==symbol);
+         let price = symbol == 'USDT'?1:coinprice.current_price_usdt;
+         let bal = div(PackageData, price);
+         setDepositBalance(bal)
+		  }
+		  
+		})
+		.catch((error) => {
+		  console.log("user", error);
+		})
+     }
+     const calculatBalance = (pack) => {
+      let fee = add(pack,2);
+      setPackageData(fee);
+      let coinprice = coindata && coindata.find((item)=>item.symbol==depositCoin);
+      let price = depositCoin == 'USDT TRC20'?1:coinprice.current_price_usdt;
+      let bal = div(fee, price);
+      setDepositBalance(bal); 
+     }
   return (
     <>
     <MyNavbar/>
@@ -130,26 +239,43 @@ export default function Diposit_panel() {
                                        </div>
                                                                               <hr/>
                                        <div class="row" style={{justifyContent: "space-around"}}>
-                                          <div class="col-md-6"
+                                          <div class="col-md-5"
                                           style={{background:" #0c1939",
                                                 padding: "10px",
                                                 borderRadius: "5px"}}>
                                              <div class="form-group">
                                                 <label class="col-md-3 control-label" for="selectbasic" style={{color: "white"}}>Select Coin</label>
                                                 <div class="col-md-12">
-                                                   <select class="form-control" name="coin_name">
-                                                      <option disabled="" selected="">Select BSXG Coin</option>
-                                                      <option value="BNB">BNB</option>
-                                                      <option value="TRX">TRON</option>
-                                                      <option value="ETH">ETH</option>
-                                                      <option value="USDT.TRC20">USDT</option>
+                                                   <select class="form-control" name="coin_name" onChange={(e)=>{
+                                                      fetchWallet(e.target.value);
+                                                   }}>
+                                                      <option disabled="disabled" selected="selected">Select Coin</option>
+                                                      {coinlist}
 																										   
 												   </select>
                                                    <small class="text-danger "></small>
                                                 </div>
                                              </div>
                                           </div>
-                                          <div class="col-md-6" id="amount"
+                                          <div class="col-md-2"></div>
+                                          <div class="col-md-5"
+                                          style={{background:" #0c1939",
+                                                padding: "10px",
+                                                borderRadius: "5px"}}>
+                                             <div class="form-group">
+                                                <label class="col-md-3 control-label" for="selectbasic" style={{color: "white"}}>Select Package</label>
+                                                <div class="col-md-12">
+                                                   <select class="form-control" name="pack_name" onChange={(e)=>{
+                                                      calculatBalance(e.target.value);
+                                                   }}>
+                                                      <option disabled="disabled" selected="selected">Select BSXG Packages</option>
+                                                      {packagelist}
+																	</select>
+                                                   <small class="text-danger "></small>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          {/* <div class="col-md-4" id="amount"
                                           style={{background:" #0c1939",
                                                 padding: "10px",
                                                 borderRadius: "5px"}}>
@@ -160,7 +286,7 @@ export default function Diposit_panel() {
 																									<small class="text-danger "></small>
                                                 </div>
                                              </div>
-                                          </div>
+                                          </div> */}
                                        </div>
                                        <br/>
                                        <h5><span style={{color:"red"}}>Note :</span> <strong class="deposit-h5-color" style={{color:"black"}}>On final transaction please send amount including network fee.</strong></h5>
@@ -169,8 +295,9 @@ export default function Diposit_panel() {
                                              <div class="image">
                                                 <img src="/images/buy_sell_icon/deposit-bottom.png" style={{width: "25%"}}/><br/>
                                                 <span>
-                                                <button type="button" onclick="submitForm()" class="custom-btn btn-12" id="deposit_btn"
-                                                style={{margin:"20px"}}>Add coin
+                                                <button class="btn btn-warning show-modal btn-toggle-modal"
+         type="button" data-bs-toggle="modal" data-bs-target="#info-msg-modal"
+         style={{ margin: "0px !important" }} id="deposit_btn">Deposit
                                                 </button>
                                                 </span>
                                              </div>
@@ -182,7 +309,7 @@ export default function Diposit_panel() {
                            
                         </div>
                         <br/>
-                        <center>
+                        {/* <center>
                        
                            <h1 style={{color:"black"}}>Upcoming BSXG Wallet</h1>
                            
@@ -193,8 +320,32 @@ export default function Diposit_panel() {
                         <img src="/images/coins/bnb-coin.png" style={{ height: "63px", width: "63px" }} />
                         <img src="/images/coins/btc-coin.png" style={{ height: "63px", width: "63px" }} />
                        <img src="/images/coins/eth-coin.png"style={{ height: "63px", width: "63px" }}  />
-                    </center>
+                       
+                    </center> */}
                         <br/><br/>
+                        <section class="section-spacing" >
+				<div class="container " style={{
+					borderTop: "1px solid gray",
+					borderBottom: "1px solid gray"
+				}}>
+					<div class="row align-items-center">
+						<div class="col-md-12 col-lg-12">
+							<div class="position-relative marquee-container d-none d-sm-block">
+								<div class="marquee d-flex justify-content-around">
+									
+										{coins}
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+
+				</div>
+			</section>
+         <br />
+         <br />
                      </div>
                   </div>
                </div>
@@ -203,37 +354,78 @@ export default function Diposit_panel() {
          </div>
       </div>
 
-    <div class="modal fade pop-up-modal" id="info-msg-modal" tabindex="-1" style={{display: "none"}} aria-hidden="true">
+    <div class="modal fade pop-up-modal" id="info-msg-modal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content border-0" style={{background: "#000 !important"}}>
-                
-                <div class="modal-body">
-                    <h2 style={{color:"#ffbd49",fontWeight: "600", textAlign: "center"}}>Deposit Info</h2>
-                    <hr/>
-                    <div style={{color:"#fff"}}>
-                        <ul style={{fontSize: "18px",lineHeight: "30px",padding: "5px", textAlign:"justify"}}>
-                            <li style={{display: "flex"}}>
-                              <div class="icon" style={{marginRight: "10px"}}><i class="fa fa-info-circle li-color-blink blink"></i></div>
-                              You should transfer amount to given address within 2 hrs, else it will not be reflected in your account.
-                           </li>
-                           <li style={{display: "flex"}}>
-                              <div class="icon" style={{marginRight: "10px"}}><i class="fa fa-info-circle li-color-blink blink"></i></div>
-                              Our payment address is dynamic, it changes everytime when user create a deposit. Please send funds to the latest address shown while creating a deposit.
-                           </li>
-                           <li style={{display: "flex"}}>
-                              <div class="icon" style={{marginRight: "10px"}}><i class="fa fa-info-circle li-color-blink blink"></i></div>
-                              Please send exact amount displayed while creating deposit + network fee  while creating a transfer from your network platform in TRX/USDT.
-                           </li>
-                          <li style={{display: "flex"}}>
-                              <div class="icon" style={{marginRight: "10px"}}><i class="fa fa-info-circle li-color-blink blink"></i></div>
-                              Funds sent to a different address or on different coin structures cannot be recovered, Please check twice before making deposit.
-                           </li>
-                        </ul>
+            <div class="modal-header">
+                  <h2 style={{color:"#ffbd49",fontWeight: "600", textAlign: "center"}}>Deposit Info</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+                  {depositBalance && depositCoin && walletAddress ?
+                  <div class="modal-body">
+                     <p class="modal-title" id="exampleModalLabel">
+                        Send to your Secure Address
+                     </p> <hr />
+                     <strong>Total Amount to Send :{" "}{depositBalance}{" "}{depositCoin}</strong>
+                     <hr />
+                     <div className="container">
+                        <div className="">
+                        <label htmlFor="coin_address">
+                           Destination Address :
+                        </label>{" "}
+                        <br />
+                        <CopyToClipboard
+                           text={walletAddress}
+                           onCopy={() => setCopied({ copied: true })}
+                        >
+                           {copied ? (
+                              <span className="cop_btn text-success">
+                              <span>{walletAddress}</span>
+                              <span className="mx-1">Copied</span>
+                              </span>
+                           ) : (
+                              <span className="cop_btn theme-color-text">
+                              <span>
+                                 {walletAddress}
+                                 <span className="mx-1">
+                                    {" "}
+                                    <i
+                                    className="fas fa-copy"
+                                    aria-hidden="true"
+                                    ></i>
+                                 </span>
+                              </span>
+                              </span>
+                           )}
+                        </CopyToClipboard>
+                        </div>
+                        <hr />
+                        <QRCode value={walletAddress?walletAddress:''} />
+                        <div className="signupform-control">
+                        <div className="text-danger">
+                           <i
+                              className="fas fa-warning"
+                              aria-hidden="true"
+                           ></i>{" "}
+                           Disclaimer
+                        </div>
+                        <hr className="h_r" />
+                        <label htmlFor="disclaimer">
+                           Please Deposit only {depositCoin}{" "}
+                           to this address. If you Deposit any other
+                           coins, It will be lost forever.
+                        </label>
+                        </div>
                      </div>
-                </div>
-                <div class="mb-3" style={{textAlign: "center"}}>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close" id="close-info-modal">Close</button>
-                </div>
+                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close"> FINISH</button>
+                  </div>:
+                   <div class="modal-body">
+                   <p class="modal-title" id="exampleModalLabel">
+                     <div class="alert alert-info" role="alert">
+                        Please select coin for deposit and package
+                        </div>
+                   </p>
+                </div>}
             </div>
         </div>
     </div>
