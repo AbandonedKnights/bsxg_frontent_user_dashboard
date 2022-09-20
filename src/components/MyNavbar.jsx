@@ -40,10 +40,8 @@ export default function MyNavbar(props) {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark app-bg-dark"
-    style={{padding: "0px !important"}}>
-      <div className="container-fluid" style={{marginLeft: "60px",
-    padding: "0px"}}>
+    <nav className="navbar navbar-expand-lg navbar-dark app-bg-dark nav_dashboard">
+      <div className="container-fluid nav_respo">
         {/* <a className="navbar-brand" href="/">
           Navbar
         </a> */}
@@ -66,7 +64,7 @@ export default function MyNavbar(props) {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 m-auto">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                   <a class="nav-link " href="/home"><i className="fa fa-home" aria-hidden="true" style={{color:"#f59a09"}} > </i>   Home</a>
                 </li>
@@ -83,7 +81,7 @@ export default function MyNavbar(props) {
                   <a class="nav-link" href="#contact"><i className="fa fa-user"aria-hidden="true" style={{color:"#f59a09"}}> </i> Account</a>
                 </li>
                 <li class="nav-item btn-login">
-                  <button className="btn btn-danger mt-2"
+                  <button className="btn btn-danger"
                    onClick={(e) => {
                     e.preventDefault();
                     localStorage.removeItem("exchange_inrx_userID");

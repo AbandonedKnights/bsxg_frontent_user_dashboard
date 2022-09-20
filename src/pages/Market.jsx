@@ -15,39 +15,39 @@ export default function Market() {
                             <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
                                 <div class="contact__info-item align-items-center mb-20">
                                     <div class="contact__text">
-                                        <div class="progress" style={{ height: "2rem", fontSize: "23px", color: "black", backgroundColor: "#fff" }}>
+                                        <div class="progress market_progress">
                                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style={{ backgroundColor: "#e53636", width: "0%" }}>
                                                 <small class="justify-content-center d-flex position-absolute prog-width-full" style={{ fontSize: "20px", fontWeight: "700", color: "#000",paddingLeft:"50px" }}>
                                                     <span style={{ fontSize: "20px", marginRight: "10px" }}></span> 0%</small>
                                             </div>
                                         </div>
-                                        <p style={{ textAlign: "center", color: "white" }}>1. Next level <i>Expert </i> Total Leg in Tree <i>5</i> condition is remaining by 5 Direct Leg</p>
+                                        <p className='market_head'>1. Next level <i>Expert </i> Total Leg in Tree <i>5</i> condition is remaining by 5 Direct Leg</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                 <div class="contact__info-item align-items-center mb-20">
                                     <div class="contact__text">
-                                        <div class="progress" style={{ height: "2rem", fontSize: "23px", color: "black", backgroundColor: "#fff" }}>
+                                        <div class="progress market_progress">
                                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style={{ width: "0%" }}>
                                                 <small class="justify-content-center d-flex position-absolute prog-width" style={{ fontSize: "20px", fontWeight: " 700", color: "#000 " }}>
                                                     <span style={{ fontSize: "20px",paddingLeft:"50px" }}></span> 0%</small>
                                             </div>
                                         </div>
-                                        <p style={{ textAlign: "center", color: "white" }}>2. Next level <i>Expert</i> Total Business <i>50000</i><br /> condition is remaining by 50000 Business</p>
+                                        <p className='market_head'>2. Next level <i>Expert</i> Total Business <i>50000</i><br /> condition is remaining by 50000 Business</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                 <div class="contact__info-item align-items-center mb-20">
                                     <div class="contact__text">
-                                        <div class="progress" style={{ height: "2rem", fontSize: "23px", color: "white", backgroundColor: "#fff" }}>
+                                        <div class="progress market_progress">
                                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style={{ width: "0%" }}>
                                                 <small class="justify-content-center d-flex position-absolute prog-width" style={{ fontSize: "20px", fontWeight: "700", color: "#000" }}>
                                                     <span style={{ fontSize: "20px", marginRight: "10px",paddingLeft:"50px" }}></span> 0% </small>
                                             </div>
                                         </div>
-                                        <p style={{ textAlign: "center", color: "white" }}>3. 50% Business in Any One Leg <br /> condition is remaining by 25000 Business</p>
+                                        <p className='market_head'>3. 50% Business in Any One Leg <br /> condition is remaining by 25000 Business</p>
                                     </div>
                                 </div>
                             </div>
@@ -56,26 +56,26 @@ export default function Market() {
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                 <div class="contact__info-item align-items-center mb-20">
                                     <div class="contact__text">
-                                        <div class="progress" style={{ height: "2rem", fontSize: "23px", color: "white", backgroundColor: "#fff" }}>
+                                        <div class="progress market_progress">
                                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style={{ width: "0%" }}>
                                                 <small class="justify-content-center d-flex position-absolute prog-width" style={{ fontSize: " 20px", fontWeight: "700", color: "#000" }}>
                                                     <span style={{ fontSize: "20px", marginRight: "10px",paddingLeft:"50px" }}></span> 0%</small>
                                             </div>
                                         </div>
-                                        <p style={{ textAlign: "center", color: "white" }}>4. 10% Business in Another Leg <br /> condition is remaining by 5000 Business</p>
+                                        <p className='market_head'>4. 10% Business in Another Leg <br /> condition is remaining by 5000 Business</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                 <div class="contact__info-item align-items-center mb-20">
                                     <div class="contact__text">
-                                        <div class="progress" style={{ height: "2rem", fontSize: "23px", color: "white", backgroundColor: "#fff " }}>
+                                        <div class="progress market_progress">
                                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style={{ width: "0%" }}>
                                                 <small class="justify-content-center d-flex position-absolute prog-width" style={{ fontSize: "20px", fontWeight: "700", color: "#000 " }}>
                                                     <span style={{ fontSize: "20px", marginRight: "10px" ,paddingLeft:"50px"}}></span> 0%</small>
                                             </div>
                                         </div>
-                                        <p style={{ textAlign: "center", color: "white" }}>5. 40% Business in Other 3 Legs <br /> condition is remaining by 20000 Business</p>
+                                        <p className='market_head'>5. 40% Business in Other 3 Legs <br /> condition is remaining by 20000 Business</p>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ export default function Market() {
             <section class="nft__area pt-20 pb-40" style={{marginTop:"30px"}}>
 		<div class="container">
 			<div class="alert blinking" style={{textAlign: "center",fontSize: "20px",fontWeight: "600"}}>
-				<strong class="blink" style={{color:"white"}}>How to Achieve Reward Level </strong>
+				<strong class="blink">How to Achieve Reward Level </strong>
 				<button type="button" class="btn btn-success" data-toggle="modal" data-target="#videoModal" id="videoModal">Play Video</button>
 			</div>
 			<div class="modal fade" id="video_modal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel">
@@ -159,7 +159,7 @@ export default function Market() {
 		   <div class="process__item">
 			  <a href="#">
 				 <div class="process__icon active">
-					<span><img src="/Images/buy_sell_coin/restake-report-inside.png" alt="" class="icon-size"/></span>
+					<span><img src="/Images/coins/restake-report-inside.png" alt="" class="icon-size"/></span>
 				 </div>
 			  </a>
 			  <div class="process__content">
@@ -171,7 +171,7 @@ export default function Market() {
 		   <div class="process__item">
 			  <a href="#">
 				 <div class="process__icon">
-					<span><img src="/Images/buy_sell_coins/activation-report-inside.png" alt="" class="icon-size"/></span>
+					<span><img src="/Images/coins/activation-report-inside.png" alt="" class="icon-size"/></span>
 				 </div>
 			  </a>
 			  <div class="process__content">
@@ -190,7 +190,7 @@ export default function Market() {
 						  <div class="upcoming__table" style={{width:"100%"}}>
 							 <div class="table-responsive">
 						  <table class="table" style={{width:"100%"}}>
-							 <thead class="tbl-th" style={{color:"white",fontSize:"15px"}}>
+							 <thead class="tbl-th" className='market_tabel_head'>
 								<tr>
 								   <th class="tbl-color">My Earning</th>
 								   <th class="tbl-color table-right">0 BSXG</th>
@@ -198,20 +198,20 @@ export default function Market() {
 							 </thead>
 							 <tbody>
 								<tr>
-								   <td><a href="#" style={{color:"white",fontSize:"15px"}}>Unilevel</a></td>
-								   <td class="table-right"><a href="#" style={{color:"white",fontSize:"15px"}}>0 BSXG</a></td>
+								   <td><a href="#" className='market_tabel_head' >Unilevel</a></td>
+								   <td class="table-right"><a href="#"className='market_tabel_head'>0 BSXG</a></td>
 								</tr>
 								<tr>
-								   <td><a href="#" style={{color:"white",fontSize:"15px"}}>Stake Profit</a></td>
-								   <td class="table-right"><a href="#" style={{color:"white",fontSize:"15px"}}>0 BSXG</a></td>
+								   <td><a href="#" className='market_tabel_head'>Stake Profit</a></td>
+								   <td class="table-right"><a href="#" className='market_tabel_head'>0 BSXG</a></td>
 								</tr>
 								<tr>
-								   <td><a href="#" style={{color:"white",fontSize:"15px"}}>Global Pool</a></td>
-								   <td class="table-right"><a href="#" style={{color:"white",fontSize:"15px"}}>0 BSXG</a></td>
+								   <td><a href="#" className='market_tabel_head'>Global Pool</a></td>
+								   <td class="table-right"><a href="#" className='market_tabel_head'>0 BSXG</a></td>
 								</tr>
 								<tr>
-								   <td><a href="#" style={{color:"white",fontSize:"15px"}}>Sponsor Income</a></td>
-								   <td class="table-right"><a href="#" style={{color:"white",fontSize:"15px"}}>0 BSXG</a></td>
+								   <td><a href="#" className='market_tabel_head'>Sponsor Income</a></td>
+								   <td class="table-right"><a href="#" className='market_tabel_head'>0 BSXG</a></td>
 								</tr>
 							 </tbody>
 							 </table>
@@ -227,7 +227,7 @@ export default function Market() {
      <section class="process__area pb-0">
 		<div class="container">
 		   <div class="row">
-			  <div class="col-md-6">
+			  <div class="col-md-6" style={{marginBottom:"15px"}}>
 				 <div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 					   <div class="activity__item-inner d-flex align-items-center">
 						  <div class="activity__thumb mr-20">
@@ -244,7 +244,7 @@ export default function Market() {
 					   </div>
 					</div>
 			  </div>
-			  <div class="col-md-6">
+			  <div class="col-md-6" style={{marginBottom:"15px"}}>
 				 <div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 					   <div class="activity__item-inner d-flex align-items-center">
 						  <div class="activity__thumb mr-20">

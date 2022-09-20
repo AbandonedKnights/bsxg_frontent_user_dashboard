@@ -5,8 +5,8 @@ import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 // import { useTranslation } from "react-i18next";
 import { Link, useParams } from "react-router-dom";
-import 'react-phone-number-input/style.css'
-import PhoneInput from 'react-phone-number-input'
+// import 'react-phone-number-input/style.css'
+// import PhoneInput from 'react-phone-number-input'
 //import { toast } from "wc-toast";
 import {api_test} from "../../utils/api";
 export default function EmailRegistration(props) {
@@ -405,7 +405,7 @@ export default function EmailRegistration(props) {
           </div>
         )} */}
       </div>
-      <div className="mb-2">
+      {/* <div className="mb-2">
         <PhoneInput
         className="form-control form-control-sm"
         international
@@ -413,7 +413,7 @@ export default function EmailRegistration(props) {
         placeholder="Enter phone number"
         value={value}
         onChange={setValue}/>
-      </div>
+      </div> */}
       {/* <div className="mb-2">
         <div className="d-flex justify-content-center align-items-center">
           <div className="form-floating flex-fill">
@@ -536,8 +536,11 @@ export default function EmailRegistration(props) {
               },
             })}
           />
+          
           <label for="password">Password</label>
         </div>
+        {/* <i class="fa fa-eye"></i> */}
+
         {errors?.password && (
           <div className="app-text-danger">{errors?.password?.message}</div>
         )}
@@ -586,7 +589,7 @@ export default function EmailRegistration(props) {
 
       <button
         type="submit"
-        style={{borderRadius:"5px"}}
+        style={{borderRadius:"5px",background:"#6e7887"}}
         className={isAgreed ? "btn-success" : ""}
         disabled={!isAgreed}
       >

@@ -7,7 +7,7 @@ export default function Tree() {
     <MyNavbar/>
         <section class="nft__area pt-100 pb-25">
    <div class="container">
-                <div class="alert blinking" style={{textAlign: "center",fontSize: "20px",fontWeight: "600",color:"white"}}>
+                <div class="alert blinking" style={{textAlign: "center",fontSize: "20px",fontWeight: "600"}}>
                     <strong class="blink">How to Achieve Reward Level </strong>
                     <button type="button" class="btn btn-success" data-toggle="modal" data-target="#videoModal" id="videoModal">Play Video</button>
                 </div>
@@ -44,10 +44,10 @@ export default function Tree() {
                                           <div class="col-xxl-4 col-lg-4">
                                           </div>
                                           <div class="col-xxl-3 col-lg-3" style={{margin:"10px"}}>
-                                             <label style={{color:"white",fontSize:"15px"}}>Refer Code</label>
-                                             <input type="text" name="refer_code" id="search-refer" style={{borderRadius: "10px",padding:"5px"}}/>  
+                                             <label style={{fontSize:"15px"}}>Refer Code</label>
+                                             <input type="text" name="refer_code" id="search-refer" className='tree_refer_box'  style={{borderRadius: "10px",padding:"5px"}}/>  
                                           </div>
-                                          <div class="col-xxl-1 col-lg-1">
+                                          <div class="col-xxl-1 col-lg-1 tree_search_btn" style={{marginTop:"40px"}}>
                                              <button type="button" class="btn btn-success" onclick="submitRefer()" style={{borderRadius: "6px",padding: "2px 16px 6px 15px"}}>Search</button>                 
                                           </div>
                                           <div class="col-xxl-4 col-lg-4">
@@ -167,7 +167,7 @@ export default function Tree() {
                                     </div>
                                     <div class="col-md-12" style={{paddingBottom: "5%"}}>
                                         <div class="tree">
-                                          <ul class="clearfix ul-responsive" style={{left: "30% !important"}}>
+                                          <ul class="clearfix ul-responsive" style={{left: "30%"}}>
                                              <li style={{justifyContent:"center",display:"flex"}}>
                                                 <a class="top-child pt-1" href="/home">
                                                                                                       <img src="/images/logo.png" alt="" style={{height:"200px",width:"350px"}}/>

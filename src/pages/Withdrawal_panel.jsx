@@ -9,8 +9,8 @@ export default function Withdrawal_panel() {
 
         <div class="row">
           <div class="col-xxl-12 col-xl-12 table-head-align d-none d-sm-block d-sm-none d-md-block">
-            <div class="row" style={{ marginLeft: "5px",justifyContent:" center" }}>
-              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{ width: "max-content !important" }}>
+            <div class="row" style={{justifyContent:"space-around" }}>
+              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{ width: "max-content" }}>
                 <div class="process__item active">
                   <a href="#">
                     <div class="process__icon">
@@ -22,7 +22,7 @@ export default function Withdrawal_panel() {
                   </div>
                 </div>
               </div>
-              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{ width: "max-content !important" }}>
+              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{ width: "max-content " }}>
                 <div class="process__item">
                   <a href="#">
                     <div class="process__icon">
@@ -37,12 +37,12 @@ export default function Withdrawal_panel() {
             </div>
           </div>
           <center>
-          <div class="row d-lg-none d-sm-none" style={{ marginLeft: "5px" }}>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{ width: "max-content !important" }}>
+          <div class="row d-lg-none d-sm-none" style={{justifyContent:"space-around" }}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{ width: "max-content " }}>
               <div class="process__item active">
                 <a href="#">
                   <div class="process__icon">
-                    <span><img src="#" alt="" class="icon-size" /></span>
+                    <span><img src="/Images/buy_sell_icon/withdrawal-inside.png" alt="" class="icon-size" /></span>
                   </div>
                 </a>
                 <div class="process__content">
@@ -50,11 +50,11 @@ export default function Withdrawal_panel() {
                 </div>
               </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{ width: "max-content !important" }}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{ width: "max-content" }}>
               <div class="process__item">
                 <a href="#">
                   <div class="process__icon">
-                    <span><img src="#" alt="" class="icon-size" /></span>
+                    <span><img src="Images/buy_sell_icon/withdrawal-report-inside.png" alt="" class="icon-size" /></span>
                   </div>
                 </a>
                 <div class="process__content">
@@ -82,7 +82,7 @@ export default function Withdrawal_panel() {
                       </span>
                       <h3>BSXG Wallet Withdrawal</h3>
 
-                      <div class="alert blinking" style={{ textAlign: "center", fontSize: "20px", fontWeight: "600",color:"white" }}>
+                      <div class="alert blinking" style={{ textAlign: "center", fontSize: "20px", fontWeight: "600" }}>
                         <strong class="blink" >How to withdrawal tutorial </strong>
                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#videoModal" id="videoModal">Play Video</button>
                       </div>
@@ -111,9 +111,7 @@ export default function Withdrawal_panel() {
                           <div class="col-md-1" style={{ width: "6.0%" }}></div>
                           <div class="col-md-5 benificary-form">
                             <form method="POST" action="#" accept-charset="UTF-8" id="benificary-form"><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />
-                              <div class="form-group" style={{background:"rgb(21 58 68)",
-                                 padding: "10px",
-                                 borderRadius: "5px"}}>
+                              <div class="form-group with_input">
                                 <label class="col-md-12 control-label" for="selectbasic" style={{ color: "white" }}>Add New BSXG Wallet Address</label>
                                 <input type="hidden" name="otp" class="otp1main" value="null" />
                                 <div class="col-md-12">
@@ -125,9 +123,7 @@ export default function Withdrawal_panel() {
                                 </div>
                               </div>
                               <br />
-                              <div class="form-group" style={{background:"rgb(21 58 68)",
-                                 padding: "10px",
-                                 borderRadius: "5px"}}>
+                              <div class="form-group with_input">
                                 <label class="col-md-12 control-label" for="selectbasic" style={{ color: "white" }}>Receiver's Wallet Address</label>
                                 <div class="col-md-12">
                                   <input type="text" name="receivers_wallet_address" class="form-control" />
@@ -135,9 +131,7 @@ export default function Withdrawal_panel() {
                                 </div>
                               </div>
                               <br />
-                              <div class="form-group" style={{background:"rgb(21 58 68)",
-                                 padding: "10px",
-                                 borderRadius: "5px"}}>
+                              <div class="form-group with_input">
                                 <label class="col-md-6 control-label" for="selectbasic" style={{ color: "white" }}>Select OTP Mode</label>
                                 <div class="col-md-12">
                                   <select class="form-control" name="otp_mode">
@@ -148,8 +142,8 @@ export default function Withdrawal_panel() {
                                   <small class="text-danger otp_mode"></small>
                                 </div>
                               </div>
-                              <center>
-                                <button class="custom-btn btn-12" type="button" onclick="sendOtpBenificary()" id="address_btn"><span>SEND OTP</span></button>
+                              <center style={{margin:"15px 0px 30px"}}>
+                                <button class="custom-btn btn-12 with_otp_btn" type="button" onclick="sendOtpBenificary()" id="address_btn"><span>SEND OTP</span></button>
                               </center>
                               <input type="hidden" name="sender_id" value="" />
                             </form>
@@ -161,12 +155,12 @@ export default function Withdrawal_panel() {
                                 <label class="label-control" style={{ color: "white" }}>Enter your 6 digit OTP</label>
                                 <form method="post" action="" id="benificary-otp-form">
                                   <input type="hidden" name="_token" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />
-                                  <div class="form-group" >
+                                  <div class="form-group " >
                                     <input type="hidden" class="form-control" name="mobile" id="mobile_num1" value="" />
                                   </div>
                                   <input type="text" class="form-control" id="otpBox1" name="otpBox1" value="" placeholder="Enter OTP" />
                                   <small class="text-danger"></small>
-                                  <center><small class="text-danger codeBoxError" style={{ fontSize: "16px !important" }}></small></center>
+                                  <center><small class="text-danger codeBoxError" style={{ fontSize: "16px" }}></small></center>
                                   <div class="col-md-12 mb-4 resend-otp-timer">
                                     <div class="form-group otp-timer text-center">
                                       <p class="text-center bg-danger p-1" style={{ borderRadius: "20px" }}>Resend OTP? Wait: <span class="timer"></span> seconds</p>
@@ -175,7 +169,7 @@ export default function Withdrawal_panel() {
                                   <div class="registration-form-account send-otp-btn">
                                     <p class="registration-form-account-para-tag">Didn't get OTP? <input type="button" value="Resend OTP" class="btn btn-success registration-form-signin-button resend-otp-btn" onclick="sendOtpBenificary()" /></p>
                                   </div>
-                                  <button class="custom-btn btn-12" type="button" onclick="verifyBenificaryOtp()" id="address_btn_otp"><span>Submit</span><span>Submit</span></button>
+                                  <button class="custom-btn btn-12 with_otp_btn" type="button" onclick="verifyBenificaryOtp()" id="address_btn_otp"><span>Submit</span></button>
                                 </form>
                               </div>
                             </div>
@@ -191,7 +185,7 @@ export default function Withdrawal_panel() {
                                   </div>
                                   <input type="text" class="form-control" id="otpBox2" name="otpBox2" value="" placeholder="Enter OTP" />
                                   <small class="text-danger"></small>
-                                  <center><small class="text-danger codeBoxError" style={{ fontSize: "16px !important" }}></small></center>
+                                  <center><small class="text-danger codeBoxError" style={{ fontSize: "16px " }}></small></center>
                                   <div class="col-md-12 mb-4 resend-otp-timer">
                                     <div class="form-group otp-timer text-center">
                                       <p class="text-center bg-danger p-1" style={{ borderRadius: "20px" }}>Resend OTP? Wait: <span class="timer"></span> seconds</p>
@@ -200,16 +194,14 @@ export default function Withdrawal_panel() {
                                   <div class="registration-form-account send-otp-btn">
                                     <p class="registration-form-account-para-tag">Didn't get OTP? <input type="button" value="Resend OTP" class="btn btn-success registration-form-signin-button resend-otp-btn" onclick="sendOtpCrypto()" /></p>
                                   </div>
-                                  <button class="custom-btn btn-12" type="button" onclick="verifyCryptoOtp()" id="transfer_btn_otp"><span>Submit</span><span>Submit</span></button>
+                                  <button class="custom-btn btn-12 with_otp_btn" type="button" onclick="verifyCryptoOtp()" id="transfer_btn_otp"><span>Submit</span></button>
                                 </form>
                               </div>
                             </div>
                           </div>
                           <div class="col-md-5 crypto-form">
                             <form method="POST" action="#" accept-charset="UTF-8" id="transfer-form" ><input name="_token" type="hidden" value="v0QIzgBbqqQ2Ma12504kOJmBTD9JwA5pmFlxhTVn" />
-                            <div class="form-group"style={{background:"rgb(21 58 68)",
-                                 padding: "10px",
-                                 borderRadius: "5px"}}>
+                            <div class="form-group with_input">
                               <label class="col-md-12 control-label" for="selectbasic" style={{ color: "white" }}>Choose BSXG Wallet Address</label>
                               <input type="hidden" name="otp" class="otp2main" value="null" />
                               <div class="col-md-12">
@@ -220,9 +212,7 @@ export default function Withdrawal_panel() {
                               </div>
                             </div>
                             <br />
-                            <div class="form-group"style={{background:"rgb(21 58 68)",
-                                 padding: "10px",
-                                 borderRadius: "5px"}}>
+                            <div class="form-group with_input">
                               <label class="col-md-12 control-label" for="selectbasic" style={{ color: "white" }}>Available Balance: SBG 0</label>
                               <div class="col-md-12">
                                 <input type="number" name="amount"  class="form-control" min="50" placeholder="Amount" />
@@ -230,9 +220,7 @@ export default function Withdrawal_panel() {
                               </div>
                             </div>
                             <br />
-                            <div class="form-group" style={{background:"rgb(21 58 68)",
-                                 padding: "10px",
-                                 borderRadius: "5px"}}>
+                            <div class="form-group with_input" >
                               <label class="col-md-6 control-label" for="selectbasic" style={{ color: "white" }}>Select OTP Mode</label>
                               <div class="col-md-12">
                                 <select class="form-control" name="otp_mode">
@@ -243,8 +231,8 @@ export default function Withdrawal_panel() {
                                 <small class="text-danger otp_mode"></small>
                               </div>
                             </div>
-                            <center>
-                              <button class="custom-btn btn-12" type="button" onclick="sendOtpCrypto()" id="transfer_btn"><span>SEND OTP</span></button>
+                            <center style={{margin:"15px 0px 30px "}}>
+                              <button class="custom-btn btn-12 with_otp_btn" type="button" onclick="sendOtpCrypto()" id="transfer_btn"><span>SEND OTP</span></button>
                             </center>
                             <input type="hidden" name="sender_id" value="" />
                           </form>
@@ -411,7 +399,7 @@ export default function Withdrawal_panel() {
 
           <div class="modal fade pop-up-modal" id="info-msg-modal" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered modal-lg px-5">
-              <div class="modal-content border-0" style={{ width: "90% !important", background: "#000 !important" }}>
+              <div class="modal-content border-0" style={{ width: "90% ", background: "#000 " }}>
                 <div class="modal-header border-0 p-1">
                   <h5 class="modal-title text-white" id="exampleModalLabel"></h5>
                 </div>

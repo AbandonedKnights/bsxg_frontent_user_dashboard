@@ -40,10 +40,10 @@ const Router = ({ props }) => {
 
 	const navigate = useNavigate();
 	useEffect(() => {
-	 if (isLoggedIn) {
-		console.log("iw::", isLoggedIn);
-		navigate("../home", { replace: true });
-	  } 
+	//  if (isLoggedIn) {
+	// 	console.log("iw::", isLoggedIn);
+	// 	navigate("../home", { replace: true });
+	//   } 
 	}, [isLoggedIn]);
 
   useEffect(() => {

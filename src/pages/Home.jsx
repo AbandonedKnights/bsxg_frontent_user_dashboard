@@ -131,13 +131,13 @@ const Home = () => {
 					</div>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="./images/banner/banner1.png" class="d-block w-100" style={{height:'414px'}} alt="..." />
+							<img src="./images/banner/banner1.png" class="d-block  w-100 dash_banner dash-1"  alt="..." />
 						</div>
 						<div class="carousel-item">
-							<img src="./images/banner/banner2.jpg" class="d-block w-100" alt="..." />
+							<img src="./images/banner/banner2.jpg" class="d-block w-100 dash_banner" alt="..." />
 						</div>
 						<div class="carousel-item">
-							<img src="./images/banner/banner_3.jpg" class="d-block w-100" alt="..." />
+							<img src="./images/banner/banner_3.jpg" class="d-block w-100 dash_banner" alt="..." />
 						</div>
 						{/* <div class="carousel-item">
 							<img src="https://sbgglobal.io/sbg-assets-dashboard/img/slider/dashboard-slider/zax_listed.jpg" class="d-block w-100" alt="..." />
@@ -183,11 +183,13 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			<section class="process__area pt-0 pb-0 col-lg-10">
-				<div class="container" style={{ textAlign: "end" }}>
-					<div class=" menu-center">
+			<section >
+				<div class="container"
+				//  style={{ textAlign: "end" }}
+				 >
+					<div class=" menu-center row">
 						<Invite />
-						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
+						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content"}}>
 							<a href="/activation">
 								<div class="process__item mb-10">
 									<div class="process__icon mb-2 item_text"  style={{justifyContent:"center",display:"flex"}}>
@@ -199,7 +201,7 @@ const Home = () => {
 								</div>
 							</a>
 						</div>
-						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
+						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content"}}>
 							<a href="/restake">
 								<div class="process__item mb-10">
 									<div class="process__icon mb-2 item_text" style={{justifyContent:"center",display:"flex"}}>
@@ -211,7 +213,7 @@ const Home = () => {
 								</div>
 							</a>
 						</div>
-						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
+						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content"}}>
 							<Link to="../Diposit_panel">
 								<div class="process__item mb-10 item_text">
 									<div class="process__icon mb-2" style={{justifyContent:"center",display:"flex"}}>
@@ -223,7 +225,7 @@ const Home = () => {
 								</div>
 							</Link>
 						</div>
-						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
+						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content"}}>
 							<a href="/withdrawal_panel">
 								<div class="process__item mb-10 item_text">
 									<div class="process__icon mb-2" style={{justifyContent:"center",display:"flex"}}>
@@ -235,7 +237,7 @@ const Home = () => {
 								</div>
 							</a>
 						</div>
-						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
+						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content"}}>
 							<a href="/tree">
 								<div class="process__item mb-10">
 									<div class="process__icon mb-2 item_text" style={{justifyContent:"center",display:"flex"}}>
@@ -247,7 +249,7 @@ const Home = () => {
 								</div>
 							</a>
 						</div>
-						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
+						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content"}}>
 							<a href="/wallet_transfer">
 								<div class="process__item mb-10">
 									<div class="process__icon mb-2 item_text" style={{justifyContent:"center",display:"flex"}}>
@@ -368,8 +370,8 @@ const Home = () => {
 						</div>
 					</div>
 				</div> */}
-				<div class="row min_card" style={{ margin: "10px 45px" }}>
-					<div class="col-sm-3">
+				<div class="row min_card">
+					<div class="col-sm-4 all-wallet">
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
@@ -388,7 +390,7 @@ const Home = () => {
 						</div>
 					</div>
 
-					<div class="col-sm-3">
+					<div class="col-sm-4 all-wallet">
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
@@ -406,7 +408,7 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-4 all-wallet">
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
@@ -424,7 +426,7 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-4 all-wallet">
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
@@ -442,7 +444,7 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-4 all-wallet">
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
@@ -460,7 +462,7 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-4 all-wallet">
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
@@ -478,7 +480,7 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-4 all-wallet">
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
@@ -496,7 +498,7 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-4 all-wallet">
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
@@ -514,7 +516,7 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-4 all-wallet">
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
@@ -532,7 +534,7 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-4 all-wallet">
 						<div class="activity__item d-md-flex align-items-center justify-content-between mb-10 bg-box">
 							<div class="activity__item-inner d-flex align-items-center">
 								<div class="activity__thumb mr-20">
@@ -554,11 +556,11 @@ const Home = () => {
 			</section>
 
 			<section class="section-spacing" >
-				<div class="container " style={{
+				<div class="container content_slide" style={{
 					borderTop: "1px solid gray",
 					borderBottom: "1px solid gray"
 				}}>
-					<div class="row align-items-center">
+					<div class="row align-items-center ">
 						<div class="col-md-12 col-lg-12">
 							<div class="position-relative marquee-container d-none d-sm-block">
 								<div class="marquee d-flex justify-content-around">
@@ -678,7 +680,7 @@ const Home = () => {
 
 
 			<section class="auction__area pt-0 pb-30">
-				<div class="container">
+				<div class="container user_list">
 					<div class="card dash-card">
 						<div class="card-header bg-box"style={{ textAlign: "center"}}>
 							<a href="#">
@@ -699,35 +701,35 @@ const Home = () => {
 										</thead>
 										<tbody class="bg-box" style={{ overflow: "hidden", background: "#c7d3e7" }}>
 
-											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+											<tr style={{ backgroundColor: " transparent ", border: "0px solid" }}>
 												<td>1.</td>
 												<td>Vinod kumar</td>
 												<td>BSXG783515</td>
 												<td>Expert</td>
 											</tr>
 
-											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+											<tr style={{ backgroundColor: " transparent ", border: "0px solid " }}>
 												<td>2.</td>
 												<td>Girjesh Kumar pandey</td>
 												<td>BSXG110390</td>
 												<td>Expert</td>
 											</tr>
 
-											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+											<tr style={{ backgroundColor: " transparent ", border: "0px solid " }}>
 												<td>3.</td>
 												<td>Anil pratap</td>
 												<td>BSXG100083</td>
 												<td>Expert</td>
 											</tr>
 
-											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+											<tr style={{ backgroundColor: " transparent ", border: "0px solid" }}>
 												<td>4.</td>
 												<td>Sonu 1</td>
 												<td>BSXG341565</td>
 												<td>Expert</td>
 											</tr>
 
-											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+											<tr style={{ backgroundColor: " transparent ", border: "0px solid " }}>
 												<td>5.</td>
 												<td>Abhishek</td>
 												<td>BSXG146347</td>
@@ -749,7 +751,7 @@ const Home = () => {
 			</section>
 
 			<section class="auction__area pt-0 " style={{ marginTop: "50px" }}>
-				<div class="container">
+				<div class="container user_list">
 					<div class="card dash-card">
 						<div class="card-header bg-box" style={{ textAlign: "center"}}>
 							<a href="#">
@@ -770,35 +772,37 @@ const Home = () => {
 										</thead>
 										<tbody class="bg-box" style={{ overflow: "hidden", background: "#c7d3e7" }}>
 
-											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+											<tr style={{ backgroundColor: " transparent ", border: "0px solid " }}>
 												<td>1.</td>
 												<td>Vinod kumar</td>
 												<td>BSXG783515</td>
 												<td>2 STAR</td>
 											</tr>
 
-											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+											<tr style={{ backgroundColor: " transparent ", border: "0px solid" }}>
 												<td>2.</td>
 												<td>Girjesh Kumar pandey</td>
 												<td>BSXG110390</td>
 												<td>2 STAR</td>
 											</tr>
 
-											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+											<tr style={{ backgroundColor: " transparent ", border: "0px solid " }}>
 												<td>3.</td>
 												<td>Anil pratap</td>
 												<td>BSXG100083</td>
 												<td>2 STAR</td>
 											</tr>
 
-											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+											<tr style={{ backgroundColor: " transparent ", border: "0px solid " }}>
 												<td>4.</td>
 												<td>Sonu 1</td>
 												<td>BSXG341565</td>
 												<td>2 STAR</td>
 											</tr>
 
-											<tr style={{ backgroundColor: " transparent !important", border: "0px solid !important" }}>
+											<tr style={{ 
+												backgroundColor: " transparent ", border: "0px solid " 
+												}}>
 												<td>5.</td>
 												<td>Abhishek</td>
 												<td>BSXG146347</td>
@@ -821,13 +825,8 @@ const Home = () => {
 
 			<section>
 				<div class="row">
-					<div class="col-sm-5">
-						<form style={{
-							margin: "95px",
-							background: "#c7d3e7",
-							padding: "30px",
-							borderRadius: "5px"
-						}}>
+					<div class="col-sm-10 col-lg-5" style={{margin:"auto"}}>
+						<form className='Review_form'>
 							<h2 style={{ color: "black", textAlign: "center" }}>Share your Review</h2>
 							<div class="form-group">
 								<label for="exampleInputEmail1">Title:</label>
@@ -846,19 +845,12 @@ const Home = () => {
 						</form>
 
 					</div>
-					<div class="col-sm-7" style={{
-						color: "white",
-						marginTop: "15px",
-						padding: "0px 71px",
-						/* background: red; */
-						marginBottom: "93px",
-						paddingTop: "80px",
-					}}>
+					<div class="col-sm-10 col-lg-7 m-auto small_slider">
 						<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
 									<div class="card text-center">
-										<div class="card-body" style={{ background: "#c7d3e7", height: "350px" }}>
+										<div class="card-body" style={{ background: "#c7d3e7", height: "325px" }}>
 										<img src="./images/dp.jpg" alt="" style={{height:"60px",justifyContent:"center",display:"inline",margin:"30px 0px",borderRadius:"5px"}}/>
 											<h3 style={{ color: "black" }}>Miracle system strong plan quick payment</h3>
 											<p class="card-text" style={{ color: "#01222b" }}>With supporting text below as a natural lead-in to additional content.</p>
@@ -869,7 +861,7 @@ const Home = () => {
 								</div>
 								<div class="carousel-item">
 									<div class="card text-center">
-										<div class="card-body" style={{ background: "#c7d3e7", height: "350px" }}>
+										<div class="card-body" style={{ background: "#c7d3e7", height: "325px" }}>
 										<img src="./images/dp.jpg" alt="" style={{height:"60px",justifyContent:"center",display:"inline",margin:"30px 0px",borderRadius:"5px"}}/>
 											<h3 style={{ color: "black" }}>Miracle system strong plan quick payment</h3>
 											<p class="card-text" style={{ color: "#01222b" }}>With supporting text below as a natural lead-in to additional content.</p>
@@ -880,7 +872,7 @@ const Home = () => {
 								</div>
 								<div class="carousel-item">
 									<div class="card text-center">
-										<div class="card-body" style={{ background: "#c7d3e7", height: "350px" }}>
+										<div class="card-body" style={{ background: "#c7d3e7", height: "325px" }}>
 											<img src="./images/dp.jpg" alt="" style={{height:"60px",justifyContent:"center",display:"inline",margin:"30px 0px",borderRadius:"5px"}}/>
 											<h3 style={{ color: "black" }}>Miracle system strong plan quick payment</h3>
 											<p class="card-text" style={{ color: "#01222b" }}>With supporting text below as a natural lead-in to additional content.</p>
@@ -895,18 +887,18 @@ const Home = () => {
 				</div>
 			</section>
 			<section style={{ marginBottom: "50px" }}>
-				<h1 style={{ textAlign: "center" }}>BSXG Updates</h1>
-				<div class="row" style={{ margin: "0px 65px" }}>
+				<h1 class="bsxg_up_hed" style={{ textAlign: "center" }}>BSXG Updates</h1>
+				<div class="row trending_box">
 					<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
 						<div class="card dash-card">
-							<div class="card-header" style={{ padding: "0.2rem 1rem !important", textAlign: "center", padding: "20px", background: " #c7d3e7" }}>
+							<div class="card-header" style={{ padding: "0.2rem 1rem ", textAlign: "center", padding: "20px", background: " #c7d3e7" }}>
 								<h3 class="card-title news-card-title" style={{ color: "black" }}>BSXG Trending News</h3>
 							</div>
 							<div class="card-body p-0">
 								<div class="">
 									<ul class="list-group mb-0">
 
-										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent !important" }}>
+										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent " }}>
 											<div class="w-3 h-3 bg-success mr-3 mt-1 brround"></div>
 											<div>
 												<label class="fs-12" style={{ fontSize: "20px", fontWeight: "700" }}>SBGGLOBAL MEGA SEMINAR</label>
@@ -916,7 +908,7 @@ const Home = () => {
 											</div>
 										</li>
 
-										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent !important" }}>
+										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent " }}>
 											<div class="w-3 h-3 bg-success mr-3 mt-1 brround"></div>
 											<div>
 												<label class="fs-12" style={{ fontSize: "20px", fontWeight: "700" }}>BSXG Global Seminar</label>
@@ -927,7 +919,7 @@ const Home = () => {
 											</div>
 										</li>
 
-										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent !important" }}>
+										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent " }}>
 											<div class="w-3 h-3 bg-success mr-3 mt-1 brround"></div>
 											<div>
 												<label class="fs-12" style={{ fontSize: "20px", fontWeight: "700" }}>BSXG Global Seminar</label>
@@ -938,7 +930,7 @@ const Home = () => {
 											</div>
 										</li>
 
-										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent !important" }}>
+										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent " }}>
 											<div class="w-3 h-3 bg-success mr-3 mt-1 brround"></div>
 											<div>
 												<label class="fs-12" style={{ fontSize: "20px", fontWeight: "700" }}>BSXG Global Seminar</label>
@@ -949,7 +941,7 @@ const Home = () => {
 											</div>
 										</li>
 
-										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent !important" }}>
+										<li class="list-group-item d-flex border-top-0 border-left-0 border-right-0" style={{ backgroundColor: "transparent " }}>
 											<div class="w-3 h-3 bg-success mr-3 mt-1 brround"></div>
 											<div>
 												<label class="fs-12" style={{ fontSize: "20px", fontWeight: "700" }}>BSXG Global Seminar</label>

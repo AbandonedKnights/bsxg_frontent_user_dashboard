@@ -204,7 +204,7 @@ export default function Restake() {
                                        <div class="row">
                                           <div class="col-xxl-6 col-md-6">
                                              <div class="profile__input-box">
-                                                <h4>Refer Code</h4>
+                                                <h4 className='act_input_hed'>Refer Code</h4>
                                                 <div class="profile__input">
                                                    <input onkeyup="getReferDetail('refer_code')" type="text" class="form-control" value="BSXG677001" name="refer_code" style={{background: "#fff"}}/>
                                                    {/* <i class="fa-light fa-user"></i> */}
@@ -214,7 +214,7 @@ export default function Restake() {
                                           </div>
                                           <div class="col-xxl-6 col-md-6">
                                              <div class="profile__input-box">
-                                                <h4>Refer Name</h4>
+                                                <h4 className='act_input_hed'>Refer Name</h4>
                                                 <div class="profile__input">
                                                    <input type="text" name="receiver_name" class="form-control" id="receiver_name" disabled=""/>
                                                    {/* <i class="fa-light fa-users"></i> */}
@@ -224,7 +224,7 @@ export default function Restake() {
                                           </div>
                                           <div class="col-xxl-6 col-md-6">
                                              <div class="profile__input-box">
-                                                <h4>Plan Name</h4>
+                                                <h4 className='act_input_hed'>Plan Name</h4>
                                                 <div class="profile__input">
                                                    <input type="text" name="plan_name" class="form-control" id="plan_name" disabled=""/>
                                                    {/* <i class="fa-light fa-globe"></i> */}
@@ -243,7 +243,7 @@ export default function Restake() {
                                           </div>
                                               <div class="col-xxl-6 col-md-6">
                                                  <div class="profile__input-box">
-                                                    <h4>Available Activation Wallet</h4>
+                                                    <h4 className='act_input_hed'> Available Activation Wallet</h4>
                                                     <div class="profile__input">
                                                        <input type="text" class="form-control" name="available_income_balances" id="available_income_balances" value="" disabled=""/>
                                                        {/* <i class="fa-light fa-database"></i> */}
@@ -253,7 +253,7 @@ export default function Restake() {
                                               </div>
                                               <div class="col-xxl-6 col-md-6">
                                                  <div class="profile__input-box">
-                                                    <h4>Choose wallet </h4>
+                                                    <h4 className='act_input_hed'>Choose wallet </h4>
                                                     <div class="profile__input">
     												<select class="form-control" name="wallet_type" required="">
     													<option value="" disable="" hidden="" selected="">Select Wallet </option>
@@ -267,7 +267,7 @@ export default function Restake() {
                                                <input type="hidden" name="plan_type_id" id="plan_type_id" value="2"/>
                                           <div class="col-xxl-6 col-md-6">
                                              <div class="profile__input-box">
-                                                <h4>Select Plan</h4>
+                                                <h4 className='act_input_hed'>Select Plan</h4>
                                                 <div class="profile__input">
                                                    <select class="form-control" onchange="getAvailableBalances(this.value)" id="plan_detail_id" name="plan_id"><option value="0">Select</option><option value="2">Silver - BSXG 50</option><option value="3">Gold - BSXG 100</option><option value="9">Topaz - BSXG 200</option><option value="4">Platinum - BSXG 500</option><option value="5">Diamond - BSXG 1000</option><option value="6">Ruby - BSXG 2000</option><option value="10">Emerald - BSXG 3000</option><option value="7">Sapphire - BSXG 5000</option><option value="8">Dubai Tour - BSXG 10000</option></select>
                                                    <small class="text-danger "></small>
@@ -276,7 +276,7 @@ export default function Restake() {
                                           </div>
                                           <div class="col-xxl-6 col-md-6">
                                              <div class="profile__input-box">
-                                                <h4>Remark</h4>
+                                                <h4 className='act_input_hed'>Remark</h4>
                                                 <div class="profile__input">
                                                    <input type="text" class="form-control" name="remark" id="remark" value="" style={{backgroundColor: "white"}}/>
                                                 </div>

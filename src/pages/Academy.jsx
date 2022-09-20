@@ -25,10 +25,7 @@ export default function Academy() {
                <div class="row">
                   <div class="col-xxl-6 col-xl-6 col-lg-6">
                      <div class="auction__sm-wrapper">
-                        <div class="auction__sm-item d-sm-flex align-items-center mb-30" style={{margin:"15px 0px",
-                                  padding: "5px 15px",
-                                  background: "#12161c",
-                                  borderRadius:" 5px"}}>
+                        <div class="auction__sm-item d-sm-flex align-items-center mb-30">
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
                                  {/* <img src="/Images/Academy/blog-1.jpg" alt=""/> */}
@@ -36,7 +33,7 @@ export default function Academy() {
                            </div>
                            <div class="auction__sm-content">
                               <h3 class="auction__sm-title">
-                                 <a href="#" style={{color:"white",margin:"5px"}}>What Is Binance Coin (BNB)?</a>
+                                 <a href="#" className='academy_card_title'>What Is Binance Coin (BNB)?</a>
                               </h3>
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
@@ -57,10 +54,7 @@ export default function Academy() {
                               </div>
                            </div>
                         </div>
-                        <div class="auction__sm-item d-sm-flex align-items-center mb-30" style={{margin:"15px 0px",
-                                  padding: "5px 15px",
-                                  background: "#12161c",
-                                  borderRadius:" 5px"}}>
+                        <div class="auction__sm-item d-sm-flex align-items-center mb-30" >
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
                                  {/* <img src="/Images/Academy/blog-2.jpg" alt=""/> */}
@@ -68,7 +62,7 @@ export default function Academy() {
                            </div>
                            <div class="auction__sm-content">
                               <h3 class="auction__sm-title">
-                                 <a href="#" style={{color:"white",margin:"5px"}}>Bring Advanced Resources!!</a>
+                                 <a href="#" className='academy_card_title'>Bring Advanced Resources!!</a>
                               </h3>
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
@@ -89,10 +83,7 @@ export default function Academy() {
                               </div>
                            </div>
                         </div>
-                        <div class="auction__sm-item d-sm-flex align-items-center mb-30"  style={{margin:"15px 0px",
-                                  padding: "5px 15px",
-                                  background: "#12161c",
-                                  borderRadius:" 5px"}}>
+                        <div class="auction__sm-item d-sm-flex align-items-center mb-30" >
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
                                  {/* <img src="/Images/Academy/blog-3.jpg" alt=""/> */}
@@ -100,7 +91,7 @@ export default function Academy() {
                            </div>
                            <div class="auction__sm-content">
                               <h3 class="auction__sm-title">
-                                 <a href="#"style={{color:"white",margin:"5px"}}>What Is Convertible Virtual Currency ?</a>
+                                 <a href="#" className='academy_card_title'>What Is Convertible Virtual Currency ?</a>
                               </h3>
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
@@ -124,10 +115,7 @@ export default function Academy() {
                      </div>
                   </div>
                   <div class="col-xxl-6 col-xl-6 col-lg-6">
-                     <div class="auction__sm-item d-sm-flex align-items-center mb-30"  style={{margin:"15px 0px",
-                                  padding: "5px 15px",
-                                  background: "#12161c",
-                                  borderRadius:" 5px"}}>
+                     <div class="auction__sm-item d-sm-flex align-items-center mb-30" >
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
                                  {/* <img src="/Images/Academy/blog-4.jpg" alt=""/> */}
@@ -135,7 +123,7 @@ export default function Academy() {
                            </div>
                            <div class="auction__sm-content">
                               <h3 class="auction__sm-title">
-                                 <a href="#"style={{color:"white",margin:"5px"}}>Blockchain and Cryptocurrency</a>
+                                 <a href="#" className='academy_card_title'>Blockchain and Cryptocurrency</a>
                               </h3>
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
@@ -156,10 +144,7 @@ export default function Academy() {
                               </div>
                            </div>
                         </div>
-                        <div class="auction__sm-item d-sm-flex align-items-center mb-30"  style={{margin:"15px 0px",
-                                  padding: "5px 15px",
-                                  background: "#12161c",
-                                  borderRadius:" 5px"}}>
+                        <div class="auction__sm-item d-sm-flex align-items-center mb-30" >
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
                                  {/* <img src="/Images/Academy/blog-5.jpg" alt=""/> */}
@@ -167,7 +152,7 @@ export default function Academy() {
                            </div>
                            <div class="auction__sm-content">
                               <h3 class="auction__sm-title">
-                                 <a href="#"style={{color:"white",margin:"5px"}}>Know About Crypto Charges &amp; Tax</a>
+                                 <a href="#" className='academy_card_title'>Know About Crypto Charges &amp; Tax</a>
                               </h3>
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">
@@ -188,10 +173,7 @@ export default function Academy() {
                               </div>
                            </div>
                         </div>
-                        <div class="auction__sm-item d-sm-flex align-items-center mb-30"  style={{margin:"15px 0px",
-                                  padding: "5px 15px",
-                                  background: "#12161c",
-                                  borderRadius:" 5px"}}>
+                        <div class="auction__sm-item d-sm-flex align-items-center mb-30">
                            <div class="auction__sm-thumb mr-20">
                               <a href="#">
                                  {/* <img src="/Images/Academy/blog-6.jpg" alt=""/> */}
@@ -199,7 +181,7 @@ export default function Academy() {
                            </div>
                            <div class="auction__sm-content">
                               <h3 class="auction__sm-title">
-                                 <a href="#"style={{color:"white",margin:"5px"}}>Crypto Strategies You Need To Know</a>
+                                 <a href="#" className='academy_card_title'>Crypto Strategies You Need To Know</a>
                               </h3>
                               <div class="auction__sm-author d-flex align-items-center mb-20">
                                  <div class="auction__sm-author-thumb mr-10">

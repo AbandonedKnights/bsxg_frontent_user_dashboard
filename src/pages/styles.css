@@ -1697,16 +1697,7 @@ h1 {
 	font-size: 18px;
    
 }
-.wall_btn{
-	display: inline-block;
-    font-size: 15px;
-    font-weight: 600;
-    color: white;
-    background-color: #3771fe;
-    padding: 7px 50px;
-    border-radius: 6px;
-    border: 2px solid #3771fe;
-}
+
 
 .tp-btn-gradient:hover{
    background-color: #4c1a87;

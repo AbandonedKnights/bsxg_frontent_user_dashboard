@@ -42,7 +42,7 @@ a, a:hover {
 .login_area_block .nav-tabs .nav-link.active {
   color: #fff;
     /* border-bottom: 2px solid #24ac84 !important; */
-    background: #01222b
+    background: #5c6466;
 }
 
 .login_area h1 {
@@ -118,7 +118,7 @@ label:focus,
 }
 
 .terms_and_policy a {
-  color: #0adfbf;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -1203,6 +1203,7 @@ body::-webkit-scrollbar-thumb {
 }
 .menu-center{
   display: flex;
+  justify-content: space-around;
 }
 .item_text{
   text-align: center;
@@ -1229,7 +1230,173 @@ body::-webkit-scrollbar-thumb {
   color: white !important;
  
 }
+
+
+
+.nav_dashboard{
+  padding: 0px;
+}
+.nav_respo{
+  margin-left: 60px;
+  padding: 0px 60px 0px 0px;
+}
+.dash-1{
+  height: 414px;
+}
+
 /* table */
 .bsxg_vip{
   color:"white" !important
 }
+.all-wallet{
+  margin-bottom: 10px;
+}
+.min_card{
+  margin: 10px 45px;
+}
+
+.Review_form{
+  margin:70px 0px 0px 125px;
+  background: #c7d3e7;
+  padding: 30px;
+  border-radius: 5px;
+}
+.small_slider{
+  color: white;
+  margin-top: 15px;
+  padding:0px 130px 0px 20px;
+  /* background: red; */
+  margin-bottom: 93px;
+  padding-top: 80px;
+}
+.trending_box{
+  margin: 0px 65px;
+}
+.bsxg_up_hed{
+  text-align: center;
+  margin: 30px 0px 15px;
+}
+
+/* rsponsive */
+@media (min-width: 600px) and (max-width: 900px) {
+  .small_slider{
+   margin-bottom: 0px;
+ }
+ .Review_form{
+  margin: 20px 15px;
+}
+.user_list{
+  /* max-width: 600px; */
+}
+ 
+ }
+
+@media (min-width: 300px) and (max-width: 600px) {
+ .Review_form{
+   margin: 20px 15px;
+ }
+ .small_slider{
+  padding:30px;
+  margin-bottom: 0px;
+}
+.trending_box{
+   margin: 10px;
+}
+.min_card{
+  margin: 10px 15px;
+}
+.content_slide{
+  display: none;
+}
+.dash_banner{
+  height: 200px;
+}
+.bsxg_up_hed{
+  margin:0px;
+}
+.nav_respo{
+  margin-left: 0px;
+}
+.nav_dashboard{
+  padding: 0px 25px 0px 0px;
+}
+.tree_refer_box{
+    width: 50%
+}
+.tree_search_btn{
+  margin: 0px 0px 20px 0px !important;
+  display: flex;
+  justify-content: center;
+}
+.dataTables_length{
+  display: flex;
+  justify-content: center;
+}
+.assets_search_box{
+  justify-content: start !important;
+}
+}
+
+
+.invite_box{
+  margin-top: 50px;
+}
+.act_input_hed{
+  margin: 10px 0px 5px 0px;
+}
+.deposit_select_box{
+  background: rgb(118 118 118);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.with_input{
+  background:rgb(21 58 68);
+   padding: 10px;
+   border-radius: 5px;
+   margin: 0px;
+}
+.with_otp_btn{
+  padding: 5px 20px;
+  border-radius: 5px;
+  background: #c0c8d1; 
+}
+.with_otp_btn:hover{
+  background: #153a44;
+    color: white;
+}
+.tree_refer_box{
+  border-radius: 10px;
+    padding: 5px;
+    margin: 0px 5px;
+}
+.tree_search_btn{
+  margin-top: 40px;
+}
+
+.market_head{
+  text-align:center;
+}
+.market_progress{
+  height: 2rem;
+  font-size: 23px;
+  color: #f9f9f9;
+  background-color: rgb(145 151 158)
+}
+.market_tabel_head{
+  font-size: 15px;
+}
+.auction__sm-item{
+  margin: 15px 0px;
+  padding: 5px 15px;
+  background: rgb(147 151 157);
+  border-radius: 5px;
+}
+.academy_card_title{
+  color: #013162;
+  margin: 5px;
+}
+.assets_input{
+   width: 260px;
+}
+

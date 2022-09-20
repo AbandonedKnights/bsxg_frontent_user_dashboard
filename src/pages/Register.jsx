@@ -9,7 +9,22 @@ import EmailRegistration from "./auth/EmailRegistration";
 export default function Register(props) {
   return (
     <>
-    <div className="container">
+     <section class="vh-100" style={{margin:"30px 0px"}}>
+  <div class="container-fluid h-custom">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-md-9 col-lg-6 col-xl-5">
+      <div style={{display:"flex",justifyContent:"center"}}>
+      <img src="/images/logo.png" style={{height:"100px"}}/>
+      </div>
+      <h2 style={{textAlign:"center"}}>Welcome to our Website</h2>
+      <Link to="/">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+          class="img-fluid" alt="Sample image"/>
+      </Link>
+      </div>
+      <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1" style={{margin:"0px"}}>
+  
+        <div className="container">
       {/* {showSuccess && (
         <div class="row justify-content-center">
           <div className="col-md-6">
@@ -33,7 +48,7 @@ export default function Register(props) {
           <div className="row">
             <div className="col-lg-12">
               <h1>{t("register")}</h1>
-              <div className="login_area_block" style={{background:" rgb(27 67 72)",
+              <div className="login_area_block" style={{background:" rgb(175, 169, 169)",
     borderRadius: "5px"}}>
                 {/* <ul className="nav nav-tabs" id="myTab" role="tablist">
                   <li className="nav-item" role="presentation">
@@ -100,6 +115,11 @@ export default function Register(props) {
         </div>
       }
     </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
     </>
   );
 }

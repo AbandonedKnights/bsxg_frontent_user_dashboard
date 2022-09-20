@@ -13,19 +13,33 @@ export default function Login(props) {
   const { isLoggedIn } = useSelector((state) => state?.user?.value);
 
   useEffect(() => {
-    if (isLoggedIn) {
-      console.log("cmae in loguse::");
-      navigate("../home", { replace: true });
-    }
+    // if (isLoggedIn) {
+    //   console.log("cmae in loguse::");
+    //   navigate("../home", { replace: true });
+    // }
   }, []);
   
   return (
-    <div className="container">
+    <>
+
+    <section class="vh-100" style={{margin:"30px 0px"}}>
+  <div class="container-fluid h-custom">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-md-9 col-lg-6 col-xl-5">
+      <h2 style={{textAlign:"center"}}>Welcome to our Website</h2>
+      <Link to="/">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+          class="img-fluid" alt="Sample image"/>
+      </Link>
+      </div>
+      <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1" style={{margin:"0px"}}>
+       
+        <div className="container">
       <div className="login_area">
         <div className="row">
           <div className="col-lg-12">
             <h1>{t("login")}</h1>
-            <div className="login_area_block col-6" style={{padding:"25px 10px",background:"rgb(27 67 72)",borderRadius:"5px"}}>
+            <div className="login_area_block" style={{padding:"25px 10px",background:"rgb(175 169 169)",borderRadius:"5px"}}>
               <ul className="nav nav-tabs" id="myTab" role="tablist" style={{margin:"0px 30px"}}>
                 <li className="nav-item" role="presentation">
                   <button
@@ -102,5 +116,12 @@ export default function Login(props) {
         </div>
       </div>
     </div>
+       
+      </div>
+    </div>
+  </div>
+  
+</section>
+</>
   );
 }

@@ -9,8 +9,9 @@ export default function Wallet_transfer() {
    <div class="container">
      <div class="row">
          <div class="col-xxl-12 col-xl-12 table-head-align d-none d-sm-block d-sm-none d-md-block">
-             <div class="row" style={{marginLeft: "5px"}}>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content !important"}}>
+             <div class="row" style={{justifyContent: "space-around",
+    display: "flex"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content"}}>
                <div class="process__item active">
                   <a href="/activation">
                      <div class="process__icon">
@@ -22,7 +23,7 @@ export default function Wallet_transfer() {
                   </div>
                </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content !important"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content"}}>
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
@@ -34,7 +35,7 @@ export default function Wallet_transfer() {
                   </div>
                </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content !important"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content"}}>
                <div class="process__item">
                   <a href="/restake">
                      <div class="process__icon">
@@ -46,7 +47,7 @@ export default function Wallet_transfer() {
                   </div>
                </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content !important"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content"}}>
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
@@ -58,7 +59,7 @@ export default function Wallet_transfer() {
                   </div>
                </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content !important"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content"}}>
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
@@ -70,7 +71,7 @@ export default function Wallet_transfer() {
                   </div>
                </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content !important"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content "}}>
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
@@ -87,12 +88,13 @@ export default function Wallet_transfer() {
       </div>
       
       <center>
-         <div class="row d-lg-none d-sm-none" style={{marginLeft: "5px"}}>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content !important"}}>
+         <div class="row d-lg-none d-sm-none" style={{display: "flex",
+    justifyContent: "space-around"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content "}}>
                <div class="process__item active">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="#" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/activation-panel-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -100,11 +102,11 @@ export default function Wallet_transfer() {
                   </div>
                </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content !important"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content"}}>
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="#" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/activation-report-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -112,11 +114,11 @@ export default function Wallet_transfer() {
                   </div>
                </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content !important"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content "}}>
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="#" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/restake-panel-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -124,11 +126,11 @@ export default function Wallet_transfer() {
                   </div>
                </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content !important"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content"}}>
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="#" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/restake-report-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -136,11 +138,11 @@ export default function Wallet_transfer() {
                   </div>
                </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content !important"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content "}}>
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="#" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/stake-profit-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -148,11 +150,11 @@ export default function Wallet_transfer() {
                   </div>
                </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content !important"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content"}}>
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="#" alt="" class="icon-size"/></span>
+                        <span><img src="/Images/buy_sell_icon/wallet-transfer-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -167,7 +169,7 @@ export default function Wallet_transfer() {
       </center>
       {/* <hr style={{color: "#282727 !important"}}> */}
 
-        <div class="alert blinking" style={{textAlign: "center",fontSize: "20px",fontWeight: "600",color:"white"}}>
+        <div class="alert blinking" style={{textAlign: "center",fontSize: "20px",fontWeight: "600"}}>
             <strong class="blink" >How to Transfer Funds to Wallet </strong>
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#videoModal" id="videoModal">Play Video</button>
         </div>
@@ -205,7 +207,7 @@ export default function Wallet_transfer() {
                                  <div class="row">
                                     <div class="col-xxl-6 col-md-6">
                                        <div class="profile__input-box">
-                                          <h4>Reward Wallet - Balance</h4>
+                                          <h4 className='act_input_hed'>Reward Wallet - Balance</h4>
                                           <div class="profile__input">
                                              <input type="text" class="form-control" name="available_dmt_wallet" id="available_dmt_wallet" readonly=""/>
                                              <small class="text-danger "></small>
@@ -214,7 +216,7 @@ export default function Wallet_transfer() {
                                     </div>
                                     <div class="col-xxl-6 col-md-6">
                                        <div class="profile__input-box">
-                                          <h4>Activation Wallet - Balance</h4>
+                                          <h4 className='act_input_hed'>Activation Wallet - Balance</h4>
                                           <div class="profile__input">
                                              <input type="text" class="form-control" name="available_income_wallet" id="available_income_wallet" readonly=""/>
                                              <small class="text-danger "></small>
@@ -223,7 +225,7 @@ export default function Wallet_transfer() {
                                     </div>
                                     <div class="col-xxl-6 col-md-6">
                                        <div class="profile__input-box">
-                                          <h4>Refer Code</h4>
+                                          <h4 className='act_input_hed'>Refer Code</h4>
                                           <div class="profile__input">
                                              <input onkeyup="getReferDetail('refer_code')" type="text" class="form-control" value="SBG" name="refer_code" style={{backgroundColor: "white"}}/>
                                                    <small class="text-danger refer_code refer_code_error"></small>
@@ -232,7 +234,7 @@ export default function Wallet_transfer() {
                                     </div>
                                     <div class="col-xxl-6 col-md-6">
                                        <div class="profile__input-box">
-                                          <h4>Refer Name</h4>
+                                          <h4 className='act_input_hed'>Refer Name</h4>
                                           <div class="profile__input">
                                              <input type="text" name="receiver_name" class="form-control" id="receiver_name" disabled=""/>
                                           </div>
@@ -240,7 +242,7 @@ export default function Wallet_transfer() {
                                     </div>
                                     <div class="col-xxl-6 col-md-6">
                                        <div class="profile__input-box">
-                                          <h4>Select Wallet Type </h4>
+                                          <h4 className='act_input_hed'>Select Wallet Type </h4>
                                           <div class="profile__input">
                                              <select class="form-control " name="wallet_type">
                                                 <option value="1" selected="">Reward Wallet</option>
@@ -251,7 +253,7 @@ export default function Wallet_transfer() {
                                     </div>
                                     <div class="col-xxl-6 col-md-6">
                                        <div class="profile__input-box">
-                                          <h4>Transfer Amount</h4>
+                                          <h4 className='act_input_hed'>Transfer Amount</h4>
                                           <div class="profile__input">
                                              <input type="text" name="transfer_amount" class="form-control" id="transfer_amount" style={{backgroundColor: "white"}}/>
                                              <small class="text-danger transfer_amount"></small>
@@ -260,7 +262,7 @@ export default function Wallet_transfer() {
                                     </div>
                                     <div class="col-xxl-6 col-md-6">
                                        <div class="profile__input-box">
-                                          <h4>Select OTP Mode</h4>
+                                          <h4 className='act_input_hed'>Select OTP Mode</h4>
                                           <div class="profile__input">
 												<select class="form-control" name="otp_mode">
 													<option value="" disable="" selected="" hidden="">Select OTP Mode </option>
@@ -273,7 +275,7 @@ export default function Wallet_transfer() {
                                     </div>
                                     <div class="col-xxl-6 col-md-6">
                                        <div class="profile__input-box">
-                                          <h4>Remark</h4>
+                                          <h4 className='act_input_hed'>Remark</h4>
                                           <div class="profile__input">
                                              <textarea name="remark" placeholder="" style={{backgroundColor: "white"}}></textarea>
                                           </div>
@@ -285,7 +287,7 @@ export default function Wallet_transfer() {
                                          display:" flex",
                                          margin: "40px 0px"}}
                                        >
-                                          <button type="button" onclick="sendOtpWalletTransfer()" class="tp-btn-3 wall_btn">Send OTP</button>
+                                          <button type="button" onclick="sendOtpWalletTransfer()" class="tp-btn-3 with_otp_btn">Send OTP</button>
                                        </div>
                                     </div>
                                  </div>
@@ -303,7 +305,7 @@ export default function Wallet_transfer() {
                                     </div>
                                     <input type="text" class="form-control" id="otpBox2" name="otpBox2" value="" placeholder="Enter OTP"/>
                                  <small class="text-danger"></small>
-                                    <center><small class="text-danger codeBoxError" style={{fontSize: "16px !important"}}></small></center>
+                                    <center><small class="text-danger codeBoxError" style={{fontSize: "16px"}}></small></center>
                                     <div class="col-md-12 mb-4 resend-otp-timer">
                                        <div class="form-group otp-timer text-center">
                                           <p class="text-center bg-danger p-1" style={{borderRadius: "20px"}}>Resend OTP? Wait: <span class="timer"></span> seconds</p>
@@ -332,12 +334,12 @@ export default function Wallet_transfer() {
                 <div class="modal-content modal_content_info bg-transparent border-0">
                     <div class="modal-header bg-transparent border-0 p-1">
                         <h5 class="modal-title text-white" id="exampleModalLabel"></h5>
-                        <button type="button" class="close position-static" data-dismiss="modal" aria-label="Close" id="close-modal" style={{color:"#fff !important"}}>
+                        <button type="button" class="close position-static" data-dismiss="modal" aria-label="Close" id="close-modal" style={{color:"#fff"}}>
                             <span aria-hidden="true">×</span>
                         </button>
                     </div>
                     <div class="modal-body p-0">
-                        <img class="w-100 d-block" src="#" style={{width: "-webkit-fill-available !important"}}/>
+                        <img class="w-100 d-block" src="#" style={{width: "-webkit-fill-available"}}/>
                     </div>
                   
                 </div>
