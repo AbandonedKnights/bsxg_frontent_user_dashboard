@@ -1400,3 +1400,15 @@ body::-webkit-scrollbar-thumb {
    width: 260px;
 }
 
+.modal_content_invite {
+  border-radius: 30px;
+  padding: 30px;
+  box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+  background-image: url(https://sbgglobal.io/sbg-assets-dashboard/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Acti_hed{
+margin: 15px 0 5px !important;
+}

@@ -15,7 +15,7 @@ export default function Wallet_transfer() {
                <div class="process__item active">
                   <a href="/activation">
                      <div class="process__icon">
-                        <span><img src="/Images/buy_sell_icon/activation-panel-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/buy_sell_icon/activation-panel-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -27,7 +27,7 @@ export default function Wallet_transfer() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/buy_sell_icon/activation-report-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/buy_sell_icon/activation-report-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -39,7 +39,7 @@ export default function Wallet_transfer() {
                <div class="process__item">
                   <a href="/restake">
                      <div class="process__icon">
-                        <span><img src="/Images/buy_sell_icon/restake-panel-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/buy_sell_icon/restake-panel-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -51,7 +51,7 @@ export default function Wallet_transfer() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/buy_sell_icon/restake-report-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/buy_sell_icon/restake-report-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -63,7 +63,7 @@ export default function Wallet_transfer() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/buy_sell_icon/stake-profit-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/buy_sell_icon/stake-profit-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -75,7 +75,7 @@ export default function Wallet_transfer() {
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="/Images/buy_sell_icon/wallet-transfer-inside.png" alt="" class="icon-size"/></span>
+                        <span><img src="/images/buy_sell_icon/wallet-transfer-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">

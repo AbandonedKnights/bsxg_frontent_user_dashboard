@@ -59,11 +59,11 @@ const HomePage = () => {
 		    <li><a href="#footer" class="nav-link"></a></li>
 		</ul>
 	</div>
-	<section id="home" className="row tm-hero-section tm-style1 tm-bg">
+	<section id="home" className="row tm-hero-section tm-bg">
         <div
           className="slider_body"
           style={{
-            // marginTop: "1px",
+            marginTop: "60px",
             textAlign: "-webkit-center",
             marginBottom: "30px",
           }}
@@ -74,22 +74,25 @@ const HomePage = () => {
                 className="carousel-item active h-100"
               >
                 <img
-                  src="/images/banner/banner_3.jpg"
+				style={{width:'100%'}}
+                  src="/images/banner/banner11.jpeg"
                   className="d-block  h-100 img-fluid"
                   alt="Not Found"
                 />
               </div>
               <div className="carousel-item h-100">
                 <img
-                  src="/images/banner/banner2.jpg"
+				style={{width:'100%'}}
+                  src="/images/banner/banner12.jpeg"
                   className="d-block  h-100 img-fluid"
                   alt="Not Found"
                 />
               </div>
               <div className="carousel-item h-100">
-                <img
-                  src="/images/banner/banner3.jpg"
-                  className="d-block  h-100 img-fluid"
+                <img 
+				style={{width:'100%'}}
+                  src="/images/banner/banner1.png"
+                  className="d-block h-100 img-fluid"
                   alt="Not Found"
                 />
               </div>
@@ -126,31 +129,33 @@ const HomePage = () => {
 		<div class="empty-space col-md-b90 col-xs-b55"></div>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
+				{/* <div class="col-lg-6">
 					<div class="tm-about-img-wrap">
 						<div class="tm-about-img">
 							<img src="assets/img/about-img1.png" alt="" />
-							<img src="assets/img/ethereum1.png" alt="" class="tm-ethereum" />
-							<img src="assets/img/ethereum2.png" alt="" class="tm-ethereum2" />
-							<img src="assets/img/ethereum2.png" alt="" class="tm-ethereum3" />
-							<img src="assets/img/ethereum2.png" alt="" class="tm-ethereum4" />
+							<img src="/images/coins/usdt-coin.png" alt="" class="tm-ethereum" />
+							<img src="/images/coins/usdt-coin.png" alt="" class="tm-ethereum2" />
+							<img src="/images/coins/usdt-coin.png" alt="" class="tm-ethereum3" />
+							<img src="/images/coins/usdt-coin.png" alt="" class="tm-ethereum4" />
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-6">
+				</div> */}
+				<div class="col-lg-12">
 					<div class="tm-about">
-						<h2 class="tm-m0 tm-lh40 col-xs-t-1 tm-md-f28 tm-md-lh35">What is <br />
-						ERC20 Token ICO?</h2>
+						<h2 class="tm-m0 tm-lh40 col-xs-t-1 tm-md-f28 tm-md-lh35">What is BSXG?</h2>
 						<div class="empty-space col-md-b20 col-xs-b10"></div>
-						<div class="tm-f20 tm-md-f15 tm-m0 tm-lh30 tm-md-lh20">Our Platform is built for Ethereum Blockchain ERC20
-						Token ICO.</div>
+						<div class="tm-f20 tm-md-f15 tm-m0 tm-lh30 tm-md-lh20">BSXG is bitstarX Global Platform For Business</div>
 						<div class="empty-space col-md-b10 col-xs-b15"></div>
 						<h2 class="tm-m0 tm-lh60 tm-md-f28 tm-md-lh34">Why ?</h2>
 						<div class="empty-space col-md-b10 col-xs-b10"></div>
 						<div class="tm-about-text tm-f20 tm-md-f15 tm-lh32 tm-md-lh20 col-xs-t-1">
-							<p>As of January 2018, there were more than 21,000 ERC20 token contracts.</p>
-							<p>We Built this Template because Ethereum ECO system is the most popular Platform.</p>
-							<p>Among the most successful ERC20 token sales are EOS, Bancor, Qash and Bankex raising over $70 Million each.</p>
+							<p>BSXG  Investments Offers Low-risk Daily Income
+								Plans With Returns That Are 3x More Than The Fixed Deposit
+								Rates Offered By Banks. Our Daily income Investment Plans
+								Are Fully Customizable, Giving Our Clients The Freedom To
+								Choose Their Investment Tenure Period And Deposit Amount
+								As Per Their Financial Needs.
+								</p>
 						</div>
 					</div>
 				</div>
@@ -170,13 +175,15 @@ const HomePage = () => {
     	<div class="container">
     		<div class="tm-section-heading tm-style1">
     			<div class="tm-section-heading-left">
-    				<h2 class="tm-m0 tm-md-f28 tm-md-lh34">Ocher <br />
+    				<h2 class="tm-m0 tm-md-f28 tm-md-lh34">BSXG <br />
     				is the game changer</h2>
     			</div>
     			<div class="tm-section-heading-right">
     				<h2 class="col-xs-b20 tm-md-f28 tm-md-lh34">Why?</h2>
-    				<div class="tm-f20 tm-md-f15 tm-lh30 tm-md-lh24">Ocher is the most functional template for Ethereum block chain 
-    				ERC Token ICO’S. Switable for star up ICO’s.</div>
+    				<div class="tm-f20 tm-md-f15 tm-lh30 tm-md-lh24">Our Uniqueness Stems From Our Ability to provide Investors
+					With The Highest Returns In The Industry, Allowing Us To Help
+					Them Generate More Wealth And Achieve Financial Stability.
+					</div>
     			</div>
     		</div>
     		<div class="empty-space col-md-b75 col-xs-b50"></div>
@@ -190,14 +197,14 @@ const HomePage = () => {
 				<div class="col-lg-3 col-sm-6">
 					<div class="tm-single-work">
 						<div class="tm-single-work-icon"><i class="flaticon-ethereum"></i></div>
-						<div class="tm-single-work-text tm-f20 tm-md-f18 tm-md-lh28 tm-lh30">Ethereum <br /> Blockchain</div>
+						<div class="tm-single-work-text tm-f20 tm-md-f18 tm-md-lh28 tm-lh30">per Day<br /> Income</div>
 					</div>
 					<div class="empty-space col-md-b30 col-xs-b30"></div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
 					<div class="tm-single-work">
 						<div class="tm-single-work-icon"><i class="flaticon-strategy"></i></div>
-						<div class="tm-single-work-text tm-f20 tm-md-f18 tm-md-lh28 tm-lh30">Easy to used <br /> Tokensale Platform</div>
+						<div class="tm-single-work-text tm-f20 tm-md-f18 tm-md-lh28 tm-lh30">Crypto Payment</div>
 					</div>
 					<div class="empty-space col-md-b30 col-xs-b30"></div>
 				</div>
@@ -211,7 +218,7 @@ const HomePage = () => {
 				<div class="col-lg-3 col-sm-6">
 					<div class="tm-single-work">
 						<div class="tm-single-work-icon"><i class="flaticon-decentralized"></i></div>
-						<div class="tm-single-work-text tm-f20 tm-md-f18 tm-md-lh28 tm-lh30">First and <br /> Decentrelazed</div>
+						<div class="tm-single-work-text tm-f20 tm-md-f18 tm-md-lh28 tm-lh30">Easy and Daily Withdraw</div>
 					</div>
 					<div class="empty-space col-md-b30 col-xs-b30"></div>
 				</div>
@@ -773,35 +780,35 @@ const HomePage = () => {
 	    						<div class="tm-social-btn-text">info@bsxg.io</div>
 	    					</div>
 	    					<div class="tm-single-social-btn">
-	    						<a href="#" class="tm-social-btn tm-facebook"><span><i class="fa fa-facebook"></i></span></a>
+	    						<a href="https://www.facebook.com/bsxglobal/?ti=as" target="_blank" class="tm-social-btn tm-facebook"><span><i class="fa fa-facebook"></i></span></a>
 	    						<div class="tm-social-btn-text">Facebook</div>
 	    					</div>
 	    					<div class="tm-single-social-btn">
-	    						<a href="#" class="tm-social-btn tm-linkedin"><span><i class="fa fa-linkedin"></i></span></a>
+	    						<a href="#" class="tm-social-btn tm-linkedin" target="_blank"><span><i class="fa fa-linkedin"></i></span></a>
 	    						<div class="tm-social-btn-text">Linkedin</div>
 	    					</div>
 	    					<div class="tm-single-social-btn">
-	    						<a href="#" class="tm-social-btn tm-twitter"><span><i class="fa fa-twitter"></i></span></a>
+	    						<a href="https://twitter.com/BSXGLOBAL?t=aEqnfjS16TiWLdmT_WXRQQ&s=35" target="_blank" class="tm-social-btn tm-twitter"><span><i class="fa fa-twitter"></i></span></a>
 	    						<div class="tm-social-btn-text">Twitter</div>
 	    					</div>
 	    					<div class="tm-single-social-btn">
-	    						<a href="#" class="tm-social-btn tm-reddit"><span><i class="fa fa-reddit-alien"></i></span></a>
-	    						<div class="tm-social-btn-text">Reddit</div>
+	    						<a href="https://instagram.com/bsxg_global?igshid=YmMyMTA2M2Y=" target="_blank" class="tm-social-btn tm-reddit"><span><i class="fa fa-instagram"></i></span></a>
+	    						<div class="tm-social-btn-text">Instagram</div>
 	    					</div>
 	    					<div class="tm-single-social-btn">
-	    						<a href="#" class="tm-social-btn tm-telegram"><span><i class="fa fa-telegram"></i></span></a>
+	    						<a href="https://t.me/bsxg_global" class="tm-social-btn tm-telegram" target="_blank"><span><i class="fa fa-telegram"></i></span></a>
 	    						<div class="tm-social-btn-text">Telegram</div>
 	    					</div>
 	    					<div class="tm-single-social-btn">
-	    						<a href="#" class="tm-social-btn tm-medium"><span><i class="fa fa-medium"></i></span></a>
+	    						<a href="#" class="tm-social-btn tm-medium" target="_blank"><span><i class="fa fa-medium"></i></span></a>
 	    						<div class="tm-social-btn-text">Medium</div>
 	    					</div>
 	    					<div class="tm-single-social-btn">
-	    						<a href="#" class="tm-social-btn tm-github"><span><i class="fa fa-github-alt"></i></span></a>
+	    						<a href="#" class="tm-social-btn tm-github" target="_blank"><span><i class="fa fa-github-alt"></i></span></a>
 	    						<div class="tm-social-btn-text">Github</div>
 	    					</div>
 	    					<div class="tm-single-social-btn">
-	    						<a href="#" class="tm-social-btn tm-youtube"><span><i class="fa fa-youtube-play"></i></span></a>
+	    						<a href="https://youtube.com/channel/UCf1d06Ap6IeazAVSE5fr6lg" target="_blank" class="tm-social-btn tm-youtube"><span><i class="fa fa-youtube-play"></i></span></a>
 	    						<div class="tm-social-btn-text">Youtube</div>
 	    					</div>
 	    				</div>

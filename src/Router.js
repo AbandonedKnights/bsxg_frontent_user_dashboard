@@ -40,10 +40,10 @@ const Router = ({ props }) => {
 
 	const navigate = useNavigate();
 	useEffect(() => {
-	//  if (isLoggedIn) {
-	// 	console.log("iw::", isLoggedIn);
-	// 	navigate("../home", { replace: true });
-	//   } 
+	 if (!isLoggedIn) {
+		console.log("iw::", isLoggedIn);
+		navigate("../", { replace: true });
+	  } 
 	}, [isLoggedIn]);
 
   useEffect(() => {
@@ -105,7 +105,7 @@ const Router = ({ props }) => {
         <Route exact path="/Security_Settings" element={<Account/>}/>
         <Route exact path="/Referral_Bonus" element={<ReferalBonus/>}/>
         <Route exact path="/home" element={<Home />} />
-     <Route exact path="/" element={<HomePage/>}/>
+        <Route exact path="/" element={<HomePage/>}/>
       </Routes>
       {/* <Footer /> */}
       <div>

@@ -129,7 +129,7 @@ export default function EmailRegistration(props) {
     } else {
       toast.error("Please verify your email first.", {
         duration: 5000,
-        id: "VerifyEmail & mobile First",
+        id: "VerifyEmail",
       });
     }
   };
