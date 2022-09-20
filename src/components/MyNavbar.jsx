@@ -45,13 +45,20 @@ export default function MyNavbar(props) {
         {/* <a className="navbar-brand" href="/">
           Navbar
         </a> */}
-        <Link className="navbar-brand" to="/home">
+        <Link className="navbar-brand nav_logo_1" to="/home">
           <img
             src="/images/logo.png"
             style={{ height: "70px" }}
             alt=" img not found"
           />
         </Link>
+        {/* <Link className="navbar-brand nav_mob_log_2" to="/home">
+          <img
+            src="/images/btstarx.02.jpg"
+            style={{ height: "70px" }}
+            alt=" img not found"
+          />
+        </Link> */}
         <button
           className="navbar-toggler"
           type="button"

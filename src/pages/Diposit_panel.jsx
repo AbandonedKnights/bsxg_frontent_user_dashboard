@@ -177,10 +177,10 @@ export default function Diposit_panel() {
             
          </div>
       </center>
-      <hr style={{color: "#282727 !important"}}/>
+      <hr style={{color: "#282727"}}/>
       
                 <div class="alert blinking" style={{textAlign: "center",fontSize: '20px',fontWeight: "600"}}>
-                    <strong class="blink" style={{color:"white"}}>How to Create Deposit tutorial </strong>
+                    <strong class="blink">How to Create Deposit tutorial </strong>
                     <button type="button" class="btn btn-success" data-toggle="modal" data-target="#videoModal" id="videoModal">Play Video</button>
                 </div>
                 <div class="modal fade" id="video_modal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel">
@@ -297,7 +297,7 @@ export default function Diposit_panel() {
                                                 <span>
                                                 <button class="btn btn-warning show-modal btn-toggle-modal"
          type="button" data-bs-toggle="modal" data-bs-target="#info-msg-modal"
-         style={{ margin: "0px !important" }} id="deposit_btn">Deposit
+         style={{ margin: "0px" }} id="deposit_btn">Deposit
                                                 </button>
                                                 </span>
                                              </div>
@@ -356,7 +356,7 @@ export default function Diposit_panel() {
 
     <div class="modal fade pop-up-modal" id="info-msg-modal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content border-0" style={{background: "#000 !important"}}>
+            <div class="modal-content border-0" style={{background: "#000 "}}>
             <div class="modal-header">
                   <h2 style={{color:"#ffbd49",fontWeight: "600", textAlign: "center"}}>Deposit Info</h2>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
