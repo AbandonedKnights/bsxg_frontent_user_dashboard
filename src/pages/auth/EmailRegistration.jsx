@@ -71,6 +71,7 @@ export default function EmailRegistration(props) {
     setUserMOTP("");
     setRffaralId("");
     setValue("");
+    setName("")
   }
 
   // const registerUser = async (data) => {
@@ -281,6 +282,9 @@ export default function EmailRegistration(props) {
                 message: "name must have at least 3 characters",
               },
             })}
+            onChange={(e) => {
+              setRffaralId(e.target.value);
+            }}
           />
           <label for="parent_ref_code">Referral</label>
         </div>
