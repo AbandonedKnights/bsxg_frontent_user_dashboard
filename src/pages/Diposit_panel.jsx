@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 import { add, div } from '../utils/Math';
 import QRCode from "react-qr-code";
 import {CopyToClipboard} from 'react-copy-to-clipboard';
+import { useNavigate } from 'react-router-dom';
 
 export default function Diposit_panel() {
    const { isLoggedIn } = useSelector((state) => state?.user?.value);
@@ -18,6 +19,7 @@ export default function Diposit_panel() {
    const [depositCoin, setDepositCoin] = useState("none");
    const [copied, setCopied] = useState(false);
    const [PackageData, setPackageData] = useState();
+   const navigate = useNavigate();
    useEffect(() => {
 		if (!isLoggedIn) {
 			console.log("iw::", isLoggedIn);
