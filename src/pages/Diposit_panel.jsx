@@ -365,13 +365,13 @@ export default function Diposit_panel() {
 
     <div class="modal fade pop-up-modal" id="info-msg-modal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content border-0" style={{background: "#000 "}}>
+            <div class="modal-content border-0">
             <div class="modal-header">
                   <h2 style={{color:"#ffbd49",fontWeight: "600", textAlign: "center"}}>Deposit Info</h2>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 						</div>
                   {depositBalance && depositCoin && walletAddress ?
-                  <div class="modal-body">
+                  <div class="modal-body ">
                      <p class="modal-title" id="exampleModalLabel">
                         Send to your Secure Address
                      </p> <hr />
