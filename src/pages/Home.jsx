@@ -3,11 +3,13 @@ import MyNavbar from '../components/MyNavbar'
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import Invite from './Invite';
+import { api_test } from '../utils/api';
 
 const Home = () => {
 	const { isLoggedIn } = useSelector((state) => state?.user?.value);
 	const { userInfo } = useSelector((state) => state?.user?.value);
 	const user_id = userInfo.user_id;
+	const [coindata, setCoinData] = useState();
 	const navigate = useNavigate();
 	useEffect(() => {
 	  if (!isLoggedIn) {
@@ -15,6 +17,29 @@ const Home = () => {
 		navigate("../", { replace: true });
 	  }
 	}, [isLoggedIn]);
+	useEffect(() => {
+	api_test
+	.post("get-price")
+	.then((res) => {
+	  let data =res.data; 
+	  if(data.status == 200){
+	 setCoinData(data.coins)
+	  }
+	  
+	})
+	.catch((error) => {
+	  console.log("user", error);
+	})
+  }, [])
+  const coins = coindata && coindata.map((item) => {
+	return (
+	  <>
+	 <img src={item.icon} class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
+									   style={{ height: "20px", marginTop: "5px" }} />
+								<span>	{item.symbol}<b>{item.current_price_usdt} $</b></span>
+	  </>
+	);
+});
 
 	return (
 		<div>
@@ -560,27 +585,12 @@ const Home = () => {
 					borderTop: "1px solid gray",
 					borderBottom: "1px solid gray"
 				}}>
-					<div class="row align-items-center ">
+					<div class="row align-items-center">
 						<div class="col-md-12 col-lg-12">
 							<div class="position-relative marquee-container d-none d-sm-block">
 								<div class="marquee d-flex justify-content-around">
 									
-										<img src="./images/Slide_coins/btc.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
-											style={{ height: "20px", marginTop: "5px" }}
-										></img>
-									 <span>	BTC<b>3,588.39</b></span>
-									<img src="./images/Slide_coins/eth.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
-										style={{ height: "20px", marginTop: "5px" }}
-									></img>
-									<span>ETH<b>116.36</b></span>
-									<img src="./images/Slide_coins/usdt.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
-										style={{ height: "20px", marginTop: "5px" }}
-									></img>
-									<span>USDT<b>1</b></span>
-									<img src="./images/Slide_coins/trx.png" class="img-circle user-img-circle achievers-logo" alt="Profile Photo"
-										style={{ height: "20px", marginTop: "5px" }}
-									></img>
-									<span>TRX<b>0.03</b></span>
+										{coins}
 								</div>
 
 							</div>

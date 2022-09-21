@@ -35,6 +35,7 @@ export default function EmailRegistration(props) {
   const { reffer } = useParams();
   const [value, setValue] = useState()
   // const { t } = useTranslation();
+  console.log("reffer", reffer);
 
 
   useEffect(()=>{

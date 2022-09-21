@@ -67,7 +67,7 @@ export default function Diposit_panel() {
        const packagelist = depositCoin != 'none' && packages && packages.map((item) => {
            return (
              <>
-             <option value={item.amount}>{item.amount}{" "}{item.name} package</option>
+             <option value={item.amount}>{item.amount}{" BSXG "}{item.name}</option>
              </>
            );
        });
