@@ -72,22 +72,25 @@ export default function MyNavbar(props) {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+              <li class="nav-item nav_head">
                   <a class="nav-link " href="/home"><i className="fa fa-home" aria-hidden="true" style={{color:"#f59a09"}} > </i>   Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav_head">
                   <a class="nav-link" href="/market"><i className="fa fa-area-chart"aria-hidden="true" style={{color:"#f59a09"}}> </i> Market</a>
                 </li>
-                <li class="nav-item">
+                {/* <li class="nav-item nav_head">
                   <a class="nav-link" href="/academy"><i className="fa fa-graduation-cap"aria-hidden="true" style={{color:"#f59a09"}}> </i> Academy</a>
-                </li>
-                <li class="nav-item">
+                </li> */}
+                <li class="nav-item nav_head">
                   <a class="nav-link" href="/assets"><i className="fa fa-th-list"aria-hidden="true" style={{color:"#f59a09"}}> </i>  Assets</a>
                 </li>				
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact"><i className="fa fa-user"aria-hidden="true" style={{color:"#f59a09"}}> </i> Account</a>
+                <li class="nav-item nav_head">
+                  <a class="nav-link" href="/account_page"><i className="fa fa-user"aria-hidden="true" style={{color:"#f59a09"}}> </i> Account</a>
                 </li>
-                <li class="nav-item btn-login">
+                <li class="nav-item nav_head">
+                  <a class="nav-link" href="/Security_Settings"><i className="fa-solid fa-lock" aria-hidden="true" style={{color:"#f59a09"}}> </i> Security</a>
+                </li>
+                <li class="nav-item nav_head btn-login">
                   <button className="btn btn-danger"
                    onClick={(e) => {
                     e.preventDefault();

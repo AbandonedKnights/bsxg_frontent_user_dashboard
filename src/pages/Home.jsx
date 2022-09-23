@@ -19,115 +19,13 @@ const Home = () => {
 	return (
 		<div>
 			<MyNavbar />
-			{/* <div class="row flag-row" >
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-India.png" className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag_of_dubai.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Australia.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Belarus.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Brazil.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Cambodia.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Canada.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Colombia.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Germany.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Hungary.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Ireland.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Kazakhstan.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Kenya.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Malaysia.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Myanmar.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-United-Kingdom.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Nepal.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-New-Zealand.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Oman.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Pakistan.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Philippines.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-United-States-of-America.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Russia.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Saudi-Arabia.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Serbia.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Singapore.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-South-Africa.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Spain.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Sri-Lanka.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Thailand.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-Turkey.png"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/nig.jpg"className='flag' style={{width:"100%"}}/>
-               </div>
-               <div class="col-md-1 flag-width">
-                  <img src="https://sbgglobal.io/sbg-assets-dashboard/img/flags/flag-of-United-Arab-Emirates.png"className='flag' style={{width:"100%"}}/>
-               </div>
-            </div> */}
 			<section id="home" class="no-spacing grad">
 				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-						{/* <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 4"></button>
-						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 5"></button> */}
+
 					</div>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
@@ -139,12 +37,6 @@ const Home = () => {
 						<div class="carousel-item">
 							<img src="./images/banner/banner_3.jpg" class="d-block w-100 dash_banner" alt="..." />
 						</div>
-						{/* <div class="carousel-item">
-							<img src="https://sbgglobal.io/sbg-assets-dashboard/img/slider/dashboard-slider/zax_listed.jpg" class="d-block w-100" alt="..." />
-						</div>
-						<div class="carousel-item">
-							<img src="https://sbgglobal.io/sbg-assets-dashboard/img/slider/dashboard-slider/pop-1.jpg" class="d-block w-100" alt="..." />
-						</div> */}
 					</div>
 					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -155,23 +47,6 @@ const Home = () => {
 						<span class="visually-hidden">Next</span>
 					</button>
 				</div>
-				{/* <div class="banner-caption">
-					<div class="container">
-						<div class="row align-items-center">
-							<div class="col-md-6">
-								<div class="hero-text">
-									<h1 class="animated fadeInLeft">Trusted & Secure Trading Crypto Wallet</h1>
-									<p class="animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tortor arcu. Vestibulum ac ex lacinia. Nulla molestie nunc varius.</p>
-									<a href="#" class="btn btn-primary animated fadeInLeft">Explore More</a>
-									<a href="#" class="btn btn-default animated fadeInLeft"><i class="fa fa-play"></i> Watch Video</a>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div> */}
-				{/* <div class="home-coins"><img src="img/home-curency.png" class="img-responsive" /></div> */}
-
 
 			</section>
 			{/* notice section  */}
@@ -184,9 +59,7 @@ const Home = () => {
 				</div>
 			</section>
 			<section >
-				<div class="container"
-				//  style={{ textAlign: "end" }}
-				>
+				<div class="container">
 					<div class=" menu-center row">
 						<Invite />
 						<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{ width: "max-content" }}>
@@ -262,22 +135,132 @@ const Home = () => {
 							</a>
 						</div>
 
-						{/* <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2  col-sm-6 icon-alignment">
-											<a href="https://sbgglobal.io/user/compound-calculator">
-												<div class="process__item mb-10">
-													<div class="process__icon mb-2">
-														<img src="https://sbgglobal.io/sbg-assets-dashboard/img/dash-icons/compund-calculator-new1.png" alt="" class="icon-size" />
-													</div>
-													<div class="process__content">
-														<p class="icon-name">Calculator</p>
-													</div>
-												</div>
-											</a>
-					   </div> */}
+						
 
 					</div>
 				</div>
 			</section>
+
+			{/* <section>
+				<div class="row col-lg-11 m-auto">
+					<div class="col-sm-2 home_card_container">
+						<Link to="#">
+							<div class="card home_card">
+								<div class="card-body home_card_body">
+									<p class="card-text" style={{margin:"0px"}}>
+										<img
+											src="/images/Funds/invite.png"
+											style={{ height: "50px",display:"flex",margin:"auto"}}
+											alt=" img not found"
+										/>
+									</p>
+
+									<h4 class="icon-name" style={{textAlign:"center"}}>Activation</h4>
+
+								</div>
+
+							</div>
+						</Link>
+					</div>
+					<div class="col-sm-2 home_card_container">
+						<Link to="#">
+							<div class="card home_card">
+								<div class="card-body home_card_body">
+									<p class="card-text" style={{margin:"0px"}}>
+										<img
+											src="/images/Funds/invite.png"
+											style={{ height: "50px",display:"flex",margin:"auto"}}
+											alt=" img not found"
+										/>
+									</p>
+
+									<h4 class="icon-name" style={{textAlign:"center"}}>Restake</h4>
+
+								</div>
+
+							</div>
+						</Link>
+					</div>
+					<div class="col-sm-2 home_card_container">
+						<Link to="#">
+							<div class="card home_card">
+								<div class="card-body home_card_body">
+									<p class="card-text" style={{margin:"0px"}}>
+										<img
+											src="/images/Funds/invite.png"
+											style={{ height: "50px",display:"flex",margin:"auto"}}
+											alt=" img not found"
+										/>
+									</p>
+
+									<h4 class="icon-name" style={{textAlign:"center"}}>Deposit
+</h4>
+
+								</div>
+
+							</div>
+						</Link>
+					</div>
+					<div class="col-sm-2 home_card_container">
+						<Link to="#">
+							<div class="card home_card">
+								<div class="card-body home_card_body">
+									<p class="card-text" style={{margin:"0px"}}>
+										<img
+											src="/images/Funds/invite.png"
+											style={{ height: "50px",display:"flex",margin:"auto"}}
+											alt=" img not found"
+										/>
+									</p>
+
+									<h4 class="icon-name" style={{textAlign:"center"}}>Activation</h4>
+
+								</div>
+
+							</div>
+						</Link>
+					</div>
+					
+					<div class="col-sm-2 home_card_container">
+						<Link to="#">
+							<div class="card home_card">
+								<div class="card-body home_card_body">
+									<p class="card-text" style={{margin:"0px"}}>
+										<img
+											src="/images/Funds/invite.png"
+											style={{ height: "50px",display:"flex",margin:"auto"}}
+											alt=" img not found"
+										/>
+									</p>
+
+									<h4 class="icon-name" style={{textAlign:"center"}}>Activation</h4>
+
+								</div>
+
+							</div>
+						</Link>
+					</div>
+					<div class="col-sm-2 home_card_container">
+						<Link to="#">
+							<div class="card home_card">
+								<div class="card-body home_card_body">
+									<p class="card-text" style={{margin:"0px"}}>
+										<img
+											src="/images/Funds/invite.png"
+											style={{ height: "50px",display:"flex",margin:"auto"}}
+											alt=" img not found"
+										/>
+									</p>
+
+									<h4 class="icon-name" style={{textAlign:"center"}}>Activation</h4>
+
+								</div>
+
+							</div>
+						</Link>
+					</div>
+				</div>
+			</section> */}
 
 			{/* <section class="process__area pt-0 pb-0">
             <div class="container">

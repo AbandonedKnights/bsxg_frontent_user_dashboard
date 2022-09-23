@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { N_getUserProfile } from "../../utils/api_functions";
+import MyNavbar from "../../components/MyNavbar";
 const AccountTab = () => {
   const navigate = useNavigate();
   const [activetab, setActiveTab] = useState("Security_Settings");
@@ -16,20 +17,22 @@ const AccountTab = () => {
   }, [userid]);
 
   return (
+    <>
+    <MyNavbar/>
     <div
-      className="wallet_blue"
-      style={{
-        backgroundImage: "linear-gradient(to bottom right, #03060d, #142f6f)",
-      }}
+      className="wallet_blue account-heder"
+      // style={{
+      //   backgroundImage: "linear-gradient(to bottom right, #03060d, #142f6f)",
+      // }}
     >
-      <div className="container">
+      <div className="container ">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <div className="">
-              <h4 className="text-white fw-light fst-italic pt-5">
+              <h4 className="text-dark fw-bold fst-italic pt-5">
                 Hi,{profile.email}
               </h4>
-              <span className="text-white useridclass">UID:{userid}</span>
+              <span className="text-dark h4 useridclass" style={{fontSize:"17px"}}>UID:{userid}</span>
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -46,7 +49,7 @@ const AccountTab = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-lg-12 mt-5">
             <ul className="nav nav-tabs" id="myTab" role="tablist">
               <li className="nav-item" role="presentation">
@@ -89,7 +92,7 @@ const AccountTab = () => {
                   Referral Bonus
                 </button>
               </li>
-              {/* <li className="nav-item" role="presentation">
+              <li className="nav-item" role="presentation">
               <button
                 className={`nav-link ${activetab ==='Address Management'?'active':''}`}
                 id="contact-tab"
@@ -106,12 +109,13 @@ const AccountTab = () => {
               >
                Address Management
               </button>
-            </li> */}
+            </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
+    </>
   );
 };
 

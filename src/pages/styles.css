@@ -802,7 +802,7 @@ a + a {
 	font-size: 15px;
 }
 .form-control:focus {
-	border-color: #3d3dce;
+	border-color: #161611 !important;
 }
 .form-control::-moz-placeholder {
  color:#999;
@@ -1227,6 +1227,10 @@ h1 {
  @media (min-width: 1200px) {
 #features .row .col-sm-6:nth-last-child(-n+3) .features-item {
 	margin-bottom: 0;
+}
+.security_cont{
+	width: 1160px !important;
+	padding: 0px;
 }
 }
 #home .banner-caption {

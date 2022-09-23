@@ -8,7 +8,7 @@ const Security_Setting = () => {
   const { switch_theme } = useSelector((state) => state?.exchange?.value);
   return (
     <>
-          <div
+          {/* <div
             class="card-header cardheader col-lg-8 m-auto mt-10"
             style={{
               // backgroundImage: "linear-gradient(to right bottom, rgb(3, 6, 13), rgb(20, 47, 111))",
@@ -17,8 +17,8 @@ const Security_Setting = () => {
             }}
           >
             <h5 className="pl-2 pt-1 ">Security Setting</h5>
-          </div>
-<div className="container">
+          </div> */}
+<div className="container security_cont">
           <div className="row mt-2 mb-2 securty_card">
             <div className="col-lg-4 col-md-8 col-sm-12 mt-2">
               <CardComponent

@@ -138,7 +138,10 @@ const EmailLogin = () => {
               message: "Password must have at least 8 characters",
             },
           })}
+          
         />
+        {/* <label>        <i class="fa fa-eye" aria-hidden="true"></i></label> */}
+
         {errors?.password && (
           <div classNameName="app-text-danger">{errors?.password?.message}</div>
         )}

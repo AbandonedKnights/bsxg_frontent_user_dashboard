@@ -647,7 +647,7 @@ label:focus,
 }
 
 .wallet_blue {
-  background-color: #0d1935;
+  background-color: white;
 }
 
 .wallet_top a {
@@ -954,7 +954,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
     padding-right: 24px;
     font-size: 45px !important;
-    color: #198754;
+    color: #dcc271;
 }
 .acctext{
   color:#8d8e93;
@@ -990,12 +990,18 @@ body::-webkit-scrollbar-thumb {
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 }
+.form-control:focus {
+	border-color: #161611;
+  background: #e1d8b5;
+}
 .refinput{
-  color: #fff;
-    border: none;
-    background-color: rgba(27,205,180,.33);
+  color: black;
+    border: 1px solid black;
+    background-color: rgb(6 6 6 / 33%);
     border-radius: 28px;
     text-align: center;
+    font-size: 17px;
+    font-weight: 500;
   
 }
 .tbleclass{
@@ -1312,6 +1318,125 @@ margin: 15px 0 5px !important;
   width: 50px;
   margin: 0px 5px;
 }
+
+.invite_box{
+  margin-top: 50px;
+}
+.act_input_hed{
+  margin: 10px 0px 5px 0px;
+}
+.deposit_select_box{
+  background: rgb(118 118 118);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.with_input{
+  background:rgb(21 58 68);
+   padding: 10px;
+   border-radius: 5px;
+   margin: 0px;
+}
+.with_otp_btn{
+  padding: 5px 20px;
+  border-radius: 5px;
+  background: #c0c8d1; 
+}
+.with_otp_btn:hover{
+  background: #153a44;
+    color: white;
+}
+.tree_refer_box{
+  border-radius: 10px;
+    padding: 5px;
+    margin: 0px 5px;
+}
+.tree_search_btn{
+  margin-top: 40px;
+}
+
+.market_head{
+  text-align:center;
+}
+.market_progress{
+  height: 2rem;
+  font-size: 23px;
+  color: #f9f9f9;
+  background-color: rgb(145 151 158)
+}
+.market_tabel_head{
+  font-size: 15px;
+}
+.auction__sm-item{
+  margin: 15px 0px;
+  padding: 5px 15px;
+  background: rgb(147 151 157);
+  border-radius: 5px;
+}
+.academy_card_title{
+  color: #013162;
+  margin: 5px;
+}
+
+.security_cont{
+	/* width: 1160px !important; */
+	padding: 0px;
+}
+
+.nav_head{
+  margin-left: 15px;
+}
+.account_page_input{
+  padding: 5px;
+  border-radius: 5px;
+}
+.account-heder{
+  padding: 0px 0px 20px;
+}
+/* home card */
+.home_card_container{
+  margin: 10px 0px 20px;
+    justify-content: center;
+    display: flex;
+}
+.home_card{
+   border-radius: 0px;
+    margin: 30px 0px;
+    transform: rotate(50deg);
+    height: 145px;
+    width: 145px;
+    box-shadow: rgb(136 136 136) 10px 10px;
+}
+.home_card_body{
+  transform: rotate(-50deg);
+}
+.home_card:hover{
+  border-radius: 0px !important;
+  margin: 30px 0px !important;
+  transform: rotate(0deg) !important;
+  height: 145px !important;
+  width: 145px !important;
+  box-shadow: rgb(136 136 136) 2px 2px 10px 10px !important;
+  /* background: repeating-linear-gradient(45deg, black, transparent 100px); */
+}
+.home_card:hover .home_card_body{
+  transform: rotate(0deg) !important; 
+}
+.model-popup{
+  text-align: center;
+}
+.regi_model_popup_cls{
+  justify-content: end;
+    display: flex;
+    color: rebeccapurple
+}
+.homepage_form{
+  box-shadow: 0px 0px 5px 5px;
+    padding: 25px 12px;
+}
+
+
+
 /* rsponsive */
 @media (min-width: 600px) and (max-width: 900px) {
   .small_slider{
@@ -1379,67 +1504,11 @@ margin: 15px 0 5px !important;
   .search_text_asset{
     justify-content: center !important;
   }
+  .security_cont{
+    padding: 0px 10px !important;
+  }
+  .account-heder{
+    padding:0px !important;
+  }
 }
-
-
-.invite_box{
-  margin-top: 50px;
-}
-.act_input_hed{
-  margin: 10px 0px 5px 0px;
-}
-.deposit_select_box{
-  background: rgb(118 118 118);
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-.with_input{
-  background:rgb(21 58 68);
-   padding: 10px;
-   border-radius: 5px;
-   margin: 0px;
-}
-.with_otp_btn{
-  padding: 5px 20px;
-  border-radius: 5px;
-  background: #c0c8d1; 
-}
-.with_otp_btn:hover{
-  background: #153a44;
-    color: white;
-}
-.tree_refer_box{
-  border-radius: 10px;
-    padding: 5px;
-    margin: 0px 5px;
-}
-.tree_search_btn{
-  margin-top: 40px;
-}
-
-.market_head{
-  text-align:center;
-}
-.market_progress{
-  height: 2rem;
-  font-size: 23px;
-  color: #f9f9f9;
-  background-color: rgb(145 151 158)
-}
-.market_tabel_head{
-  font-size: 15px;
-}
-.auction__sm-item{
-  margin: 15px 0px;
-  padding: 5px 15px;
-  background: rgb(147 151 157);
-  border-radius: 5px;
-}
-.academy_card_title{
-  color: #013162;
-  margin: 5px;
-}
-
-
 

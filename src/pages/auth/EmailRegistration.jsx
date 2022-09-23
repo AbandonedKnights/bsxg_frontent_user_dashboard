@@ -8,7 +8,7 @@ import { Link, useParams } from "react-router-dom";
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
 //import { toast } from "wc-toast";
-import {api_test} from "../../utils/api";
+import { api_test } from "../../utils/api";
 export default function EmailRegistration(props) {
   const {
     register,
@@ -37,22 +37,22 @@ export default function EmailRegistration(props) {
   // const { t } = useTranslation();
 
 
-  useEffect(()=>{
+  useEffect(() => {
     api_test
-    .post("getRefferalInfo", {
-      reffer:reffer
-    })
-    .then((res) => {
-      let data =res.data; 
-      if(data.status == 200){
-        setRffaralId(data.profile_data.user)
-        setName(data.profile_data.name)
-      }
-      
-    })
-    .catch((error) => {
-      console.log("user", error);
-    })
+      .post("getRefferalInfo", {
+        reffer: reffer
+      })
+      .then((res) => {
+        let data = res.data;
+        if (data.status == 200) {
+          setRffaralId(data.profile_data.user)
+          setName(data.profile_data.name)
+        }
+
+      })
+      .catch((error) => {
+        console.log("user", error);
+      })
   }, [reffer])
 
   const resetForm = () => {
@@ -116,6 +116,7 @@ export default function EmailRegistration(props) {
             id: registrationToast,
           });
           resetForm();
+          
         })
         .catch((error) => {
           toast.error(error?.response?.data?.message ?? error.message, {
@@ -154,8 +155,8 @@ export default function EmailRegistration(props) {
         .catch((error) => {
           toast.error(
             error?.response?.data?.message ??
-              error?.message ??
-              "Sometjing went wrong.",
+            error?.message ??
+            "Sometjing went wrong.",
             { duration: 5000, id: emailVerificationToast }
           );
         })
@@ -215,8 +216,8 @@ export default function EmailRegistration(props) {
         .catch((error) => {
           toast.error(
             error?.response?.data?.message ??
-              error?.message ??
-              "Sometjing went wrong.",
+            error?.message ??
+            "Sometjing went wrong.",
             { duration: 5000, id: mobileVerificationToast }
           );
         })
@@ -261,10 +262,10 @@ export default function EmailRegistration(props) {
 
   return (
     <form name="registrationForm" onSubmit={handleSubmit(registerUser)}>
-       <div className="app-text-danger" style={{fontSize:'18px'}}>
-            {name}
-          </div>
-          
+      <div className="app-text-danger" style={{ fontSize: '18px' }}>
+        {name}
+      </div>
+
       <div className="mb-2">
         <div className="form-floating">
           <input
@@ -322,8 +323,8 @@ export default function EmailRegistration(props) {
                 isOTPVerified === true
                   ? "form-control is-valid"
                   : isOTPVerified === false
-                  ? "form-control is-invalid"
-                  : "form-control"
+                    ? "form-control is-invalid"
+                    : "form-control"
               }
               id="email_verification_code"
               placeholder="name@example.com"
@@ -407,12 +408,12 @@ export default function EmailRegistration(props) {
       </div>
       <div className="mb-2">
         <PhoneInput
-        className="form-control form-control-sm"
-        international
-        country="US"
-        placeholder="Enter phone number"
-        value={value}
-        onChange={setValue}/>
+          className="form-control form-control-sm"
+          international
+          country="US"
+          placeholder="Enter phone number"
+          value={value}
+          onChange={setValue} />
       </div>
       {/* <div className="mb-2">
         <div className="d-flex justify-content-center align-items-center">
@@ -573,7 +574,7 @@ export default function EmailRegistration(props) {
           }}
           checked={isAgreed}
         />
-        <label className="form-check-label" for="exampleCheck1" style={{color:"white"}}>
+        <label className="form-check-label" for="exampleCheck1" style={{ color: "white" }}>
           I Agree The <a href="">Terms and policy</a>
           <br />
           <span>
@@ -586,7 +587,7 @@ export default function EmailRegistration(props) {
 
       <button
         type="submit"
-        style={{borderRadius:"5px",background:"#6e7887"}}
+        style={{ borderRadius: "5px", background: "#6e7887" }}
         className={isAgreed ? "btn-success" : ""}
         disabled={!isAgreed}
       >
@@ -603,6 +604,40 @@ export default function EmailRegistration(props) {
           <>Register</>
         )}
       </button>
+      <div class="text-center">
+        <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Launch
+          Modal Login Form</a>
+      </div>
+
+
+      <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" style={{marginTop:"60px"}}>
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <h4 class="modal-title w-100 font-weight-bold text-success"> Registration Successfully!!!!</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" className="regi_model_popup_cls">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body mx-3 model-popup">
+            <h5>name:Vipin kumar patel</h5>
+            <h5>Email:Vipinatraura@gmail.com</h5>
+            <h5>Refer Code:Vipin8423</h5>
+            <h5>Mobile Number:8423553599</h5>
+
+          <p>Thank You for Registering With us.</p>
+              
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+              <button class="btn">ok</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </form>
+
   );
 }

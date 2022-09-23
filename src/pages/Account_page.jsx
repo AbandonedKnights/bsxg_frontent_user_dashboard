@@ -9,7 +9,7 @@ export default function Account_page() {
   return (
     <div>
     <MyNavbar/>
-    <section class="nft__area pt-100 pb-25">
+    <section class="nft__area pt-100 pb-25" style={{margin:"20px 0px"}}>
     <div class="container">
             <button class="btn45" id="reward_modal" style={{display:"none"}}>View Offer</button>
             <div class="container-fluid">
@@ -61,7 +61,7 @@ export default function Account_page() {
                         background:" gray",
                         padding: "10px",
                         borderRadius: "50%"}}></i></a>
-                        <a target="_blank" href="tg://msg?text=https://sbgglobal.io/refer-register/U0JHNjc3MDAx"><i class="fa-brands fa-telegram refer-telegram-color" style={{color: "white",
+                        <a target="_blank" href="tg://msg?text=https://sbgglobal.io/refer-register/U0JHNjc3MDAx"><i class="fa fa-telegram refer-telegram-color" style={{color: "white",
                         fontSize: "20px",
                         background:" gray",
                         padding: "10px",
@@ -94,7 +94,7 @@ export default function Account_page() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width:" max-content"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/account/profile-image">
+                  <a href="#">
                      <div class="process__icon">
                         <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/profile-image-acc.png" alt="" class="icon-size"/></span>
                      </div>
@@ -106,7 +106,7 @@ export default function Account_page() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width:" max-content"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/account/user-kyc">
+                  <a href="#">
                      <div class="process__icon">
                         <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/user-kyc-acc.png" alt="" class="icon-size"/></span>
                      </div>
@@ -118,7 +118,7 @@ export default function Account_page() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width:" max-content"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/account/user-reset-password">
+                  <a href="#">
                      <div class="process__icon">
                         <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/password-change-acc.png" alt="" class="icon-size"/></span>
                      </div>
@@ -130,7 +130,7 @@ export default function Account_page() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width:" max-content"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/account/expo-form">
+                  <a href="#">
                      <div class="process__icon">
                         <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/dash-icons/dubai-expo-green.png" alt="" class="icon-size"/></span>
                      </div>
@@ -165,7 +165,7 @@ export default function Account_page() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width:" max-content"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/account/profile-image">
+                  <a href="#">
                      <div class="process__icon">
                         <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/profile-image-acc.png" alt="" class="icon-size"/></span>
                      </div>
@@ -177,7 +177,7 @@ export default function Account_page() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width:" max-content"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/account/user-kyc">
+                  <a href="#">
                      <div class="process__icon">
                         <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/user-kyc-acc.png" alt="" class="icon-size"/></span>
                      </div>
@@ -189,7 +189,7 @@ export default function Account_page() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width:" max-content"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/account/user-reset-password">
+                  <a href="#">
                      <div class="process__icon">
                         <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/misc-icons/password-change-acc.png" alt="" class="icon-size"/></span>
                      </div>
@@ -201,7 +201,7 @@ export default function Account_page() {
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width:" max-content"}}>
                <div class="process__item">
-                  <a href="https://sbgglobal.io/user/account/expo-form">
+                  <a href="#">
                      <div class="process__icon">
                         <span><img src="https://sbgglobal.io/sbg-assets-dashboard/img/dash-icons/dubai-expo-green.png" alt="" class="icon-size"/></span>
                      </div>
@@ -233,10 +233,10 @@ export default function Account_page() {
                                      <div class="profile__input-box">
                                         <h4>User Name</h4>
                                         <div class="profile__input">
-                                           <input type="text" placeholder="Enter first name" value="Vipin kumar" name="first_name" disabled=""/>
+                                           <input className='account_page_input' type="text" placeholder="Enter first name" value="Vipin kumar" name="first_name" disabled=""/>
                                             <input type="hidden" class="form-control" value="" name="last_name"/>
                                             <small class="text-danger"></small>
-                                           <i class="fa-light fa-user"></i>
+                                           <i class="fa fa-user"></i>
                                         </div>
                                      </div>
                                   </div>
@@ -244,8 +244,8 @@ export default function Account_page() {
                                      <div class="profile__input-box">
                                         <h4>Email</h4>
                                         <div class="profile__input">
-                                           <input type="email" placeholder="Enter your email" value="vipinatraura@gmail.com" name="email" style={{backgroundColor: "white"}}/>
-                                           <i class="fa-light fa-envelope"></i>
+                                           <input className='account_page_input' type="email" placeholder="Enter your email" value="vipinatraura@gmail.com" name="email" style={{backgroundColor: "white"}}/>
+                                           <i class="fa fa-envelope"></i>
                                             <small class="text-danger"></small>
                                         </div>
                                      </div>
@@ -254,8 +254,8 @@ export default function Account_page() {
                                      <div class="profile__input-box">
                                         <h4>Mobile No.</h4>
                                         <div class="profile__input">
-                                           <input type="text" placeholder="Enter your number" value="8787257693" name="mobile" style={{backgroundColor: "white"}}/>
-                                           <i class="fa-light fa-phone"></i>
+                                           <input className='account_page_input' type="text" placeholder="Enter your number" value="8787257693" name="mobile" style={{backgroundColor: "white"}}/>
+                                           <i class="fa fa-phone"></i>
                                             <small class="text-danger"></small>
                                         </div>
                                      </div>
@@ -266,7 +266,7 @@ export default function Account_page() {
                                      <div class="profile__input-box">
                                         <h4>Facebook Profile/Page URL</h4>
                                         <div class="profile__input">
-                                           <input type="text" placeholder="Enter URL" value="" name="fb_url" style={{backgroundColor: "white"}}/>
+                                           <input className='account_page_input' type="text" placeholder="Enter URL" value="" name="fb_url" style={{backgroundColor: "white"}}/>
                                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
                                             <small class="text-danger"></small>
                                         </div>
@@ -277,7 +277,7 @@ export default function Account_page() {
                                      <div class="profile__input-box">
                                         <h4>Instagram Profile/Page URL</h4>
                                         <div class="profile__input">
-                                           <input type="text" placeholder="Enter URL" value="" name="insta_url" style={{backgroundColor: "white"}}/>
+                                           <input className='account_page_input' type="text" placeholder="Enter URL" value="" name="insta_url" style={{backgroundColor: "white"}}/>
                                            <i class="fa fa-instagram"></i>
                                             <small class="text-danger"></small>
                                         </div>
@@ -288,7 +288,7 @@ export default function Account_page() {
                                      <div class="profile__input-box">
                                         <h4>Twitter Profile/Page URL</h4>
                                         <div class="profile__input">
-                                           <input type="text" placeholder="Enter URL" value="" name="tw_url" style={{backgroundColor: "white"}}/>
+                                           <input className='account_page_input' type="text" placeholder="Enter URL" value="" name="tw_url" style={{backgroundColor: "white"}}/>
                                            <i class="fa fa-twitter"></i>
                                             <small class="text-danger"></small>
                                         </div>
@@ -311,9 +311,9 @@ export default function Account_page() {
                                      </div>
                                   </div>
                                   
-                                    <div class="col-xxl-12">
+                                    <div class="col-xxl-12" style={{margin:"20px 0px "}}>
                                         <div class="profile__btn">
-                                            <button class="tp-btn-3" type="button" onclick="sendOtp()">Update</button>
+                                            <button class="tp-btn-3 with_otp_btn" type="button" onclick="sendOtp()">Update</button>
                                         </div>
                                     </div>
                                </div>
@@ -342,7 +342,7 @@ export default function Account_page() {
                                         <div class="registration-form-account send-otp-btn">
                                            <p class="registration-form-account-para-tag">Didn't get OTP? <input type="button" value="Resend OTP" class="btn btn-success registration-form-signin-button resend-otp-btn" onclick="sendOtp()"/></p>
                                         </div>
-                                        <button class="custom-btn btn-12" type="button" onclick="verifyOtp()" id="activation_btn_otp"><span>Submit</span><span>Submit</span></button>
+                                        <button class="custom-btn btn-12 with_otp_btn" type="button" onclick="verifyOtp()" id="activation_btn_otp"><span>Submit</span></button>
                                     
                                 </div></form>
                             </div>
