@@ -5,8 +5,10 @@ import { useSelector } from "react-redux";
 import { add, div } from '../utils/Math';
 import QRCode from "react-qr-code";
 import {CopyToClipboard} from 'react-copy-to-clipboard';
+import { useNavigate } from 'react-router-dom';
 
 export default function Diposit_panel() {
+   const { isLoggedIn } = useSelector((state) => state?.user?.value);
    const { userInfo } = useSelector((state) => state?.user?.value);
 	const user_id = userInfo.user_id;
    const [coin, setCoin] = useState();
@@ -17,6 +19,13 @@ export default function Diposit_panel() {
    const [depositCoin, setDepositCoin] = useState("none");
    const [copied, setCopied] = useState(false);
    const [PackageData, setPackageData] = useState();
+   const navigate = useNavigate();
+   useEffect(() => {
+		if (!isLoggedIn) {
+			console.log("iw::", isLoggedIn);
+			navigate("../", { replace: true });
+		}
+	}, [isLoggedIn]);
    useEffect(()=>{
 		api_test
 		.post("get-deposit-details")
@@ -67,7 +76,7 @@ export default function Diposit_panel() {
        const packagelist = depositCoin != 'none' && packages && packages.map((item) => {
            return (
              <>
-             <option value={item.amount}>{item.amount}{" "}{item.name} package</option>
+             <option value={item.amount}>{item.amount}{" BSXG "}{item.name}</option>
              </>
            );
        });
@@ -356,13 +365,13 @@ export default function Diposit_panel() {
 
     <div class="modal fade pop-up-modal" id="info-msg-modal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content border-0" style={{background: "#000 "}}>
+            <div class="modal-content border-0">
             <div class="modal-header">
                   <h2 style={{color:"#ffbd49",fontWeight: "600", textAlign: "center"}}>Deposit Info</h2>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 						</div>
                   {depositBalance && depositCoin && walletAddress ?
-                  <div class="modal-body">
+                  <div class="modal-body ">
                      <p class="modal-title" id="exampleModalLabel">
                         Send to your Secure Address
                      </p> <hr />

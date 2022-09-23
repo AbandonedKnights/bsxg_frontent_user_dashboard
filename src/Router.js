@@ -39,39 +39,13 @@ const Router = ({ props }) => {
   const { isLoggedIn } = useSelector((state) => state?.user?.value);
 
 	const navigate = useNavigate();
-	useEffect(() => {
-	 if (!isLoggedIn) {
-		console.log("iw::", isLoggedIn);
-		navigate("../", { replace: true });
-	  } 
-	}, [isLoggedIn]);
+	// useEffect(() => {
+	//  if (!isLoggedIn) {
+	// 	console.log("iw::", isLoggedIn);
+	// 	navigate("../", { replace: true });
+	//   } 
+	// }, [isLoggedIn]);
 
-  useEffect(() => {
-    const soc = createSocketClient("kujgwvfq-a-ghosttown-z-1fhhup0p6");
-    soc.on("cmc_updated", (res) => {
-      dispatch(cmcPayload({ coins: res, cmcLoading: false }));
-      dispatch(GET_CURRENCY_DATA({ cur_graph: { currency_coin: Date.now(), currency_price: 2 } }))
-    });
-
-    soc.on("order_history_updated", (res) => {
-      dispatch(order_History({ orderHistory: res }));
-    });
-
-    soc.on("buy_order_updated", (res) => {
-      dispatch(buy_Order({ buyOrder: res }));
-    });
-
-    soc.on("sell_order_updated", (res) => {
-      dispatch(sell_Order({ sellOrder: res }));
-    });
-    N_getWebsiteData().then((res) => {
-      if (res.status === 200) {
-        dispatch(GET_WEBSITE_DATA({ webdata: res.data.params.website }));
-        return res.data.params.website;
-      }
-
-    })
-  }, []);
   return (
     <>
      <Routes>
