@@ -19,10 +19,10 @@ const HomePage = () => {
 								<ul class="tm-primary-nav-list">
 									<li class="menu-item"><a href="#about" class="nav-link">About</a></li>
 									<li class="menu-item"><a href="#howitworks" class="nav-link">How It Works</a></li>
-									<li class="menu-item"><a href="#tokensale" class="nav-link">Token Sale</a></li>
-									<li class="menu-item"><a href="#bounty" class="nav-link">Bounty</a></li>
+									{/* <li class="menu-item"><a href="#tokensale" class="nav-link">Token Sale</a></li> */}
+									<li class="menu-item"><a href="#services" class="nav-link">Services</a></li>
 									{/* <li class="menu-item"><a href="#roadmap" class="nav-link">Roadmap</a></li> */}
-									<li class="menu-item"><a href="#team" class="nav-link">Team</a></li>
+									<li class="menu-item"><a href="#footer" class="nav-link">Contectus</a></li>
 									{/* <li class="menu-item"><a href="#faq" class="nav-link">Faq</a></li> */}
 								</ul>
 								{/* <div class="tm-language">
@@ -75,7 +75,7 @@ const HomePage = () => {
 								>
 									<img
 										style={{ width: '100%' }}
-										src="/images/banner/banner11.jpeg"
+										src="/images/banner/banner12.jpeg"
 										className="d-block  h-100 img-fluid"
 										alt="Not Found"
 									/>
@@ -83,7 +83,7 @@ const HomePage = () => {
 								<div className="carousel-item h-100">
 									<img
 										style={{ width: '100%' }}
-										src="/images/banner/banner12.jpeg"
+										src="/images/banner/soft-MLM-banner.png"
 										className="d-block  h-100 img-fluid"
 										alt="Not Found"
 									/>
@@ -188,7 +188,7 @@ const HomePage = () => {
 								<h2 class="tm-m0 tm-md-f28 tm-md-lh34">BSXG <br />
 									is the game changer</h2>
 							</div>
-							<div class="tm-section-heading-right">
+							<div class="tm-section-heading-right" >
 								<h2 class="col-xs-b20 tm-md-f28 tm-md-lh34">Why?</h2>
 								<div class="tm-f20 tm-md-f15 tm-lh30 tm-md-lh24">Our Uniqueness Stems From Our Ability to provide Investors
 									With The Highest Returns In The Industry, Allowing Us To Help
@@ -196,13 +196,13 @@ const HomePage = () => {
 								</div>
 							</div>
 						</div>
-						<div class="empty-space col-md-b75 col-xs-b50"></div>
-						<div class="tm-section-heading tm-style2">
+						{/* <div class="empty-space col-md-b75 col-xs-b50" ></div> */}
+						{/* <div class="tm-section-heading tm-style2">
 							<h2 class="text-center col-xs-b2 col-xs-t-2 tm-md-f28 tm-md-lh34">Look at our adventages</h2>
-						</div>
-						<div class="empty-space col-md-b55 col-xs-b35"></div>
+						</div> */}
+						<div class="empty-space col-md-b55 col-xs-b35" id='services'></div>
 					</div>
-					<div class="container">
+					<div class="container" >
 						<div class="row">
 							<div class="col-lg-4 col-sm-6">
 								<div class="tm-single-work">
@@ -259,7 +259,7 @@ const HomePage = () => {
 						</div>
 					</div>
 					<div class="empty-space col-md-b60 col-xs-b30"></div>
-					<div class="tm-section-heading tm-style2">
+					{/* <div class="tm-section-heading tm-style2">
 						<h2 class="text-center col-xs-b2 col-xs-t-1 tm-md-f28 tm-md-lh34">Comparison with other solutions</h2>
 					</div>
 					<div class="empty-space col-md-b55 col-xs-b35"></div>
@@ -314,10 +314,10 @@ const HomePage = () => {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					<div class="empty-space col-md-b95 col-xs-b60"></div>
 				</section>
-				<section class="tm-token-sale tm-light-blue-bg" id="tokensale">
+				{/* <section class="tm-token-sale tm-light-blue-bg" id="tokensale">
 					<div class="empty-space col-md-b85 col-xs-b45"></div>
 					<div class="container">
 						<div class="tm-section-heading tm-style1 tm-color2">
@@ -373,7 +373,7 @@ const HomePage = () => {
 						</div>
 					</div>
 					<div class="empty-space col-md-b95 col-xs-b60"></div>
-					{/* <div class="tm-dark-blue-bg tm-bounty" id="bounty">
+					<div class="tm-dark-blue-bg tm-bounty" id="bounty">
 						<div class="empty-space col-md-b90 col-xs-b55"></div>
 						<div class="container">
 							<h2 class="text-center col-xs-b2 tm-light-blue-c col-xs-t-1 tm-md-f28 tm-md-lh34">Bounty Fund Distribution (<span class="tm-white-c">5%</span> of the total)</h2>
@@ -396,10 +396,10 @@ const HomePage = () => {
 							</div>
 						</div>
 						<div class="empty-space col-md-b95 col-xs-b60"></div>
-					</div> */}
-				</section>
-				<section class="tm-member tm-bg" id="team" style={{ backgroundImage: 'url(assets/img/member-bg.jpg)' }}>
-					{/* <div class="tm-team-wrap">
+					</div>
+				</section> */}
+				{/* <section class="tm-member tm-bg" id="team" style={{ backgroundImage: 'url(assets/img/member-bg.jpg)' }}>
+					<div class="tm-team-wrap">
 						<div class="empty-space col-md-b90 col-xs-b55"></div>
 						<h2 class="text-center col-xs-b2 tm-light-blue-c col-xs-t-1 tm-md-f28 tm-md-lh34">Meet Our Team</h2>
 						<div class="empty-space col-md-b55 col-xs-b35"></div>
@@ -467,7 +467,7 @@ const HomePage = () => {
 								</div>
 							</div>
 						</div>
-					</div> */}
+					</div>
 					<div class="tm-advisor-wrap">
 						<div class="empty-space col-md-b60 col-xs-b25"></div>
 						<h2 class="text-center col-xs-b2 tm-light-blue-c col-xs-t-1 tm-md-f28 tm-md-lh34">Meet Our Advisors</h2>
@@ -538,7 +538,7 @@ const HomePage = () => {
 						</div>
 						<div class="empty-space col-md-b65 col-xs-b30"></div>
 					</div>
-				</section>
+				</section> */}
 				{/* <div class="tm-token-wrap" id="featured-company">
 					<div class="empty-space col-md-b95 col-xs-b60"></div>
 					<div class="container">
