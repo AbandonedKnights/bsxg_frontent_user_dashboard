@@ -312,7 +312,7 @@ export default function Assets() {
                            </button>
                         </div>
                         <div class="modal-body p-0">
-                           <img class="w-100 d-block" src="https://sbgglobal.io/sbg-assets-dashboard/img/popup/important_notice.png" style={{ width: "-webkit-fill-available" }} />
+                           {/* <img class="w-100 d-block" src="https://sbgglobal.io/sbg-assets-dashboard/img/popup/important_notice.png" style={{ width: "-webkit-fill-available" }} /> */}
                         </div>
                         {/* <!--  <div class="modal-footer timer_footer">-->
          <!--  <div id="timer"></div>-->

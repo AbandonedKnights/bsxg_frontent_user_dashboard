@@ -135,23 +135,6 @@ export default function Account_page() {
                               </div>
                            </div>
                         </div>
-                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{ width: " max-content" }}>
-                           <div class="process__item">
-                              <a href="#">
-                                 <div class="process__icon">
-                                    <span><img src="/Images/buy_sell_icon/dubai-expo-green.png" alt="" class="icon-size" /></span>
-                                 </div>
-                              </a>
-                              <div class="process__content">
-                                 <p class="icon-name menu-title-p">Dubai Crypto<br />Expo Form</p>
-                              </div>
-                           </div>
-                        </div>
-
-
-
-
-
                      </div>
                   </div>
                </div>
