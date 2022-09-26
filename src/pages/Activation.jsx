@@ -42,7 +42,7 @@ export default function Activation() {
                      </div>
                   </a>
                   <div class="process__content">
-                     <p class="icon-name menu-title-p">Restake Panel</p>
+                     <p class="icon-name menu-title-p">Reinvestment Panel</p>
                   </div>
                </div>
             </div>
@@ -54,7 +54,7 @@ export default function Activation() {
                      </div>
                   </a>
                   <div class="process__content">
-                     <p class="icon-name menu-title-p">Restake Report</p>
+                     <p class="icon-name menu-title-p">Reinvestment Report</p>
                   </div>
                </div>
             </div>

@@ -42,7 +42,7 @@ export default function Restake() {
                      </div>
                   </a>
                   <div class="process__content">
-                     <p class="icon-name menu-title-p menu-title-p-active">Restake Panel</p>
+                     <p class="icon-name menu-title-p menu-title-p-active">Reinvestment Panel</p>
                   </div>
                </div>
             </div>
@@ -54,7 +54,7 @@ export default function Restake() {
                      </div>
                   </a>
                   <div class="process__content">
-                     <p class="icon-name menu-title-p">Restake Report</p>
+                     <p class="icon-name menu-title-p">ReInvestment Report</p>
                   </div>
                </div>
             </div>

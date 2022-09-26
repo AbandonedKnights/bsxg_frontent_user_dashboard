@@ -106,7 +106,7 @@ const Home = () => {
 										<img src="./images/buy_sell_icon/restake-new.png" alt="" class="icon-size" />
 									</div>
 									<div class="process__content">
-										<p class="icon-name">Restake</p>
+										<p class="icon-name">Reinvestment</p>
 									</div>
 								</div>
 							</a>

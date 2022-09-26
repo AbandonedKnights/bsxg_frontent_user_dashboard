@@ -43,7 +43,7 @@ export default function Wallet_transfer() {
                      </div>
                   </a>
                   <div class="process__content">
-                     <p class="icon-name menu-title-p">Restake Panel</p>
+                     <p class="icon-name menu-title-p">Reinvestment Panel</p>
                   </div>
                </div>
             </div>
@@ -55,7 +55,7 @@ export default function Wallet_transfer() {
                      </div>
                   </a>
                   <div class="process__content">
-                     <p class="icon-name menu-title-p">Restake Report</p>
+                     <p class="icon-name menu-title-p">Reinvestment Report</p>
                   </div>
                </div>
             </div>
@@ -122,7 +122,7 @@ export default function Wallet_transfer() {
                      </div>
                   </a>
                   <div class="process__content">
-                     <p class="icon-name menu-title-p">Restake<br/>Panel</p>
+                     <p class="icon-name menu-title-p">Reinvestment<br/>Panel</p>
                   </div>
                </div>
             </div>
@@ -134,7 +134,7 @@ export default function Wallet_transfer() {
                      </div>
                   </a>
                   <div class="process__content">
-                     <p class="icon-name menu-title-p">Restake<br/>Report</p>
+                     <p class="icon-name menu-title-p">Reinvestment<br/>Report</p>
                   </div>
                </div>
             </div>
