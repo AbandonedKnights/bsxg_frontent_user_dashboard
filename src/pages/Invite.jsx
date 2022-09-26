@@ -44,7 +44,7 @@ const Invite = () => {
 
 
 	return (
-		<div>
+		<>
 			<div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{ width: "max-content" }}>
 				<button class="show-modal btn-toggle-modal"
 					type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
@@ -59,8 +59,6 @@ const Invite = () => {
 					</div>
 				</button>
 			</div>
-
-
 			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 					<div class="modal-content modal_content_invite">
@@ -118,8 +116,7 @@ const Invite = () => {
 					</div>
 				</div>
 			</div>
-
-		</div>
+		</>
 	)
 }
 

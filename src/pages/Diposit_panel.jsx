@@ -128,7 +128,7 @@ export default function Diposit_panel() {
       <div class="row">
          <div class="col-xxl-12 col-xl-12 table-head-align d-none d-sm-block d-sm-none d-md-block">
              <div class="row" style={{justifyContent: "space-around"}}>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content !important"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 lg-menu" style={{width: "max-content"}}>
                <div class="process__item active">
                   <a href="#">
                      <div class="process__icon">
@@ -157,12 +157,13 @@ export default function Diposit_panel() {
       </div>
       
       <center>
-         <div class="row d-lg-none d-sm-none" style={{marginLeft: "5px"}}>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content !important"}}>
+         <div class="row d-lg-none d-sm-none" style={{marginLeft: "5px",display: "flex",
+    justifyContent: "space-around"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content "}}>
                <div class="process__item active">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="#" alt="" class="icon-size"/></span>
+                        <span><img src="/images/buy_sell_icon/deposit-inside.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">
@@ -170,11 +171,11 @@ export default function Diposit_panel() {
                   </div>
                </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content !important"}}>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2" style={{width: "max-content"}}>
                <div class="process__item">
                   <a href="#">
                      <div class="process__icon">
-                        <span><img src="#" alt="" class="icon-size"/></span>
+                        <span><img src="/images/buy_sell_icon/deposit-report.png" alt="" class="icon-size"/></span>
                      </div>
                   </a>
                   <div class="process__content">

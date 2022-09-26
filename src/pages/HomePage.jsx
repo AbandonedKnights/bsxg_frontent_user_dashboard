@@ -74,25 +74,28 @@ const HomePage = () => {
 									className="carousel-item active h-100"
 								>
 									<img
-										style={{ width: '100%' }}
-										src="/images/banner/banner12.jpeg"
-										className="d-block  h-100 img-fluid"
+										style={{ width: '100%',marginTop:"40px" }}
+										src="/images/banner/new_banner4.jpeg"
+										className="d-block dash-1 dash_banner"
+										alt="Not Found"
+									/>
+
+									{/* <img src="/images/banner/new_banner1.jpeg" 
+									class="d-block  w-100 dash_banner dash-1" alt="Not Found" /> */}
+								</div>
+								<div className="carousel-item h-100">
+								<img
+										style={{ width: '100%',marginTop:"40px" }}
+										src="/images/banner/new_banner1.jpeg"
+										className="d-block dash-1 dash_banner"
 										alt="Not Found"
 									/>
 								</div>
 								<div className="carousel-item h-100">
-									<img
-										style={{ width: '100%' }}
-										src="/images/banner/soft-MLM-banner.png"
-										className="d-block  h-100 img-fluid"
-										alt="Not Found"
-									/>
-								</div>
-								<div className="carousel-item h-100">
-									<img
-										style={{ width: '100%' }}
-										src="/images/banner/banner1.png"
-										className="d-block h-100 img-fluid"
+								<img
+										style={{ width: '100%',marginTop:"40px" }}
+										src="/images/banner/new_banner2.jpeg"
+										className="d-block dash-1 dash_banner"
 										alt="Not Found"
 									/>
 								</div>
@@ -126,7 +129,7 @@ const HomePage = () => {
 					</div>
 				</section>
 				<section class="tm-about-wrap" id="about">
-					<div class="empty-space col-md-b90 col-xs-b55"></div>
+					{/* <div class="empty-space col-md-b90 col-xs-b55"></div> */}
 					<div class="container">
 						<div class="row">
 							{/* <div class="col-lg-6">
@@ -173,12 +176,12 @@ const HomePage = () => {
 						<span class="tm-video-animaiton"></span>
 					</div>
 				</div> */}
-                 <section style={{justifyContent:"center",display:"flex"}}>
-				<video controls>
-					{/* <source src="/Videos/home.mp4" type="video/webm" /> */}
-					<source src="Videos/home.mp4"  />
-					Sorry, your browser doesn't support videos.
-				</video>
+				<section className='home_video'>
+					<video controls>
+						{/* <source src="/Videos/home.mp4" type="video/webm" /> */}
+						<source src="Videos/home.mp4" />
+						Sorry, your browser doesn't support videos.
+					</video>
 				</section>
 				<section class="tm-ocher-work" id="howitworks">
 					<div class="empty-space col-md-b85 col-xs-b50"></div>

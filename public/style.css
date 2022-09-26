@@ -1435,6 +1435,11 @@ margin: 15px 0 5px !important;
     padding: 25px 12px;
 }
 
+.home_video{
+  justify-content: center;
+    display: flex;
+}
+
 
 
 /* rsponsive */
@@ -1445,8 +1450,8 @@ margin: 15px 0 5px !important;
  .Review_form{
   margin: 20px 15px;
 }
-.user_list{
-  /* max-width: 600px; */
+.home_video{
+  height: 250px;
 }
  
  }
@@ -1470,6 +1475,7 @@ margin: 15px 0 5px !important;
 }
 .dash_banner{
   height: 200px;
+  margin: 0px !important;
 }
 .bsxg_up_hed{
   margin:0px;
@@ -1509,6 +1515,9 @@ margin: 15px 0 5px !important;
   }
   .account-heder{
     padding:0px !important;
+  }
+  .home_video{
+    height: 190px;
   }
 }
 
